@@ -20,6 +20,16 @@ README_PATH = REPO_ROOT / "README.md"
 REQUEST_TIMEOUT = 30
 PAGE_LIMIT = 100
 
+# Sections from awesome-flipperzero to include (these don't overlap with official catalog)
+AWESOME_SECTIONS_TO_INCLUDE = [
+    "Databases & Dumps",
+    "Firmwares & Tweaks",
+    "Graphics & Animations",
+    "Modules & Cases",
+    "Off-device & Debugging",
+    "Notes & References",
+]
+
 
 def fetch_123fzero_repos():
     """Fetch public repos for 123fzero. Returns dict of lowercase repo name -> repo info."""
@@ -92,8 +102,72 @@ def fetch_official_catalog():
     return categories, apps_by_category
 
 def fetch_awesome_list():
-    """Stub."""
-    return []
+    """Fetch and parse awesome-flipperzero README into sections.
+
+    Returns: list of {title, entries: [{name, url, description, subsection}]}
+    """
+    resp = requests.get(AWESOME_RAW_URL, timeout=REQUEST_TIMEOUT)
+    resp.raise_for_status()
+    text = resp.text
+
+    sections = []
+    current_section = None
+    current_subsection = None
+    entries = []
+
+    for line in text.split("\n"):
+        # Match ## headers (main sections)
+        h2_match = re.match(r"^## (.+?)(?:\s*<small>.*)?$", line.strip())
+        if h2_match:
+            # Save previous section
+            if current_section and entries:
+                sections.append({"title": current_section, "entries": entries})
+            title = h2_match.group(1).strip()
+            if title in AWESOME_SECTIONS_TO_INCLUDE:
+                current_section = title
+                entries = []
+            else:
+                current_section = None
+                entries = []
+            continue
+
+        # Match ### headers (subsections) — track for context
+        h3_match = re.match(r"^### (.+)$", line.strip())
+        if h3_match and current_section:
+            current_subsection = h3_match.group(1).strip().strip("*")
+            continue
+
+        # Match list entries in two formats:
+        # Format 1: - [Name](URL) - Description
+        # Format 2: - [`Name` Description.](URL) (actual awesome-flipperzero format)
+        if current_section:
+            entry_match = re.match(
+                r"^-\s+\[([^\]]+)\]\(([^)]+)\)\s*[-–—]\s*(.+)$", line.strip()
+            )
+            if entry_match:
+                entries.append({
+                    "name": entry_match.group(1),
+                    "url": entry_match.group(2),
+                    "description": entry_match.group(3).rstrip("."),
+                    "subsection": current_subsection or "",
+                })
+            else:
+                bt_match = re.match(
+                    r"^-\s+\[`([^`]+)`\s+(.+?)\]\(([^)]+)\)$", line.strip()
+                )
+                if bt_match:
+                    entries.append({
+                        "name": bt_match.group(1),
+                        "url": bt_match.group(3),
+                        "description": bt_match.group(2).rstrip("."),
+                        "subsection": current_subsection or "",
+                    })
+
+    # Don't forget the last section
+    if current_section and entries:
+        sections.append({"title": current_section, "entries": entries})
+
+    return sections
 
 def generate_readme(categories, catalog_apps, awesome_sections, featured_repos):
     """Stub."""
