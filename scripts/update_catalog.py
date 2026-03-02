@@ -169,9 +169,163 @@ def fetch_awesome_list():
 
     return sections
 
+def is_featured(app, featured_repos):
+    """Check if an app belongs to 123fzero."""
+    author = app.get("author", "").lower()
+    if FEATURED_OWNER.lower() in author:
+        return True
+    url = app.get("url", app.get("app_url", "")).lower()
+    if f"github.com/{FEATURED_OWNER.lower()}" in url:
+        return True
+    # Check by alias/name match against 123fzero repo names
+    alias = app.get("alias", "").lower()
+    name = app.get("name", "").lower().replace(" ", "")
+    for repo_name in featured_repos:
+        clean_repo = repo_name.replace("123", "").lower()
+        if clean_repo and (clean_repo in alias or clean_repo in name):
+            return True
+    return False
+
+
+def _find_repo_url(app, featured_repos):
+    """Find the GitHub repo URL for a featured app."""
+    for repo_info in featured_repos.values():
+        clean_repo = repo_info["name"].replace("123", "").lower()
+        if clean_repo and (
+            clean_repo in app.get("alias", "").lower()
+            or clean_repo in app.get("name", "").lower().replace(" ", "")
+        ):
+            return repo_info["url"]
+    return None
+
+
 def generate_readme(categories, catalog_apps, awesome_sections, featured_repos):
-    """Stub."""
-    return "# 123 Games\n\nCatalog coming soon.\n"
+    """Generate the full README.md content."""
+    lines = []
+
+    # Header
+    lines.append("# 123 Games")
+    lines.append("")
+    lines.append(
+        "A catalog of Flipper Zero apps and games. "
+        "Maintained by [123fzero](https://github.com/123fzero). "
+        "Auto-generated from the [Official Flipper App Catalog](https://lab.flipper.net/apps) "
+        "and [awesome-flipperzero](https://github.com/djsime1/awesome-flipperzero)."
+    )
+    lines.append("")
+
+    # Table of Contents
+    lines.append("## Table of Contents")
+    lines.append("")
+    lines.append("**Official Catalog**")
+    lines.append("")
+    for cat in categories:
+        anchor = cat["name"].lower().replace(" ", "-").replace("/", "")
+        lines.append(f"- [{cat['name']}](#{anchor})")
+    lines.append("")
+    if awesome_sections:
+        lines.append("**Community Resources**")
+        lines.append("")
+        for section in awesome_sections:
+            anchor = section["title"].lower().replace(" ", "-").replace("&", "").replace("  ", "-")
+            lines.append(f"- [{section['title']}](#{anchor})")
+        lines.append("")
+
+    lines.append("---")
+    lines.append("")
+
+    # Official Catalog sections
+    lines.append("# Official Catalog")
+    lines.append("")
+    lines.append(f"> Apps from [lab.flipper.net]({LAB_URL})")
+    lines.append("")
+
+    for cat in categories:
+        cat_id = cat["_id"]
+        apps = catalog_apps.get(cat_id, [])
+        lines.append(f"## {cat['name']}")
+        lines.append("")
+
+        if not apps:
+            lines.append("*No apps in this category.*")
+            lines.append("")
+            continue
+
+        # Split into featured and regular
+        featured = [a for a in apps if is_featured(a, featured_repos)]
+        regular = [a for a in apps if not is_featured(a, featured_repos)]
+
+        # Table header
+        lines.append("| | App | Description | Author | Link |")
+        lines.append("|---|-----|-------------|--------|------|")
+
+        # Featured apps first
+        for app in featured:
+            repo_url = _find_repo_url(app, featured_repos)
+            source_link = f"[GitHub]({repo_url})" if repo_url else f"[Catalog]({app['app_url']})"
+            lines.append(
+                f"| ⭐ | **[{app['name']}]({app['app_url']})** | "
+                f"{app['description']} | {app['author']} | {source_link} |"
+            )
+
+        # Regular apps
+        for app in regular:
+            lines.append(
+                f"| | [{app['name']}]({app['app_url']}) | "
+                f"{app['description']} | {app['author']} | [Catalog]({app['app_url']}) |"
+            )
+
+        lines.append("")
+
+    # Awesome-flipperzero sections
+    if awesome_sections:
+        lines.append("---")
+        lines.append("")
+        lines.append("# Community Resources")
+        lines.append("")
+        lines.append(
+            "> From [awesome-flipperzero](https://github.com/djsime1/awesome-flipperzero)"
+        )
+        lines.append("")
+
+        for section in awesome_sections:
+            lines.append(f"## {section['title']}")
+            lines.append("")
+
+            # Group by subsection
+            subsections = {}
+            for entry in section["entries"]:
+                sub = entry.get("subsection", "")
+                subsections.setdefault(sub, []).append(entry)
+
+            for sub_name, entries in subsections.items():
+                if sub_name:
+                    lines.append(f"### {sub_name}")
+                    lines.append("")
+
+                featured_entries = [e for e in entries if is_featured(e, featured_repos)]
+                regular_entries = [e for e in entries if not is_featured(e, featured_repos)]
+
+                for entry in featured_entries:
+                    lines.append(
+                        f"- ⭐ **[{entry['name']}]({entry['url']})** — {entry['description']}"
+                    )
+                for entry in regular_entries:
+                    lines.append(
+                        f"- [{entry['name']}]({entry['url']}) — {entry['description']}"
+                    )
+                lines.append("")
+
+    # Footer
+    lines.append("---")
+    lines.append("")
+    lines.append(
+        "*This catalog is auto-generated. "
+        "Run `python scripts/update_catalog.py` to update.*"
+    )
+    lines.append("")
+
+    return "\n".join(lines)
 
 
 def main():
