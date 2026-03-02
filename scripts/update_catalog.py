@@ -1,12 +1,10 @@
 #!/usr/bin/env python3
 """Generates README.md catalog of Flipper Zero apps."""
 
+import os
 import re
-import sys
-import json
 import time
 from pathlib import Path
-from urllib.parse import quote
 
 import requests
 
@@ -43,11 +41,27 @@ AWESOME_SECTIONS_TO_INCLUDE = [
 ]
 
 
+def _sanitize_table_cell(text):
+    """Remove characters that break markdown tables."""
+    return text.replace("\n", " ").replace("\r", "").replace("|", "/").strip()
+
+
+def _make_anchor(text):
+    """Generate a GitHub-compatible markdown anchor from heading text."""
+    anchor = text.lower()
+    anchor = re.sub(r"[^\w\s-]", "", anchor)
+    anchor = re.sub(r"\s+", "-", anchor)
+    return anchor
+
+
 def fetch_123fzero_repos():
     """Fetch public repos for 123fzero. Returns dict of lowercase repo name -> repo info."""
     url = f"{GITHUB_API}/users/{FEATURED_OWNER}/repos"
     params = {"per_page": 100, "type": "public"}
     headers = {"Accept": "application/vnd.github.v3+json"}
+    token = os.environ.get("GITHUB_TOKEN")
+    if token:
+        headers["Authorization"] = f"token {token}"
     resp = requests.get(url, params=params, headers=headers, timeout=REQUEST_TIMEOUT)
     resp.raise_for_status()
     repos = {}
@@ -97,9 +111,9 @@ def fetch_official_catalog():
             for app in batch:
                 cv = app.get("current_version", {})
                 apps.append({
-                    "name": cv.get("name", app.get("alias", "Unknown")),
-                    "description": cv.get("short_description", ""),
-                    "author": app.get("author", ""),
+                    "name": _sanitize_table_cell(cv.get("name", app.get("alias", "Unknown"))),
+                    "description": _sanitize_table_cell(cv.get("short_description", "")),
+                    "author": _sanitize_table_cell(app.get("author", "")),
                     "alias": app.get("alias", ""),
                     "app_url": f"{LAB_URL}/{app.get('alias', '')}",
                 })
@@ -137,9 +151,11 @@ def fetch_awesome_list():
             title = h2_match.group(1).strip()
             if title in AWESOME_SECTIONS_TO_INCLUDE:
                 current_section = title
+                current_subsection = None
                 entries = []
             else:
                 current_section = None
+                current_subsection = None
                 entries = []
             continue
 
@@ -188,9 +204,12 @@ def _build_featured_by_category(featured_repos):
         cat_name = FEATURED_REPO_CATEGORIES.get(repo_key)
         if not cat_name:
             continue
+        description = _sanitize_table_cell(repo_info["description"])
+        if not description:
+            description = f"Flipper Zero app by {FEATURED_OWNER}"
         by_cat.setdefault(cat_name, []).append({
             "name": repo_info["name"],
-            "description": repo_info["description"],
+            "description": description,
             "author": FEATURED_OWNER,
             "url": repo_info["url"],
         })
@@ -219,15 +238,13 @@ def generate_readme(categories, catalog_apps, awesome_sections, featured_repos):
     lines.append("**Official Catalog**")
     lines.append("")
     for cat in categories:
-        anchor = cat["name"].lower().replace(" ", "-").replace("/", "")
-        lines.append(f"- [{cat['name']}](#{anchor})")
+        lines.append(f"- [{cat['name']}](#{_make_anchor(cat['name'])})")
     lines.append("")
     if awesome_sections:
         lines.append("**Community Resources**")
         lines.append("")
         for section in awesome_sections:
-            anchor = section["title"].lower().replace(" ", "-").replace("&", "").replace("  ", "-")
-            lines.append(f"- [{section['title']}](#{anchor})")
+            lines.append(f"- [{section['title']}](#{_make_anchor(section['title'])})")
         lines.append("")
 
     lines.append("---")

@@ -20,12 +20,12 @@ A catalog of Flipper Zero apps and games. Maintained by [123fzero](https://githu
 
 **Community Resources**
 
-- [Databases & Dumps](#databases--dumps)
-- [Firmwares & Tweaks](#firmwares--tweaks)
-- [Graphics & Animations](#graphics--animations)
-- [Modules & Cases](#modules--cases)
-- [Off-device & Debugging](#off-device--debugging)
-- [Notes & References](#notes--references)
+- [Databases & Dumps](#databases-dumps)
+- [Firmwares & Tweaks](#firmwares-tweaks)
+- [Graphics & Animations](#graphics-animations)
+- [Modules & Cases](#modules-cases)
+- [Off-device & Debugging](#off-device-debugging)
+- [Notes & References](#notes-references)
 
 ---
 
@@ -119,12 +119,10 @@ A catalog of Flipper Zero apps and games. Maintained by [123fzero](https://githu
 | | [[GPIO] Wire Tester](https://lab.flipper.net/apps/wire_tester) | Beeps if a wire is continuous | @unixispower | [Catalog](https://lab.flipper.net/apps/wire_tester) |
 | | [[J305] Geiger Counter](https://lab.flipper.net/apps/flipper_geiger) | Works with J305 Geiger tube on external board | @nmrr | [Catalog](https://lab.flipper.net/apps/flipper_geiger) |
 | | [[MAG] MagSpoof](https://lab.flipper.net/apps/magspoof) | Enables wireless transmission of magstripe data | Zachary Weiss | [Catalog](https://lab.flipper.net/apps/magspoof) |
-| | [[MH-Z19] CO2 sensor](https://lab.flipper.net/apps/mh_z19) | Measuring carbon dioxide (CO2) with mh-z19 
- | @meshchaninov | [Catalog](https://lab.flipper.net/apps/mh_z19) |
+| | [[MH-Z19] CO2 sensor](https://lab.flipper.net/apps/mh_z19) | Measuring carbon dioxide (CO2) with mh-z19 | @meshchaninov | [Catalog](https://lab.flipper.net/apps/mh_z19) |
 | | [[Mx2125] Step Counter](https://lab.flipper.net/apps/stepcounter) | Step Counter/Pedometer using Memsic2125 module. | 47lecoste a.k.a. grugnoymeme | [Catalog](https://lab.flipper.net/apps/stepcounter) |
 | | [[NMEA] GPS](https://lab.flipper.net/apps/gps_nmea) | Works with GPS modules via UART, using NMEA protocol. | @ezod & @xMasterX | [Catalog](https://lab.flipper.net/apps/gps_nmea) |
-| | [[NRF24] Channel Scan](https://lab.flipper.net/apps/nrf24channelscanner) | Scanning channels for usage with NRF24 
- | @htotoo | [Catalog](https://lab.flipper.net/apps/nrf24channelscanner) |
+| | [[NRF24] Channel Scan](https://lab.flipper.net/apps/nrf24channelscanner) | Scanning channels for usage with NRF24 | @htotoo | [Catalog](https://lab.flipper.net/apps/nrf24channelscanner) |
 | | [[PMSx003] Airmon](https://lab.flipper.net/apps/airmon) | Plantower PMSx003 sensor reader | 3cky | [Catalog](https://lab.flipper.net/apps/airmon) |
 | | [[RCWL0516] Radar Scan](https://lab.flipper.net/apps/radar_scanner) | Microwave Radar Scanner | @MatthewKuKanich | [Catalog](https://lab.flipper.net/apps/radar_scanner) |
 | | [[USPING] Dist. Sensor](https://lab.flipper.net/apps/usping) | Ultrasound measurments with PING))) Parallax sensor SKU 28015 (3 wires) | @privet971 | [Catalog](https://lab.flipper.net/apps/usping) |
@@ -165,16 +163,11 @@ A catalog of Flipper Zero apps and games. Maintained by [123fzero](https://githu
 | | [FlipWorld](https://lab.flipper.net/apps/flip_world) | The first open-world multiplayer game for the Flipper Zero | JBlanked | [Catalog](https://lab.flipper.net/apps/flip_world) |
 | | [FN Tester](https://lab.flipper.net/apps/fn_test) | Application for testing the fiscal drive (Only for the Russian market) | Igor Danilov | [Catalog](https://lab.flipper.net/apps/fn_test) |
 | | [Free Roam](https://lab.flipper.net/apps/free_roam) | 3D Open World Multiplayer Game | JBlanked | [Catalog](https://lab.flipper.net/apps/free_roam) |
-| | [GAME BOY ADVANCE Cartridge MALVEKE](https://lab.flipper.net/apps/malveke_gba_cartridge) | MALVEKE app, its Interacts with GAME BOY and GAME BOY ADVANCE cartridges. You can read Information.
- | Esteban Fuentealba | [Catalog](https://lab.flipper.net/apps/malveke_gba_cartridge) |
-| | [GAME BOY Cartridge (GB/GBC) MALVEKE](https://lab.flipper.net/apps/malveke_gb_cartridge) | MALVEKE app, its Interacts with GAME BOY and GAME BOY Color cartridges. You can Dump & Restore RAM and ROM.
- | Esteban Fuentealba | [Catalog](https://lab.flipper.net/apps/malveke_gb_cartridge) |
-| | [GAME BOY Link-Camera MALVEKE](https://lab.flipper.net/apps/malveke_gb_link_camera) | extract your GAME BOY Camera picture via WIFI, so they can be easily shared with your phone, tablet or pc. Easy to use, just hook up to your GAME BOY and print as usual, the device will store the images and share them on a web server via WIFI. You will need a printer cable or gameboy Color link cable.
- | Esteban Fuentealba | [Catalog](https://lab.flipper.net/apps/malveke_gb_link_camera) |
-| | [GAME BOY Live Camera MALVEKE](https://lab.flipper.net/apps/malveke_gb_live_camera) | Insert a GAME BOY Camera cartridge, you can use it as a camera and take snapshots from the Flipper Zero.
- | Esteban Fuentealba | [Catalog](https://lab.flipper.net/apps/malveke_gb_live_camera) |
-| | [GAME BOY PHOTO MALVEKE](https://lab.flipper.net/apps/malveke_gb_photo) | Game Boy Camera save RAM photo to BMP from the Flipper Zero.
- | Esteban Fuentealba | [Catalog](https://lab.flipper.net/apps/malveke_gb_photo) |
+| | [GAME BOY ADVANCE Cartridge MALVEKE](https://lab.flipper.net/apps/malveke_gba_cartridge) | MALVEKE app, its Interacts with GAME BOY and GAME BOY ADVANCE cartridges. You can read Information. | Esteban Fuentealba | [Catalog](https://lab.flipper.net/apps/malveke_gba_cartridge) |
+| | [GAME BOY Cartridge (GB/GBC) MALVEKE](https://lab.flipper.net/apps/malveke_gb_cartridge) | MALVEKE app, its Interacts with GAME BOY and GAME BOY Color cartridges. You can Dump & Restore RAM and ROM. | Esteban Fuentealba | [Catalog](https://lab.flipper.net/apps/malveke_gb_cartridge) |
+| | [GAME BOY Link-Camera MALVEKE](https://lab.flipper.net/apps/malveke_gb_link_camera) | extract your GAME BOY Camera picture via WIFI, so they can be easily shared with your phone, tablet or pc. Easy to use, just hook up to your GAME BOY and print as usual, the device will store the images and share them on a web server via WIFI. You will need a printer cable or gameboy Color link cable. | Esteban Fuentealba | [Catalog](https://lab.flipper.net/apps/malveke_gb_link_camera) |
+| | [GAME BOY Live Camera MALVEKE](https://lab.flipper.net/apps/malveke_gb_live_camera) | Insert a GAME BOY Camera cartridge, you can use it as a camera and take snapshots from the Flipper Zero. | Esteban Fuentealba | [Catalog](https://lab.flipper.net/apps/malveke_gb_live_camera) |
+| | [GAME BOY PHOTO MALVEKE](https://lab.flipper.net/apps/malveke_gb_photo) | Game Boy Camera save RAM photo to BMP from the Flipper Zero. | Esteban Fuentealba | [Catalog](https://lab.flipper.net/apps/malveke_gb_photo) |
 | | [GPIO Controller](https://lab.flipper.net/apps/gpio_controller) | A visual tool to control the general purpose pins of the Flipper Zero | @Lokno | [Catalog](https://lab.flipper.net/apps/gpio_controller) |
 | | [GPIO Explorer](https://lab.flipper.net/apps/gpio_explorer_app) | The most complete app to start exploring the GPIO functionalities | dun-crop | [Catalog](https://lab.flipper.net/apps/gpio_explorer_app) |
 | | [i2c Tools](https://lab.flipper.net/apps/i2ctools) | Set of i2c tools |  | [Catalog](https://lab.flipper.net/apps/i2ctools) |
@@ -341,8 +334,8 @@ A catalog of Flipper Zero apps and games. Maintained by [123fzero](https://githu
 
 | | App | Description | Author | Link |
 |---|-----|-------------|--------|------|
-| ⭐ | **[123PeriodicTimer](https://github.com/123fzero/123PeriodicTimer)** |  | 123fzero | [GitHub](https://github.com/123fzero/123PeriodicTimer) |
-| ⭐ | **[123Pomadoro](https://github.com/123fzero/123Pomadoro)** |  | 123fzero | [GitHub](https://github.com/123fzero/123Pomadoro) |
+| ⭐ | **[123PeriodicTimer](https://github.com/123fzero/123PeriodicTimer)** | Flipper Zero app by 123fzero | 123fzero | [GitHub](https://github.com/123fzero/123PeriodicTimer) |
+| ⭐ | **[123Pomadoro](https://github.com/123fzero/123Pomadoro)** | Flipper Zero app by 123fzero | 123fzero | [GitHub](https://github.com/123fzero/123Pomadoro) |
 | ⭐ | **[123PuffPacer](https://github.com/123fzero/123PuffPacer)** | Puff interval timer for Flipper Zero — pace your heated tobacco sessions (IQOS, Lil Solid, glo, Ploom) with vibration & sound alerts 💨 | 123fzero | [GitHub](https://github.com/123fzero/123PuffPacer) |
 | | [Analog Clock](https://lab.flipper.net/apps/analog_clock) | Shows analog clock on Flipper screen | @scrolltex | [Catalog](https://lab.flipper.net/apps/analog_clock) |
 | | [Authenticator](https://lab.flipper.net/apps/totp) | Software-based TOTP/HOTP authenticator for Flipper Zero device | Alexander Kopachov (@akopachov) | [Catalog](https://lab.flipper.net/apps/totp) |
