@@ -24,3 +24,13 @@ User prefers communication in Russian. All repo content must be in English.
 - Avoid broad or noisy topics that dilute relevance, such as generic tags like `flipper` or `catalog`
 - Prefer a focused set of high-signal topics over random keyword stuffing, even when using many topics
 - When updating topics, verify them in GitHub About after changes and keep the set aligned with the repo's current positioning as a curated Flipper Zero catalog
+
+## About And README SEO
+
+- Treat GitHub `About` and the first lines of `README.md` as primary SEO surfaces for this repo
+- Use exact-match phrases users actually search for, especially `Flipper Zero app catalog`, `Flipper Zero apps`, `Flipper Zero plugins`, `Flipper Zero games`, and `Flipper Zero tools`
+- Prefer clear, search-friendly titles over creative wording; `README.md` title should stay tightly aligned with the main query target
+- The first README paragraph should explain what the repo is using direct keyword phrases, not vague marketing copy
+- Add one short supporting sentence near the top of the README that expands keyword coverage naturally without spam
+- Keep `About` and the README opening aligned so GitHub metadata and on-page copy reinforce the same search intent
+- Avoid keyword stuffing; prioritize readable copy with high-signal exact phrases over repetitive filler

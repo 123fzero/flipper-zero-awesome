@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Generates README.md catalog of Flipper Zero apps."""
 
+import json
 import os
 import re
 import time
@@ -16,6 +17,9 @@ GITHUB_WEB = "https://github.com"
 FEATURED_OWNER = "123fzero"
 LAB_URL = "https://lab.flipper.net/apps"
 README_PATH = Path(__file__).resolve().parent.parent / "README.md"
+SITE_DIR = Path(__file__).resolve().parent.parent / "site"
+SITE_DATA_PATH = SITE_DIR / "catalog.json"
+SITE_URL = "https://123fzero.github.io/flipper-zero-awesome/"
 REQUEST_TIMEOUT = 30
 PAGE_LIMIT = 100
 OFFICIAL_EMOJI = "🏛️"
@@ -24,10 +28,57 @@ COMMUNITY_EMOJI = "💎"
 # Explicit overrides for 123fzero repos.
 # Use None to skip a repo entirely.
 FEATURED_REPO_CATEGORIES = {
+    "123dicednd": "Games",
+    "123puffpacer": "Tools",
+    "123periodictimer": "Tools",
+    "123pomadoro": "Tools",
+    "123pomadoroclaude": "Tools",
     # Skip non-app repos
     "123games": None,
     "flipper-zero-awesome": None,
 }
+
+FEATURED_REPO_DEFAULTS = {
+    "123dicednd": {
+        "name": "123DiceDnD",
+        "description": (
+            "D&D dice roller for Flipper Zero with polyhedral dice, 3D animation, "
+            "and Momentum firmware support."
+        ),
+        "url": "https://github.com/123fzero/123DiceDnD",
+    },
+    "123puffpacer": {
+        "name": "123PuffPacer",
+        "description": (
+            "Flipper Zero puff timer for IQOS, HEETS, TEREA, Lil Solid, glo, and "
+            "Ploom with vibration and sound alerts."
+        ),
+        "url": "https://github.com/123fzero/123PuffPacer",
+    },
+    "123periodictimer": {
+        "name": "123PeriodicTimer",
+        "description": "Interval and periodic timer app for Flipper Zero.",
+        "url": "https://github.com/123fzero/123PeriodicTimer",
+    },
+    "123pomadoro": {
+        "name": "123Pomadoro",
+        "description": "Pomodoro productivity timer app for Flipper Zero.",
+        "url": "https://github.com/123fzero/123Pomadoro",
+    },
+    "123pomadoroclaude": {
+        "name": "123PomadoroClaude",
+        "description": "Claude-flavored Pomodoro timer variant for Flipper Zero.",
+        "url": "https://github.com/123fzero/123PomadoroClaude",
+    },
+}
+
+FEATURED_PROMO_ORDER = [
+    "123dicednd",
+    "123puffpacer",
+    "123periodictimer",
+    "123pomadoro",
+    "123pomadoroclaude",
+]
 
 # Community sections whose subsection names should be merged into official categories.
 AWESOME_APP_SECTION_TITLES = {
@@ -150,6 +201,13 @@ def _extract_github_repo(url):
     return f"{owner}/{repo}"
 
 
+def _extract_github_owner(url):
+    repo = _extract_github_repo(url)
+    if not repo:
+        return ""
+    return repo.split("/", 1)[0]
+
+
 def _extract_catalog_repo_url(app, current_version):
     """Best-effort extraction of source repo URL from catalog payload variations."""
     candidate_sets = [
@@ -237,6 +295,17 @@ def _merge_text(preferred, fallback):
 
 def fetch_123fzero_repos():
     """Fetch public repos for 123fzero. Returns dict of lowercase repo name -> repo info."""
+    repos = {}
+    for repo_key, defaults in FEATURED_REPO_DEFAULTS.items():
+        repos[repo_key] = {
+            "key": repo_key,
+            "name": defaults["name"],
+            "description": _sanitize_table_cell(defaults["description"]),
+            "url": _normalize_url(defaults["url"]),
+            "stars": None,
+            "topics": [],
+        }
+
     url = f"{GITHUB_API}/users/{FEATURED_OWNER}/repos"
     params = {"per_page": 100, "type": "public"}
     try:
@@ -249,9 +318,8 @@ def fetch_123fzero_repos():
         resp.raise_for_status()
     except requests.RequestException as exc:
         print(f"Warning: failed to fetch {FEATURED_OWNER} repos from GitHub API: {exc}")
-        return {}
+        return repos
 
-    repos = {}
     for repo in resp.json():
         repos[repo["name"].lower()] = {
             "key": repo["name"].lower(),
@@ -574,8 +642,6 @@ def _fill_missing_ratings(rows_by_section):
         for row in section_rows.values():
             if row["rating"] or not row["repo_url"]:
                 continue
-            if "official" not in row["sources"]:
-                continue
             repo = _extract_github_repo(row["repo_url"])
             if not repo:
                 continue
@@ -645,6 +711,48 @@ def _format_links(row):
     return " / ".join(links)
 
 
+def _author_parts(row):
+    author = _sanitize_table_cell(row["author"])
+    owner = _extract_github_owner(row["repo_url"])
+
+    if author:
+        if re.fullmatch(r"@?[A-Za-z0-9-]+", author):
+            handle = author.lstrip("@")
+            return author, f"https://github.com/{handle}"
+        return author, ""
+
+    if owner:
+        return owner, f"https://github.com/{owner}"
+
+    return "", ""
+
+
+def _format_author(row):
+    author_text, author_url = _author_parts(row)
+    if author_text and author_url:
+        return f"[{author_text}]({author_url})"
+    return author_text
+
+
+def _featured_promos(featured_repos):
+    promos = []
+    for repo_key in FEATURED_PROMO_ORDER:
+        repo_info = featured_repos.get(repo_key)
+        if not repo_info:
+            continue
+        category = _extract_featured_repo_category(repo_info)
+        if not category:
+            continue
+        promos.append({
+            "name": repo_info["name"],
+            "description": repo_info["description"] or f"Flipper Zero app by {FEATURED_OWNER}",
+            "url": repo_info["url"],
+            "category": category,
+            "rating": _format_stars(repo_info.get("stars")) if repo_info.get("stars") else "",
+        })
+    return promos
+
+
 def _sorted_rows(section_rows):
     rows = list(section_rows.values())
     rows.sort(
@@ -663,13 +771,13 @@ def _append_table(lines, rows):
     for row in rows:
         lines.append(
             f"| {_source_badges(row)} | {_format_app_cell(row)} | "
-            f"{row['description']} | {row['author']} | {row['rating']} | {_format_links(row)} |"
+            f"{row['description']} | {_format_author(row)} | {row['rating']} | {_format_links(row)} |"
         )
     lines.append("")
 
 
-def generate_readme(categories, catalog_apps, awesome_sections, featured_repos):
-    """Generate the full README.md content."""
+def build_catalog_model(categories, catalog_apps, awesome_sections, featured_repos):
+    """Build the merged catalog model used by README and site outputs."""
     section_order, rows_by_section = _collect_rows(
         categories,
         catalog_apps,
@@ -677,6 +785,18 @@ def generate_readme(categories, catalog_apps, awesome_sections, featured_repos):
         featured_repos,
     )
     _fill_missing_ratings(rows_by_section)
+    return {
+        "section_order": section_order,
+        "rows_by_section": rows_by_section,
+        "featured_promos": _featured_promos(featured_repos),
+    }
+
+
+def generate_readme(catalog_model):
+    """Generate the full README.md content."""
+    section_order = catalog_model["section_order"]
+    rows_by_section = catalog_model["rows_by_section"]
+    featured_promos = catalog_model["featured_promos"]
 
     lines = []
     lines.append("# Flipper Zero App Catalog")
@@ -688,6 +808,16 @@ def generate_readme(categories, catalog_apps, awesome_sections, featured_repos):
         "software in one place."
     )
     lines.append("")
+    if featured_promos:
+        lines.append("## Featured 123fzero Apps")
+        lines.append("")
+        for promo in featured_promos:
+            suffix = f" {promo['rating']}" if promo["rating"] else ""
+            lines.append(
+                f"- **[{promo['name']}]({promo['url']})** ({promo['category']}){suffix}: "
+                f"{promo['description']}"
+            )
+        lines.append("")
     lines.append(
         "Discover Flipper Zero apps, Flipper Zero plugins, Flipper Zero games, and practical "
         "Flipper Zero tools from both official and community sources."
@@ -749,6 +879,73 @@ def generate_readme(categories, catalog_apps, awesome_sections, featured_repos):
     return "\n".join(lines)
 
 
+def _row_to_site_item(section_name, subsection_name, row):
+    author_text, author_url = _author_parts(row)
+    return {
+        "section": section_name,
+        "subsection": subsection_name,
+        "sourceBadges": sorted(row["sources"]),
+        "sourceIcons": _source_badges(row),
+        "name": row["name"],
+        "description": row["description"],
+        "author": author_text,
+        "authorUrl": author_url,
+        "rating": row["rating"],
+        "officialUrl": row["official_url"],
+        "communityUrl": row["community_url"],
+        "repoUrl": row["repo_url"],
+        "links": {
+            "official": row["official_url"],
+            "github": row["repo_url"],
+            "community": (
+                row["community_url"]
+                if row["community_url"] and row["community_url"] != row["repo_url"]
+                else ""
+            ),
+        },
+    }
+
+
+def generate_site_catalog(catalog_model):
+    """Generate JSON data for the static search site."""
+    sections = []
+    for section_name in catalog_model["section_order"]:
+        section_rows = catalog_model["rows_by_section"].get(section_name, {})
+        if not section_rows:
+            continue
+
+        grouped = {}
+        for row in _sorted_rows(section_rows):
+            grouped.setdefault(row["subsection"], []).append(row)
+
+        subsections = []
+        for subsection_name, rows in grouped.items():
+            subsections.append({
+                "name": subsection_name,
+                "items": [
+                    _row_to_site_item(section_name, subsection_name, row)
+                    for row in rows
+                ],
+            })
+
+        sections.append({
+            "name": section_name,
+            "subsections": subsections,
+        })
+
+    payload = {
+        "siteUrl": SITE_URL,
+        "title": "Flipper Zero App Catalog",
+        "description": (
+            "Curated Flipper Zero app catalog with the best Flipper Zero apps, plugins, "
+            "games, tools, and community resources from official and community sources."
+        ),
+        "featured": catalog_model["featured_promos"],
+        "sections": sections,
+    }
+    return json.dumps(payload, ensure_ascii=False, indent=2) + "\n"
+
+
 def main():
     print("Fetching 123fzero repos...")
     featured_repos = fetch_123fzero_repos()
@@ -759,11 +956,22 @@ def main():
     print("Fetching awesome-flipperzero...")
     awesome_sections = fetch_awesome_list()
 
-    print("Generating README.md...")
-    readme = generate_readme(categories, catalog_apps, awesome_sections, featured_repos)
+    catalog_model = build_catalog_model(
+        categories,
+        catalog_apps,
+        awesome_sections,
+        featured_repos,
+    )
 
+    print("Generating README.md...")
+    readme = generate_readme(catalog_model)
     README_PATH.write_text(readme, encoding="utf-8")
-    print(f"Done! Written to {README_PATH}")
+
+    print("Generating site catalog data...")
+    SITE_DIR.mkdir(parents=True, exist_ok=True)
+    SITE_DATA_PATH.write_text(generate_site_catalog(catalog_model), encoding="utf-8")
+
+    print(f"Done! Written to {README_PATH} and {SITE_DATA_PATH}")
 
 
 if __name__ == "__main__":

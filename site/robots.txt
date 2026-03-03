@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://123fzero.github.io/flipper-zero-awesome/sitemap.xml

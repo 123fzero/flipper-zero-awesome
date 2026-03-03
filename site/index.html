@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Flipper Zero App Catalog | Search Apps, Plugins, Games, and Tools</title>
+  <meta
+    name="description"
+    content="Search a curated Flipper Zero app catalog with the best Flipper Zero apps, plugins, games, tools, and community resources from official and community sources."
+  >
+  <meta
+    name="keywords"
+    content="Flipper Zero app catalog, Flipper Zero apps, Flipper Zero plugins, Flipper Zero games, Flipper Zero tools, Flipper Zero community catalog"
+  >
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta property="og:title" content="Flipper Zero App Catalog">
+  <meta
+    property="og:description"
+    content="Search a curated Flipper Zero app catalog with official and community apps, plugins, games, and tools."
+  >
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://123fzero.github.io/flipper-zero-awesome/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Flipper Zero App Catalog">
+  <meta
+    name="twitter:description"
+    content="Search the best Flipper Zero apps, plugins, games, and tools from official and community sources."
+  >
+  <link rel="canonical" href="https://123fzero.github.io/flipper-zero-awesome/">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Flipper Zero App Catalog",
+    "url": "https://123fzero.github.io/flipper-zero-awesome/",
+    "description": "Curated Flipper Zero app catalog with the best Flipper Zero apps, plugins, games, tools, and community resources.",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://123fzero.github.io/flipper-zero-awesome/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="hero">
+    <p class="eyebrow">FLIPPER ZERO // CURATED INDEX</p>
+    <h1>Flipper Zero App Catalog</h1>
+    <p class="lede">
+      Search the best Flipper Zero apps, Flipper Zero plugins, Flipper Zero games, and practical
+      Flipper Zero tools in one hacker-friendly catalog.
+    </p>
+    <div class="hero-actions">
+      <a href="https://github.com/123fzero/flipper-zero-awesome" rel="noopener">GitHub Repo</a>
+      <a href="https://lab.flipper.net/apps" rel="noopener">Official Catalog</a>
+      <a href="https://github.com/djsime1/awesome-flipperzero" rel="noopener">Community Source</a>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="panel sidebar">
+      <section>
+        <h2>Search Catalog</h2>
+        <label class="search-wrap" for="search">
+          <span>grep</span>
+          <input
+            id="search"
+            name="q"
+            type="search"
+            autocomplete="off"
+            placeholder="Search apps, authors, keywords..."
+          >
+        </label>
+        <p id="result-count" class="muted">Loading catalog...</p>
+      </section>
+
+      <section>
+        <h2>Source Filter</h2>
+        <div class="filter-grid">
+          <button class="chip active" type="button" data-filter="all">All</button>
+          <button class="chip" type="button" data-filter="official">🏛️ Official</button>
+          <button class="chip" type="button" data-filter="community">💎 Community</button>
+          <button class="chip" type="button" data-filter="both">🏛️ + 💎</button>
+        </div>
+      </section>
+
+      <section>
+        <h2>Featured 123fzero</h2>
+        <div id="featured-list" class="featured-list"></div>
+      </section>
+    </aside>
+
+    <section class="panel content">
+      <div class="content-top">
+        <div>
+          <h2>Live Search</h2>
+          <p class="muted">
+            JavaScript search runs entirely in the browser against the generated catalog index.
+          </p>
+        </div>
+        <div class="legend">
+          <span>🏛️ Official Flipper App Catalog</span>
+          <span>💎 Community Catalog</span>
+        </div>
+      </div>
+
+      <div id="catalog-sections" class="catalog-sections"></div>
+      <noscript>
+        <p class="muted">This site needs JavaScript enabled to search and render the catalog.</p>
+      </noscript>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>
+      Flipper Zero app catalog generated from the Official Flipper App Catalog and a community
+      catalog curated from awesome-flipperzero.
+    </p>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

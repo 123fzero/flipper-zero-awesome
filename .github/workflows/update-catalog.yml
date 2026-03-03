@@ -42,10 +42,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet README.md; then
-            echo "No README changes to commit"
+          if git diff --quiet README.md site/catalog.json; then
+            echo "No catalog changes to commit"
             exit 0
           fi
-          git add README.md
+          git add README.md site/catalog.json
           git commit -m "chore: update app catalog $(date +%Y-%m-%d)"
           git push
