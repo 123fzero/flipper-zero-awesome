@@ -2,6 +2,8 @@
 
 A curated Flipper Zero app catalog featuring the best Flipper Zero apps, plugins, games, tools, and community resources. This repository combines the Official Flipper App Catalog with a community catalog to help users find the most useful Flipper Zero software in one place.
 
+[Flipper Zero App Catalog](https://123fzero.github.io/flipper-zero-awesome/)
+
 ## Pre-Deploy Check
 
 Run the site filter regression tests before deploying:
