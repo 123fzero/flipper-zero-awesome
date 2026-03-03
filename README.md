@@ -1,6 +1,8 @@
-# Flipper Zero Awesome Catalog
+# Flipper Zero App Catalog
 
-A curated, auto-updated collection of the best Flipper Zero apps, tools, games, and community resources in one place. This project combines the official app catalog with standout picks from the community, then organizes everything into a single index so it is easier to discover what is useful, maintained, and worth trying.
+A curated Flipper Zero app catalog featuring the best Flipper Zero apps, plugins, games, tools, and community resources. This repository combines the Official Flipper App Catalog with a community catalog to help users find the most useful Flipper Zero software in one place.
+
+Discover Flipper Zero apps, Flipper Zero plugins, Flipper Zero games, and practical Flipper Zero tools from both official and community sources.
 
 `🏛️` = Official Flipper App Catalog, `💎` = Community Catalog (curated from awesome-flipperzero).
 
