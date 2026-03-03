@@ -118,7 +118,7 @@ function renderSections(data) {
 
     blocks.push(`
       <section class="section-block">
-        <h3>Featured 123fzero</h3>
+        <h3>Featured <a href="https://github.com/123fzero" rel="noopener">123fzero</a></h3>
         <div class="featured-list featured-grid">${featuredCards}</div>
       </section>
     `);
