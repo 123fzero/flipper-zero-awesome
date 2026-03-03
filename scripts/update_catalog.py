@@ -12,6 +12,7 @@ import requests
 CATALOG_API = "https://catalog.flipperzero.one/api/v0"
 AWESOME_RAW_URL = "https://raw.githubusercontent.com/djsime1/awesome-flipperzero/main/README.md"
 GITHUB_API = "https://api.github.com"
+GITHUB_WEB = "https://github.com"
 FEATURED_OWNER = "123fzero"
 LAB_URL = "https://lab.flipper.net/apps"
 README_PATH = Path(__file__).resolve().parent.parent / "README.md"
@@ -20,13 +21,9 @@ PAGE_LIMIT = 100
 OFFICIAL_EMOJI = "🏛️"
 COMMUNITY_EMOJI = "💎"
 
-# Map 123fzero repo names to catalog category names.
-# Repos not listed here (or listed as None) are skipped.
+# Explicit overrides for 123fzero repos.
+# Use None to skip a repo entirely.
 FEATURED_REPO_CATEGORIES = {
-    "123dicednd": "Games",
-    "123puffpacer": "Tools",
-    "123periodictimer": "Tools",
-    "123pomadoro": "Tools",
     # Skip non-app repos
     "123games": None,
     "flipper-zero-awesome": None,
@@ -53,6 +50,20 @@ SECTION_NAME_ALIASES = {
     "badusb": "USB",
     "ble": "Bluetooth",
 }
+
+KNOWN_APP_CATEGORIES = [
+    "Sub-GHz",
+    "RFID",
+    "NFC",
+    "Infrared",
+    "GPIO",
+    "iButton",
+    "USB",
+    "Games",
+    "Media",
+    "Tools",
+    "Bluetooth",
+]
 
 
 def _github_headers():
@@ -84,6 +95,36 @@ def _normalize_section_name(name):
     clean = _sanitize_table_cell(name)
     alias = SECTION_NAME_ALIASES.get(clean.lower())
     return alias or clean
+
+
+def _extract_featured_repo_category(repo_info):
+    """Resolve a 123fzero repo category from explicit override or repo topics."""
+    # Preferred repo topics:
+    # - flipper-category-games
+    # - category-tools
+    # - direct category topic like "games"
+    override = FEATURED_REPO_CATEGORIES.get(repo_info["key"])
+    if repo_info["key"] in FEATURED_REPO_CATEGORIES:
+        return override
+
+    topic_map = {_normalize_name(category): category for category in KNOWN_APP_CATEGORIES}
+    for topic in repo_info.get("topics", []):
+        clean_topic = str(topic or "").strip().lower()
+        if not clean_topic:
+            continue
+
+        for prefix in ("category-", "flipper-category-", "f0-category-"):
+            if clean_topic.startswith(prefix):
+                target = _normalize_section_name(clean_topic[len(prefix):].replace("-", " "))
+                normalized = _normalize_name(target)
+                if normalized in topic_map:
+                    return topic_map[normalized]
+
+        normalized = _normalize_name(clean_topic)
+        if normalized in topic_map:
+            return topic_map[normalized]
+
+    return None
 
 
 def _normalize_url(url):
@@ -126,6 +167,17 @@ def _extract_catalog_repo_url(app, current_version):
             if "source" in link_type or "github" in link_type:
                 return _normalize_url(url)
 
+    candidate_maps = [
+        current_version.get("links") if isinstance(current_version.get("links"), dict) else {},
+        app.get("links") if isinstance(app.get("links"), dict) else {},
+    ]
+    for links in candidate_maps:
+        source_code = links.get("source_code")
+        if isinstance(source_code, dict):
+            url = source_code.get("uri") or source_code.get("url") or source_code.get("href")
+            if url:
+                return _normalize_url(url)
+
     candidates = [
         current_version.get("source_code_url"),
         app.get("source_code_url"),
@@ -138,6 +190,13 @@ def _extract_catalog_repo_url(app, current_version):
         if candidate:
             return _normalize_url(candidate)
     return ""
+
+
+def fetch_application_detail(alias):
+    """Fetch one application detail payload from the official catalog."""
+    resp = requests.get(f"{CATALOG_API}/application/{alias}", timeout=REQUEST_TIMEOUT)
+    resp.raise_for_status()
+    return resp.json()
 
 
 def _extract_catalog_rating(app, current_version):
@@ -180,20 +239,27 @@ def fetch_123fzero_repos():
     """Fetch public repos for 123fzero. Returns dict of lowercase repo name -> repo info."""
     url = f"{GITHUB_API}/users/{FEATURED_OWNER}/repos"
     params = {"per_page": 100, "type": "public"}
-    resp = requests.get(
-        url,
-        params=params,
-        headers=_github_headers(),
-        timeout=REQUEST_TIMEOUT,
-    )
-    resp.raise_for_status()
+    try:
+        resp = requests.get(
+            url,
+            params=params,
+            headers=_github_headers(),
+            timeout=REQUEST_TIMEOUT,
+        )
+        resp.raise_for_status()
+    except requests.RequestException as exc:
+        print(f"Warning: failed to fetch {FEATURED_OWNER} repos from GitHub API: {exc}")
+        return {}
+
     repos = {}
     for repo in resp.json():
         repos[repo["name"].lower()] = {
+            "key": repo["name"].lower(),
             "name": repo["name"],
             "description": _sanitize_table_cell(repo.get("description") or ""),
             "url": _normalize_url(repo["html_url"]),
             "stars": repo.get("stargazers_count"),
+            "topics": repo.get("topics", []),
         }
     return repos
 
@@ -205,6 +271,7 @@ def fetch_official_catalog():
     categories = sorted(resp.json(), key=lambda c: c.get("priority", 0))
 
     apps_by_category = {}
+    detail_cache = {}
     for category in categories:
         category_id = category["_id"]
         apps = []
@@ -229,8 +296,27 @@ def fetch_official_catalog():
 
             for app in batch:
                 current_version = app.get("current_version", {})
-                app_url = f"{LAB_URL}/{app.get('alias', '')}"
+                alias = app.get("alias", "")
+                app_url = f"{LAB_URL}/{alias}"
                 repo_url = _extract_catalog_repo_url(app, current_version)
+                rating = _extract_catalog_rating(app, current_version)
+
+                if alias and (not repo_url or not rating):
+                    detail = detail_cache.get(alias)
+                    if detail is None:
+                        try:
+                            detail = fetch_application_detail(alias)
+                        except requests.RequestException:
+                            detail = {}
+                        detail_cache[alias] = detail
+
+                    if detail:
+                        detail_version = detail.get("current_version", {})
+                        if not repo_url:
+                            repo_url = _extract_catalog_repo_url(detail, detail_version)
+                        if not rating:
+                            rating = _extract_catalog_rating(detail, detail_version)
+
                 apps.append({
                     "name": _sanitize_table_cell(
                         current_version.get("name", app.get("alias", "Unknown"))
@@ -241,7 +327,7 @@ def fetch_official_catalog():
                     "author": _sanitize_table_cell(app.get("author", "")),
                     "official_url": app_url,
                     "repo_url": repo_url,
-                    "rating": _extract_catalog_rating(app, current_version),
+                    "rating": rating,
                 })
 
             offset += PAGE_LIMIT
@@ -321,8 +407,8 @@ def fetch_awesome_list():
 
 def _build_featured_by_category(featured_repos):
     by_category = {}
-    for repo_key, repo_info in featured_repos.items():
-        category_name = FEATURED_REPO_CATEGORIES.get(repo_key)
+    for repo_info in featured_repos.values():
+        category_name = _extract_featured_repo_category(repo_info)
         if not category_name:
             continue
         description = repo_info["description"] or f"Flipper Zero app by {FEATURED_OWNER}"
@@ -373,6 +459,25 @@ def _entry_key(section_name, entry):
     return f"name:{_normalize_name(section_name)}:{_normalize_name(entry.get('name', ''))}"
 
 
+def _find_existing_key(section_rows, section_name, incoming):
+    direct_key = _entry_key(section_name, incoming)
+    if direct_key in section_rows:
+        return direct_key
+
+    incoming_name = _normalize_name(incoming.get("name", ""))
+    if not incoming_name:
+        return direct_key
+
+    incoming_sources = set(incoming.get("sources", set()))
+    for existing_key, existing_row in section_rows.items():
+        if _normalize_name(existing_row.get("name", "")) != incoming_name:
+            continue
+        if incoming_sources and existing_row.get("sources", set()) != incoming_sources:
+            return existing_key
+
+    return direct_key
+
+
 def _empty_row(section_name):
     return {
         "section": section_name,
@@ -390,7 +495,7 @@ def _empty_row(section_name):
 
 def _merge_entry(rows_by_section, section_name, incoming):
     section_rows = rows_by_section.setdefault(section_name, {})
-    key = _entry_key(section_name, incoming)
+    key = _find_existing_key(section_rows, section_name, incoming)
     row = section_rows.get(key)
     if row is None:
         row = _empty_row(section_name)
@@ -469,22 +574,41 @@ def _fill_missing_ratings(rows_by_section):
         for row in section_rows.values():
             if row["rating"] or not row["repo_url"]:
                 continue
+            if "official" not in row["sources"]:
+                continue
             repo = _extract_github_repo(row["repo_url"])
             if not repo:
                 continue
             if repo not in cache:
-                try:
-                    resp = requests.get(
-                        f"{GITHUB_API}/repos/{repo}",
-                        headers=_github_headers(),
-                        timeout=REQUEST_TIMEOUT,
-                    )
-                    resp.raise_for_status()
-                    cache[repo] = _format_stars(resp.json().get("stargazers_count"))
-                except requests.RequestException:
-                    cache[repo] = ""
+                cache[repo] = _scrape_github_stars(repo)
             row["rating"] = cache[repo]
-            time.sleep(0.1)
+
+
+def _scrape_github_stars(repo):
+    """Fetch stargazer count from the public GitHub repo HTML."""
+    try:
+        resp = requests.get(f"{GITHUB_WEB}/{repo}", timeout=REQUEST_TIMEOUT)
+        resp.raise_for_status()
+    except requests.RequestException:
+        return ""
+
+    html = resp.text
+    title_match = re.search(
+        r'id="repo-stars-counter-star"[^>]*title="([0-9][0-9,]*)"',
+        html,
+    )
+    if title_match:
+        return _format_stars(int(title_match.group(1).replace(",", "")))
+
+    text_match = re.search(
+        r'id="repo-stars-counter-star"[^>]*>\s*([0-9][0-9.,kKmM]*)\s*</span>',
+        html,
+    )
+    if text_match:
+        value = text_match.group(1).strip()
+        return f"⭐ {value.lower()}"
+
+    return ""
 
 
 def _source_badges(row):

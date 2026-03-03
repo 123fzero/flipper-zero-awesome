@@ -3,7 +3,12 @@ name: Update Catalog
 on:
   schedule:
     - cron: '0 6 * * 1'  # Every Monday at 06:00 UTC
-  workflow_dispatch:  # Manual trigger
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: "Why are you running this update manually?"
+        required: false
+        default: "Manual refresh"
 
 permissions:
   contents: write
@@ -11,6 +16,8 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
+
     steps:
       - uses: actions/checkout@v4
 
@@ -21,17 +28,24 @@ jobs:
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
 
+      - name: Log trigger context
+        run: |
+          echo "Event: ${{ github.event_name }}"
+          echo "Reason: ${{ github.event.inputs.reason || 'Scheduled run' }}"
+
       - name: Run catalog update
         run: python scripts/update_catalog.py
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.CATALOG_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
 
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git diff --quiet README.md || {
-            git add README.md
-            git commit -m "chore: update app catalog $(date +%Y-%m-%d)"
-            git push
-          }
+          if git diff --quiet README.md; then
+            echo "No README changes to commit"
+            exit 0
+          fi
+          git add README.md
+          git commit -m "chore: update app catalog $(date +%Y-%m-%d)"
+          git push
