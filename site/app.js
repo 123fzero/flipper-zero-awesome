@@ -2,16 +2,15 @@ const state = {
   data: null,
   query: "",
   filter: "all",
-  category: "all",
+  categories: [],
 };
 
 const els = {
   search: document.querySelector("#search"),
   resultCount: document.querySelector("#result-count"),
-  featured: document.querySelector("#featured-list"),
   sections: document.querySelector("#catalog-sections"),
   chips: Array.from(document.querySelectorAll(".chip")),
-  categoryFilter: document.querySelector("#category-filter"),
+  categoryFilterList: document.querySelector("#category-filter-list"),
 };
 
 function normalize(text) {
@@ -51,52 +50,58 @@ function itemMatchesQuery(item) {
 }
 
 function itemMatchesCategory(item) {
-  if (state.category === "all") {
+  if (!state.categories.length) {
     return true;
   }
-  return item.section === state.category;
-}
-
-function flattenItems(data) {
-  const items = [];
-  data.sections.forEach((section) => {
-    section.subsections.forEach((subsection) => {
-      subsection.items.forEach((item) => items.push(item));
-    });
-  });
-  return items;
-}
-
-function renderFeatured(data) {
-  if (!data.featured.length) {
-    els.featured.innerHTML = '<p class="muted">Featured 123fzero apps will appear here after catalog generation.</p>';
-    return;
-  }
-
-  els.featured.innerHTML = data.featured.map((item) => `
-    <article class="featured-card">
-      <a href="${item.url}" rel="noopener"><strong>${item.name}</strong></a>
-      <div class="badge-line">
-        <span class="badge">${item.category}</span>
-        ${item.rating ? `<span class="badge">${item.rating}</span>` : ""}
-      </div>
-      <p>${item.description}</p>
-    </article>
-  `).join("");
+  return state.categories.includes(item.section);
 }
 
 function populateCategoryFilter(data) {
-  const options = ['<option value="all">All categories</option>'];
+  const options = [];
   data.sections.forEach((section) => {
-    options.push(`<option value="${section.name}">${section.name}</option>`);
+    const checked = state.categories.includes(section.name) ? "checked" : "";
+    options.push(`
+      <label class="check-item">
+        <input type="checkbox" value="${section.name}" ${checked}>
+        <span>${section.name}</span>
+      </label>
+    `);
   });
-  els.categoryFilter.innerHTML = options.join("");
-  els.categoryFilter.value = state.category;
+  els.categoryFilterList.innerHTML = options.join("");
+
+  Array.from(els.categoryFilterList.querySelectorAll("input[type='checkbox']")).forEach((checkbox) => {
+    checkbox.addEventListener("change", () => {
+      state.categories = Array.from(
+        els.categoryFilterList.querySelectorAll("input[type='checkbox']:checked")
+      ).map((input) => input.value);
+      render();
+    });
+  });
 }
 
 function renderSections(data) {
   const blocks = [];
   let count = 0;
+
+  if (data.featured.length) {
+    const featuredCards = data.featured.map((item) => `
+      <article class="featured-card">
+        <a href="${item.url}" rel="noopener"><strong>${item.name}</strong></a>
+        <div class="badge-line">
+          <span class="badge">${item.category}</span>
+          ${item.rating ? `<span class="badge">${item.rating}</span>` : ""}
+        </div>
+        <p>${item.description}</p>
+      </article>
+    `).join("");
+
+    blocks.push(`
+      <section class="section-block">
+        <h3>Featured 123fzero</h3>
+        <div class="featured-list featured-grid">${featuredCards}</div>
+      </section>
+    `);
+  }
 
   data.sections.forEach((section) => {
     const subsectionBlocks = [];
@@ -177,6 +182,16 @@ function syncUrl() {
   } else {
     url.searchParams.delete("q");
   }
+  if (state.filter !== "all") {
+    url.searchParams.set("source", state.filter);
+  } else {
+    url.searchParams.delete("source");
+  }
+  if (state.categories.length) {
+    url.searchParams.set("categories", state.categories.join(","));
+  } else {
+    url.searchParams.delete("categories");
+  }
   window.history.replaceState({}, "", url);
 }
 
@@ -202,9 +217,20 @@ async function loadCatalog() {
 function init() {
   const url = new URL(window.location.href);
   const initialQuery = normalize(url.searchParams.get("q"));
+  const initialFilter = normalize(url.searchParams.get("source"));
+  const initialCategories = url.searchParams.get("categories");
   if (initialQuery) {
     state.query = initialQuery;
     els.search.value = url.searchParams.get("q");
+  }
+  if (["official", "community", "both"].includes(initialFilter)) {
+    state.filter = initialFilter;
+  }
+  if (initialCategories) {
+    state.categories = initialCategories
+      .split(",")
+      .map((value) => value.trim())
+      .filter(Boolean);
   }
 
   els.search.addEventListener("input", (event) => {
@@ -213,17 +239,17 @@ function init() {
   });
 
   els.chips.forEach((chip) => {
+    if (chip.dataset.filter === state.filter) {
+      chip.classList.add("active");
+    } else {
+      chip.classList.remove("active");
+    }
     chip.addEventListener("click", () => {
       els.chips.forEach((candidate) => candidate.classList.remove("active"));
       chip.classList.add("active");
       state.filter = chip.dataset.filter;
       render();
     });
-  });
-
-  els.categoryFilter.addEventListener("change", (event) => {
-    state.category = event.target.value;
-    render();
   });
 
   loadCatalog().catch((error) => {

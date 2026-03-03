@@ -46,16 +46,22 @@
 <body>
   <div class="noise"></div>
   <header class="hero">
+    <a
+      class="github-corner"
+      href="https://github.com/123fzero/flipper-zero-awesome"
+      rel="noopener"
+      aria-label="View this project on GitHub"
+      title="View this project on GitHub"
+    >
+      <svg viewBox="0 0 24 24" role="img" focusable="false">
+        <path d="M12 2C6.48 2 2 6.58 2 12.23c0 4.52 2.87 8.35 6.84 9.7.5.1.68-.22.68-.5 0-.24-.01-1.04-.01-1.89-2.78.62-3.37-1.21-3.37-1.21-.45-1.19-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.05 1.53 1.05.9 1.57 2.35 1.12 2.92.86.09-.67.35-1.12.63-1.38-2.22-.26-4.55-1.15-4.55-5.1 0-1.13.39-2.05 1.03-2.78-.1-.26-.45-1.32.1-2.75 0 0 .84-.28 2.75 1.06A9.3 9.3 0 0 1 12 6.84c.85 0 1.71.12 2.51.35 1.91-1.34 2.75-1.06 2.75-1.06.55 1.43.2 2.49.1 2.75.64.73 1.03 1.65 1.03 2.78 0 3.96-2.34 4.83-4.57 5.08.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.8 0 .28.18.61.69.5A10.25 10.25 0 0 0 22 12.23C22 6.58 17.52 2 12 2z"></path>
+      </svg>
+    </a>
     <div class="brand-row">
       <div class="brand-mark" aria-hidden="true">
-        <svg viewBox="0 0 96 96" role="img" focusable="false">
-          <rect x="18" y="22" width="52" height="36" rx="12"></rect>
-          <rect x="30" y="34" width="28" height="12" rx="4"></rect>
-          <circle cx="77" cy="40" r="9"></circle>
-          <path d="M24 62c12 0 20 6 24 12 8-7 19-10 30-10"></path>
-        </svg>
+        <img src="forum-icon-dolphin.webp" alt="" loading="eager" decoding="async">
       </div>
-      <div>
+      <div class="brand-copy">
         <p class="eyebrow">FLIPPER ZERO // CURATED INDEX</p>
         <p class="brand-text">Flipper Zero Catalog</p>
       </div>
@@ -65,30 +71,15 @@
       Search the best Flipper Zero apps, Flipper Zero plugins, Flipper Zero games, and practical
       Flipper Zero tools in one hacker-friendly catalog.
     </p>
-    <p class="hero-link">
-      <a href="https://github.com/123fzero/flipper-zero-awesome" rel="noopener">
-        View this project on GitHub
-      </a>
-    </p>
   </header>
 
-  <main class="stack">
-    <section class="panel featured-panel">
-      <section>
-        <h2>Featured 123fzero</h2>
-        <div id="featured-list" class="featured-list featured-grid"></div>
-      </section>
-    </section>
-
+  <main class="layout">
     <section class="panel content">
       <div class="content-top">
         <div class="controls">
           <h2>Live Search</h2>
-          <p class="muted">
-            JavaScript search runs entirely in the browser against the generated catalog index.
-          </p>
           <label class="search-wrap" for="search">
-            <span>grep</span>
+            <span># grep</span>
             <input
               id="search"
               name="q"
@@ -98,21 +89,6 @@
             >
           </label>
           <div class="toolbar">
-            <div class="filter-group">
-              <span class="toolbar-label">Source</span>
-              <div class="filter-grid">
-                <button class="chip active" type="button" data-filter="all">All</button>
-                <button class="chip" type="button" data-filter="official">🏛️ Official</button>
-                <button class="chip" type="button" data-filter="community">💎 Community</button>
-                <button class="chip" type="button" data-filter="both">🏛️ + 💎</button>
-              </div>
-            </div>
-            <div class="filter-group category-group">
-              <label class="toolbar-label" for="category-filter">Category</label>
-              <select id="category-filter" class="select-filter">
-                <option value="all">All categories</option>
-              </select>
-            </div>
           </div>
           <p id="result-count" class="muted">Loading catalog...</p>
         </div>
@@ -127,12 +103,36 @@
         <p class="muted">This site needs JavaScript enabled to search and render the catalog.</p>
       </noscript>
     </section>
+
+    <aside class="panel sidebar">
+      <section class="sidebar-section">
+        <h2>Source Filters</h2>
+        <p class="muted compact">Limit results by official, community, or merged entries.</p>
+        <div class="filter-grid sidebar-filters">
+          <button class="chip active" type="button" data-filter="all">All</button>
+          <button class="chip" type="button" data-filter="official">🏛️ Official</button>
+          <button class="chip" type="button" data-filter="community">💎 Community</button>
+          <button class="chip" type="button" data-filter="both">🏛️ + 💎</button>
+        </div>
+      </section>
+
+      <section class="sidebar-section">
+        <h2>Category Filters</h2>
+        <p class="muted compact">Pick one or more categories. URL updates automatically for sharing.</p>
+        <div id="category-filter-list" class="checkbox-list"></div>
+      </section>
+    </aside>
   </main>
 
   <footer class="footer">
     <p>
-      Flipper Zero app catalog generated from the Official Flipper App Catalog and a community
-      catalog curated from awesome-flipperzero.
+      Flipper Zero app catalog generated from the
+      <a href="https://github.com/123fzero/flipper-zero-awesome" rel="noopener">flipper-zero-awesome</a>
+      repository,
+      the
+      <a href="https://lab.flipper.net/apps" rel="noopener">Official Flipper App Catalog</a>,
+      and a community catalog curated from
+      <a href="https://github.com/djsime1/awesome-flipperzero" rel="noopener">awesome-flipperzero</a>.
     </p>
   </footer>
 
