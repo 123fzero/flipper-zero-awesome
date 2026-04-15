@@ -99,7 +99,7 @@ Discover Flipper Zero apps, Flipper Zero plugins, Flipper Zero games, and practi
 
 | Source | App | Description | Author | Rating | Links |
 |--------|-----|-------------|--------|--------|-------|
-| 🏛️ | [Cross Remote](https://github.com/leedave/flipper-zero-cross-remote) | One-Click, sends multiple commands | [Leedave](https://github.com/Leedave) | ⭐ 53 | [Official](https://lab.flipper.net/apps/xremote) / [GitHub](https://github.com/leedave/flipper-zero-cross-remote) |
+| 🏛️ | [Cross Remote](https://lab.flipper.net/apps/xremote) | One-Click, sends multiple commands | [Leedave](https://github.com/Leedave) |  | [Official](https://lab.flipper.net/apps/xremote) |
 | 🏛️ | [Flipper Flame RNG](https://github.com/OrionW06/Flame-RNG) | An RNG intended for use with flames and other IR sources. | [OrionW06](https://github.com/OrionW06) | ⭐ 6 | [Official](https://lab.flipper.net/apps/flame_rng) / [GitHub](https://github.com/OrionW06/Flame-RNG) |
 | 🏛️ | [Hitachi AC Remote](https://github.com/dogtopus/flipperzero-hitachi-ac-remote) | Hitachi Air Conditioner remote controller | [dogtopus](https://github.com/dogtopus) | ⭐ 5 | [Official](https://lab.flipper.net/apps/hitachi_ac_remote) / [GitHub](https://github.com/dogtopus/flipperzero-hitachi-ac-remote) |
 | 🏛️ | [HTW AC Remote](https://github.com/sokogen/flipperzero-htw-ac-remote) | HTW air conditioner IR remote control | [sokogen](https://github.com/sokogen) | ⭐ 4 | [Official](https://lab.flipper.net/apps/htw_ac_remote) / [GitHub](https://github.com/sokogen/flipperzero-htw-ac-remote) |
@@ -129,7 +129,7 @@ Discover Flipper Zero apps, Flipper Zero plugins, Flipper Zero games, and practi
 | 🏛️ 💎 | [[GPIO] Sentry Safe](https://github.com/H4ckd4ddy/flipperzero-sentry-safe-plugin) | App exploiting vulnerability to open any Sentry Safe and Master Lock electronic safes without pin code. | [@H4ckd4ddy](https://github.com/H4ckd4ddy) | ⭐ 570 | [Official](https://lab.flipper.net/apps/gpio_sentry_safe) / [GitHub](https://github.com/H4ckd4ddy/flipperzero-sentry-safe-plugin) |
 | 🏛️ | [[GPIO] Wire Tester](https://github.com/xMasterX/all-the-plugins/blob/-/apps_source_code/wire_tester) | Beeps if a wire is continuous | [@unixispower](https://github.com/unixispower) | ⭐ 1.4k | [Official](https://lab.flipper.net/apps/wire_tester) / [GitHub](https://github.com/xMasterX/all-the-plugins/blob/-/apps_source_code/wire_tester) |
 | 🏛️ | [[J305] Geiger Counter](https://github.com/xMasterX/all-the-plugins/blob/-/apps_source_code/flipper_geiger) | Works with J305 Geiger tube on external board | [@nmrr](https://github.com/nmrr) | ⭐ 1.4k | [Official](https://lab.flipper.net/apps/flipper_geiger) / [GitHub](https://github.com/xMasterX/all-the-plugins/blob/-/apps_source_code/flipper_geiger) |
-| 🏛️ | [[MAG] MagSpoof](https://github.com/zacharyweiss/magspoof_flipper) | Enables wireless transmission of magstripe data | Zachary Weiss | ⭐ 700 | [Official](https://lab.flipper.net/apps/magspoof) / [GitHub](https://github.com/zacharyweiss/magspoof_flipper) |
+| 🏛️ | [[MAG] MagSpoof](https://github.com/zacharyweiss/magspoof_flipper) | Enables wireless transmission of magstripe data | Zachary Weiss | ⭐ 701 | [Official](https://lab.flipper.net/apps/magspoof) / [GitHub](https://github.com/zacharyweiss/magspoof_flipper) |
 | 🏛️ | [[MH-Z19] CO2 sensor](https://github.com/meshchaninov/flipper-zero-mh-z19) | Measuring carbon dioxide (CO2) with mh-z19 | [@meshchaninov](https://github.com/meshchaninov) | ⭐ 51 | [Official](https://lab.flipper.net/apps/mh_z19) / [GitHub](https://github.com/meshchaninov/flipper-zero-mh-z19) |
 | 🏛️ | [[Mx2125] Step Counter](https://github.com/grugnoymeme/flipperzero-StepCounter-fap) | Step Counter/Pedometer using Memsic2125 module. | 47lecoste a.k.a. grugnoymeme | ⭐ 10 | [Official](https://lab.flipper.net/apps/stepcounter) / [GitHub](https://github.com/grugnoymeme/flipperzero-StepCounter-fap) |
 | 🏛️ | [[NMEA] GPS](https://github.com/xMasterX/all-the-plugins/blob/-/base_pack/gps_nmea_uart) | Works with GPS modules via UART, using NMEA protocol. | @ezod & @xMasterX | ⭐ 1.4k | [Official](https://lab.flipper.net/apps/gps_nmea) / [GitHub](https://github.com/xMasterX/all-the-plugins/blob/-/base_pack/gps_nmea_uart) |
@@ -158,7 +158,7 @@ Discover Flipper Zero apps, Flipper Zero plugins, Flipper Zero games, and practi
 | 🏛️ | [FlipBoard Keyboard](https://github.com/jamisonderek/flipboard/blob/-/flipkeyboard) | FlipBoard Keyboard turns your FlipBoard into a keyboard. | CodeAllNight (MrDerekJamison) | ⭐ 61 | [Official](https://lab.flipper.net/apps/flipboard_keyboard) / [GitHub](https://github.com/jamisonderek/flipboard/blob/-/flipkeyboard) |
 | 🏛️ | [FlipBoard Signal](https://github.com/jamisonderek/flipboard/blob/-/flipsignal) | FlipBoard Signal turns your FlipBoard into a signal sender. | CodeAllNight (MrDerekJamison) | ⭐ 61 | [Official](https://lab.flipper.net/apps/flipboard_signal) / [GitHub](https://github.com/jamisonderek/flipboard/blob/-/flipsignal) |
 | 🏛️ | [FlipBoard Simon](https://github.com/jamisonderek/flipboard/blob/-/simon-tutorial/completed/step-16/flipsimon) | Simon memory game for the FlipBoard. | CodeAllNight (MrDerekJamison) | ⭐ 61 | [Official](https://lab.flipper.net/apps/flipboard_simon) / [GitHub](https://github.com/jamisonderek/flipboard/blob/-/simon-tutorial/completed/step-16/flipsimon) |
-| 🏛️ | [FlipDownloader](https://github.com/jblanked/FlipDownloader) | Download apps and assets directly to your Flipper Zero using WiFi. | [JBlanked](https://github.com/JBlanked) | ⭐ 141 | [Official](https://lab.flipper.net/apps/flip_downloader) / [GitHub](https://github.com/jblanked/FlipDownloader) |
+| 🏛️ | [FlipDownloader](https://github.com/jblanked/FlipDownloader) | Download apps and assets directly to your Flipper Zero using WiFi. | [JBlanked](https://github.com/JBlanked) | ⭐ 142 | [Official](https://lab.flipper.net/apps/flip_downloader) / [GitHub](https://github.com/jblanked/FlipDownloader) |
 | 🏛️ | [FlipGemini](https://github.com/jblanked/FlipGemini) | Chat with Google's Gemini AI on your Flipper Zero | [JBlanked](https://github.com/JBlanked) | ⭐ 11 | [Official](https://lab.flipper.net/apps/flip_gemini) / [GitHub](https://github.com/jblanked/FlipGemini) |
 | 🏛️ | [FlipLibrary](https://github.com/jblanked/FlipLibrary) | Utilize WiFi to retrieve data from 20 different APIs. | [JBlanked](https://github.com/JBlanked) | ⭐ 24 | [Official](https://lab.flipper.net/apps/flip_library) / [GitHub](https://github.com/jblanked/FlipLibrary) |
 | 🏛️ | [FlipMap](https://github.com/jblanked/FlipMap) | Find Flipper Zero Users. | [JBlanked](https://github.com/JBlanked) | ⭐ 15 | [Official](https://lab.flipper.net/apps/flip_map) / [GitHub](https://github.com/jblanked/FlipMap) |
@@ -471,14 +471,14 @@ Discover Flipper Zero apps, Flipper Zero plugins, Flipper Zero games, and practi
 
 | Source | App | Description | Author | Rating | Links |
 |--------|-----|-------------|--------|--------|-------|
-| 💎 | [Flipper-StarNew](https://github.com/GlUTEN-BASH/Flipper-Starnew) | Universal Intercom Keys | [GlUTEN-BASH](https://github.com/GlUTEN-BASH) | ⭐ 558 | [GitHub](https://github.com/GlUTEN-BASH/Flipper-Starnew) |
+| 💎 | [Flipper-StarNew](https://github.com/GlUTEN-BASH/Flipper-Starnew) | Universal Intercom Keys | [GlUTEN-BASH](https://github.com/GlUTEN-BASH) | ⭐ 559 | [GitHub](https://github.com/GlUTEN-BASH/Flipper-Starnew) |
 | 💎 | [FlipperZero-Goodies](https://github.com/wetox-team/flipperzero-goodies) | Intercom keys, scripts, etc | [wetox-team](https://github.com/wetox-team) | ⭐ 1.4k | [GitHub](https://github.com/wetox-team/flipperzero-goodies) |
 
 ### NFC/RFID
 
 | Source | App | Description | Author | Rating | Links |
 |--------|-----|-------------|--------|--------|-------|
-| 💎 | [Flipper-Zero-Tonies](https://github.com/nortakales/flipper-zero-tonies) | Database of Tonies for the Toniebox | [nortakales](https://github.com/nortakales) | ⭐ 452 | [GitHub](https://github.com/nortakales/flipper-zero-tonies) |
+| 💎 | [Flipper-Zero-Tonies](https://github.com/nortakales/flipper-zero-tonies) | Database of Tonies for the Toniebox | [nortakales](https://github.com/nortakales) | ⭐ 453 | [GitHub](https://github.com/nortakales/flipper-zero-tonies) |
 | 💎 | [FlipperAmiibo](https://github.com/Gioman101/FlipperAmiibo) | Bank vault of Amiibos to Flipper's format | [Gioman101](https://github.com/Gioman101) | ⭐ 3.5k | [GitHub](https://github.com/Gioman101/FlipperAmiibo) |
 
 ### Sub-GHz
@@ -568,7 +568,7 @@ Discover Flipper Zero apps, Flipper Zero plugins, Flipper Zero games, and practi
 | 💎 | [Kf637/Animations-for-Flipper-Zero](https://github.com/Kf637/Animations-for-Flipper-Zero) | A collection of over 420 public animations from tons of different creators | [Kf637](https://github.com/Kf637) | ⭐ 235 | [GitHub](https://github.com/Kf637/Animations-for-Flipper-Zero) |
 | 💎 | [Kuronons Graphics](https://github.com/Kuronons/FZ_graphics) | Custom animations, passport backgrounds & profile pictures | [Kuronons](https://github.com/Kuronons) | ⭐ 545 | [GitHub](https://github.com/Kuronons/FZ_graphics) |
 | 💎 | [Oneamongthetrees Animations/Graphics](https://github.com/oneamongthetrees/fz-gfx) | Collection of custom animations and passport icons | [oneamongthetrees](https://github.com/oneamongthetrees) | ⭐ 16 | [GitHub](https://github.com/oneamongthetrees/fz-gfx) |
-| 💎 | [Talking Sasquach Animations](https://github.com/skizzophrenic/Talking-Sasquach) | Literally wrote the book on making animations | [skizzophrenic](https://github.com/skizzophrenic) | ⭐ 730 | [GitHub](https://github.com/skizzophrenic/Talking-Sasquach) |
+| 💎 | [Talking Sasquach Animations](https://github.com/skizzophrenic/Talking-Sasquach) | Literally wrote the book on making animations | [skizzophrenic](https://github.com/skizzophrenic) | ⭐ 731 | [GitHub](https://github.com/skizzophrenic/Talking-Sasquach) |
 | 💎 | [UberGuidoZ Graphics](https://github.com/UberGuidoZ/Flipper/tree/main/Graphics) | Brief description and links to resources, including PYX host | [UberGuidoZ](https://github.com/UberGuidoZ) | ⭐ 16.9k | [GitHub](https://github.com/UberGuidoZ/Flipper/tree/main/Graphics) |
 | 💎 | [Wr3nch Animations](https://github.com/wrenchathome/flip0anims) | Some custom animations and scripts | [wrenchathome](https://github.com/wrenchathome) | ⭐ 271 | [GitHub](https://github.com/wrenchathome/flip0anims) |
 
@@ -672,7 +672,7 @@ Discover Flipper Zero apps, Flipper Zero plugins, Flipper Zero games, and practi
 
 | Source | App | Description | Author | Rating | Links |
 |--------|-----|-------------|--------|--------|-------|
-| 💎 | [Flipper File Toolbox](https://github.com/evilpete/flipper_toolbox) | Scripts for generating Flipper data files | [evilpete](https://github.com/evilpete) | ⭐ 940 | [GitHub](https://github.com/evilpete/flipper_toolbox) |
+| 💎 | [Flipper File Toolbox](https://github.com/evilpete/flipper_toolbox) | Scripts for generating Flipper data files | [evilpete](https://github.com/evilpete) | ⭐ 939 | [GitHub](https://github.com/evilpete/flipper_toolbox) |
 | 💎 | [Flipper Maker](https://flippermaker.github.io) | Generate Flipper Zero files on the fly |  |  | [Community](https://flippermaker.github.io) |
 | 💎 | [Flipper Zero Syntax Highlighting](https://marketplace.visualstudio.com/items?itemName=nortakales.flipper-zero-syntax-highlighting) | VSCode extension that will add syntax highlighting for Flipper Zero files |  |  | [Community](https://marketplace.visualstudio.com/items?itemName=nortakales.flipper-zero-syntax-highlighting) |
 | 💎 | [Official Web Interface](https://lab.flipper.net) | Web interface to interact with Flipper, including Paint and SUB/IR analyzer |  |  | [Community](https://lab.flipper.net) |
