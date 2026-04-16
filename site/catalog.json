@@ -264,6 +264,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Sub Duplicate Finder",
+              "description": "A Flipper Zero application to identify, manage, and safely clean up duplicate Sub-GHz (.sub) files.",
+              "author": "Endika",
+              "authorUrl": "https://github.com/Endika",
+              "rating": "⭐ 5",
+              "officialUrl": "https://lab.flipper.net/apps/sub_dup_finder",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/Endika/flipper-sub-dup",
+              "links": {
+                "official": "https://lab.flipper.net/apps/sub_dup_finder",
+                "github": "https://github.com/Endika/flipper-sub-dup",
+                "community": ""
+              }
+            },
+            {
+              "section": "Sub-GHz",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Sub-GHz Remote",
               "description": "SubGhz Remote, uses up to 5 .sub files",
               "author": "@gid9798 and @xMasterX",
@@ -286,7 +307,7 @@
               ],
               "sourceIcons": "🏛️",
               "name": "Sub-GHz Scheduler",
-              "description": "Send a Sub-GHz signal repeatedly at a given interval.",
+              "description": "Send a single or repeated Sub-GHz signal at a given interval.",
               "author": "Patrick Edwards",
               "authorUrl": "",
               "rating": "⭐ 21",
@@ -404,7 +425,7 @@
               "description": "Fuzzer for lfrfid readers",
               "author": "DarkFlippers",
               "authorUrl": "https://github.com/DarkFlippers",
-              "rating": "⭐ 342",
+              "rating": "⭐ 343",
               "officialUrl": "https://lab.flipper.net/apps/fuzzer_rfid",
               "communityUrl": "",
               "repoUrl": "https://github.com/DarkFlippers/Multi_Fuzzer",
@@ -526,6 +547,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/mfkey",
                 "github": "https://github.com/flipperdevices/flipperzero-good-faps/blob/-/mfkey",
+                "community": ""
+              }
+            },
+            {
+              "section": "NFC",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "MFP Reader",
+              "description": "MIFARE Plus SL3 reader, dumper and emulator",
+              "author": "Defensor7",
+              "authorUrl": "https://github.com/Defensor7",
+              "rating": "⭐ 7",
+              "officialUrl": "https://lab.flipper.net/apps/mfp_reader",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/Defensor7/flipperzero-mfp-reader/blob/-/app",
+              "links": {
+                "official": "https://lab.flipper.net/apps/mfp_reader",
+                "github": "https://github.com/Defensor7/flipperzero-mfp-reader/blob/-/app",
                 "community": ""
               }
             },
@@ -687,7 +729,7 @@
               "description": "Create NFC files for BT MACs, Contacts, Links, Emails, Phones, Text and WiFis",
               "author": "@Willy-JL",
               "authorUrl": "https://github.com/Willy-JL",
-              "rating": "⭐ 561",
+              "rating": "⭐ 562",
               "officialUrl": "https://lab.flipper.net/apps/nfc_maker",
               "communityUrl": "",
               "repoUrl": "https://github.com/Next-Flip/Momentum-Apps/blob/-/nfc_maker",
@@ -830,6 +872,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Sonicare Head ID",
+              "description": "Philips Sonicare brush head NFC reader",
+              "author": "mbirth.uk",
+              "authorUrl": "",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/uk_mbirth_sonicare",
+              "communityUrl": "",
+              "repoUrl": "https://git.mbirth.uk/flipper_zero/sonicare",
+              "links": {
+                "official": "https://lab.flipper.net/apps/uk_mbirth_sonicare",
+                "github": "https://git.mbirth.uk/flipper_zero/sonicare",
+                "community": ""
+              }
+            },
+            {
+              "section": "NFC",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "UDECard",
               "description": "Analyse student ID cards from the University of Duisburg-Essen (Intercard).",
               "author": "Alexander Hahn (github.com/hahnworks)",
@@ -928,13 +991,13 @@
               "description": "One-Click, sends multiple commands",
               "author": "Leedave",
               "authorUrl": "https://github.com/Leedave",
-              "rating": "",
+              "rating": "⭐ 53",
               "officialUrl": "https://lab.flipper.net/apps/xremote",
               "communityUrl": "",
-              "repoUrl": "",
+              "repoUrl": "https://github.com/leedave/flipper-zero-cross-remote",
               "links": {
                 "official": "https://lab.flipper.net/apps/xremote",
-                "github": "",
+                "github": "https://github.com/leedave/flipper-zero-cross-remote",
                 "community": ""
               }
             },
@@ -998,6 +1061,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/htw_ac_remote",
                 "github": "https://github.com/sokogen/flipperzero-htw-ac-remote",
+                "community": ""
+              }
+            },
+            {
+              "section": "Infrared",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "InfraFi",
+              "description": "Transmit WiFi credentials via IR to a Linux server",
+              "author": "amd989",
+              "authorUrl": "https://github.com/amd989",
+              "rating": "⭐ 2",
+              "officialUrl": "https://lab.flipper.net/apps/infrafi",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/amd989/InfraFi",
+              "links": {
+                "official": "https://lab.flipper.net/apps/infrafi",
+                "github": "https://github.com/amd989/InfraFi",
                 "community": ""
               }
             },
@@ -1103,6 +1187,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/mitsubishi_ac_remote",
                 "github": "https://github.com/achistyakov/flipperzero-mitsubishi-ac-remote",
+                "community": ""
+              }
+            },
+            {
+              "section": "Infrared",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Mitsubishi AC Remote(New)",
+              "description": "Mitsubishi AC Remote for newer models",
+              "author": "Str4ch",
+              "authorUrl": "https://github.com/Str4ch",
+              "rating": "⭐ 1",
+              "officialUrl": "https://lab.flipper.net/apps/mitsubishi_ac_remote_new_protocol",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/Str4ch/flipperzero-mitsubishi-ac-remote-new-protocol",
+              "links": {
+                "official": "https://lab.flipper.net/apps/mitsubishi_ac_remote_new_protocol",
+                "github": "https://github.com/Str4ch/flipperzero-mitsubishi-ac-remote-new-protocol",
                 "community": ""
               }
             },
@@ -2411,7 +2516,7 @@
               "description": "MALVEKE app, its Interacts with GAME BOY and GAME BOY ADVANCE cartridges. You can read Information.",
               "author": "Esteban Fuentealba",
               "authorUrl": "",
-              "rating": "⭐ 270",
+              "rating": "⭐ 271",
               "officialUrl": "https://lab.flipper.net/apps/malveke_gba_cartridge",
               "communityUrl": "",
               "repoUrl": "https://github.com/EstebanFuentealba/MALVEKE-Flipper-Zero/blob/-/flipper_companion_apps/applications/external/malveke_gba_cartridge",
@@ -2432,7 +2537,7 @@
               "description": "MALVEKE app, its Interacts with GAME BOY and GAME BOY Color cartridges. You can Dump & Restore RAM and ROM.",
               "author": "Esteban Fuentealba",
               "authorUrl": "",
-              "rating": "⭐ 270",
+              "rating": "⭐ 271",
               "officialUrl": "https://lab.flipper.net/apps/malveke_gb_cartridge",
               "communityUrl": "",
               "repoUrl": "https://github.com/EstebanFuentealba/MALVEKE-Flipper-Zero/blob/-/flipper_companion_apps/applications/external/malveke_gb_cartridge",
@@ -2453,7 +2558,7 @@
               "description": "extract your GAME BOY Camera picture via WIFI, so they can be easily shared with your phone, tablet or pc. Easy to use, just hook up to your GAME BOY and print as usual, the device will store the images and share them on a web server via WIFI. You will need a printer cable or gameboy Color link cable.",
               "author": "Esteban Fuentealba",
               "authorUrl": "",
-              "rating": "⭐ 270",
+              "rating": "⭐ 271",
               "officialUrl": "https://lab.flipper.net/apps/malveke_gb_link_camera",
               "communityUrl": "",
               "repoUrl": "https://github.com/EstebanFuentealba/MALVEKE-Flipper-Zero/blob/-/flipper_companion_apps/applications/external/malveke_gb_link_camera",
@@ -2474,7 +2579,7 @@
               "description": "Insert a GAME BOY Camera cartridge, you can use it as a camera and take snapshots from the Flipper Zero.",
               "author": "Esteban Fuentealba",
               "authorUrl": "",
-              "rating": "⭐ 270",
+              "rating": "⭐ 271",
               "officialUrl": "https://lab.flipper.net/apps/malveke_gb_live_camera",
               "communityUrl": "",
               "repoUrl": "https://github.com/EstebanFuentealba/MALVEKE-Flipper-Zero/blob/-/flipper_companion_apps/applications/external/malveke_gb_live_camera",
@@ -2495,7 +2600,7 @@
               "description": "Game Boy Camera save RAM photo to BMP from the Flipper Zero.",
               "author": "Esteban Fuentealba",
               "authorUrl": "",
-              "rating": "⭐ 270",
+              "rating": "⭐ 271",
               "officialUrl": "https://lab.flipper.net/apps/malveke_gb_photo",
               "communityUrl": "",
               "repoUrl": "https://github.com/EstebanFuentealba/MALVEKE-Flipper-Zero/blob/-/flipper_companion_apps/applications/external/malveke_gb_photo",
@@ -2628,6 +2733,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/401_light_msg",
                 "github": "https://github.com/lab-401/fzLightMessenger/blob/-/./401lightMessengerApp",
+                "community": ""
+              }
+            },
+            {
+              "section": "GPIO",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "LAN Tester",
+              "description": "Portable LAN tester: ARP scan, ping, traceroute, DHCP, LLDP/CDP, port scan, packet capture via W5500",
+              "author": "Dok2d",
+              "authorUrl": "https://github.com/Dok2d",
+              "rating": "⭐ 6",
+              "officialUrl": "https://lab.flipper.net/apps/lan_tester",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/dok2d/fz-W5500-lan-analyse",
+              "links": {
+                "official": "https://lab.flipper.net/apps/lan_tester",
+                "github": "https://github.com/dok2d/fz-W5500-lan-analyse",
                 "community": ""
               }
             },
@@ -2848,11 +2974,32 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "PIR HC-SR501 Alarm",
+              "description": "Simple proximity alarm app for Flipper Zero using HC-SR501 PIR sensor.",
+              "author": "ku6a-cj",
+              "authorUrl": "https://github.com/ku6a-cj",
+              "rating": "⭐ 2",
+              "officialUrl": "https://lab.flipper.net/apps/pir_hc_sr501_alarm",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/ku6a-cj/-PIR-HC-SR501-Proximity-alarm-Flipper-zero",
+              "links": {
+                "official": "https://lab.flipper.net/apps/pir_hc_sr501_alarm",
+                "github": "https://github.com/ku6a-cj/-PIR-HC-SR501-Proximity-alarm-Flipper-zero",
+                "community": ""
+              }
+            },
+            {
+              "section": "GPIO",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Pokemon Trade Tool",
               "description": "Pokemon exchange from Flipper Zero to Game Boy, supports Generation I & II non-Japanese games",
               "author": "Kris Bahnsen, Esteban Fuentealba, ProteanReverie, Darryn Cull",
               "authorUrl": "",
-              "rating": "⭐ 374",
+              "rating": "⭐ 372",
               "officialUrl": "https://lab.flipper.net/apps/pokemon",
               "communityUrl": "",
               "repoUrl": "https://github.com/kbembedded/Flipper-Zero-Game-Boy-Pokemon-Trading",
@@ -3186,11 +3333,32 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Video Game Module Console",
+              "description": "Flipper Zero console, handling game display rendering and input forwarding",
+              "author": "JBlanked",
+              "authorUrl": "https://github.com/JBlanked",
+              "rating": "⭐ 2",
+              "officialUrl": "https://lab.flipper.net/apps/video_game_module_console",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/jblanked/Video-Game-Module-Console",
+              "links": {
+                "official": "https://lab.flipper.net/apps/video_game_module_console",
+                "github": "https://github.com/jblanked/Video-Game-Module-Console",
+                "community": ""
+              }
+            },
+            {
+              "section": "GPIO",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Web Crawler",
               "description": "Browse the web, fetch API data, and more.",
               "author": "JBlanked",
               "authorUrl": "https://github.com/JBlanked",
-              "rating": "⭐ 150",
+              "rating": "⭐ 151",
               "officialUrl": "https://lab.flipper.net/apps/web_crawler",
               "communityUrl": "",
               "repoUrl": "https://github.com/jblanked/WebCrawler-FlipperZero",
@@ -3284,7 +3452,7 @@
               "description": "Fuzzer for ibutton readers",
               "author": "DarkFlippers",
               "authorUrl": "https://github.com/DarkFlippers",
-              "rating": "⭐ 342",
+              "rating": "⭐ 343",
               "officialUrl": "https://lab.flipper.net/apps/fuzzer_ibtn",
               "communityUrl": "",
               "repoUrl": "https://github.com/DarkFlippers/Multi_Fuzzer",
@@ -3308,6 +3476,27 @@
               "section": "USB",
               "subsection": "",
               "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Agentic Remote USB",
+              "description": "One-handed remote for AI coding agents (Claude Code). D-pad control, macros, offline manual + quiz.",
+              "author": "Kasen Sansonetti",
+              "authorUrl": "",
+              "rating": "⭐ 12",
+              "officialUrl": "https://lab.flipper.net/apps/claude_remote_usb",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/Wet-wr-Labs/claupper",
+              "links": {
+                "official": "https://lab.flipper.net/apps/claude_remote_usb",
+                "github": "https://github.com/Wet-wr-Labs/claupper",
+                "community": ""
+              }
+            },
+            {
+              "section": "USB",
+              "subsection": "",
+              "sourceBadges": [
                 "community",
                 "official"
               ],
@@ -3323,6 +3512,48 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/bc_scanner",
                 "github": "https://github.com/polarikus/flipper-zero_bc_scanner_emulator",
+                "community": ""
+              }
+            },
+            {
+              "section": "USB",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Claude Buddy",
+              "description": "Claude Code companion - physical remote control with audio feedback",
+              "author": "jxw1102",
+              "authorUrl": "https://github.com/jxw1102",
+              "rating": "⭐ 19",
+              "officialUrl": "https://lab.flipper.net/apps/claude_buddy",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/jxw1102/flipper-claude-buddy/blob/-/flipper-app",
+              "links": {
+                "official": "https://lab.flipper.net/apps/claude_buddy",
+                "github": "https://github.com/jxw1102/flipper-claude-buddy/blob/-/flipper-app",
+                "community": ""
+              }
+            },
+            {
+              "section": "USB",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Click Recorder",
+              "description": "Turn your Flipper Zero into a powerful mouse automation tool. Record, replay, randomize, or spam mouse clicks over USB or Bluetooth. No software needed on the target computer thanks to HID, just connect your flipper zero.",
+              "author": "undeƒined (@0x78f1935)",
+              "authorUrl": "",
+              "rating": "⭐ 7",
+              "officialUrl": "https://lab.flipper.net/apps/mouse_click_recorder",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/0x78f1935/Click-Recorder/blob/-/click_recorder",
+              "links": {
+                "official": "https://lab.flipper.net/apps/mouse_click_recorder",
+                "github": "https://github.com/0x78f1935/Click-Recorder/blob/-/click_recorder",
                 "community": ""
               }
             },
@@ -3891,6 +4122,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Checkers",
+              "description": "Checkers for Flipper",
+              "author": "H4W9",
+              "authorUrl": "https://github.com/H4W9",
+              "rating": "⭐ 5",
+              "officialUrl": "https://lab.flipper.net/apps/checkers",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/H4W9/FlipCheckers",
+              "links": {
+                "official": "https://lab.flipper.net/apps/checkers",
+                "github": "https://github.com/H4W9/FlipCheckers",
+                "community": ""
+              }
+            },
+            {
+              "section": "Games",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Chess",
               "description": "Chess for Flipper",
               "author": "@xtruan",
@@ -4007,6 +4259,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/deadzone",
                 "github": "https://github.com/retrooper/deadzone",
+                "community": ""
+              }
+            },
+            {
+              "section": "Games",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Decision Maker",
+              "description": "Spin a roulette to pick a random option for you.",
+              "author": "jacki",
+              "authorUrl": "https://github.com/jacki",
+              "rating": "⭐ 2",
+              "officialUrl": "https://lab.flipper.net/apps/random_decision_maker",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/Gerijacki/random_decision_maker",
+              "links": {
+                "official": "https://lab.flipper.net/apps/random_decision_maker",
+                "github": "https://github.com/Gerijacki/random_decision_maker",
                 "community": ""
               }
             },
@@ -4408,6 +4681,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/heap_defence",
                 "github": "https://github.com/xMasterX/all-the-plugins/blob/-/base_pack/heap_defence_game",
+                "community": ""
+              }
+            },
+            {
+              "section": "Games",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Hold 'em",
+              "description": "Single-player Texas Hold'em with smart bots",
+              "author": "code-phreak",
+              "authorUrl": "https://github.com/code-phreak",
+              "rating": "⭐ 7",
+              "officialUrl": "https://lab.flipper.net/apps/holdem",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/code-phreak/flipper-holdem",
+              "links": {
+                "official": "https://lab.flipper.net/apps/holdem",
+                "github": "https://github.com/code-phreak/flipper-holdem",
                 "community": ""
               }
             },
@@ -5870,6 +6164,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "AI Radar",
+              "description": "Track AI usage windows on Flipper Zero",
+              "author": "T-Damer",
+              "authorUrl": "https://github.com/T-Damer",
+              "rating": "⭐ 1",
+              "officialUrl": "https://lab.flipper.net/apps/ai_dashboard",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/T-Damer/flipper-ai-dashboard/blob/-/flipper",
+              "links": {
+                "official": "https://lab.flipper.net/apps/ai_dashboard",
+                "github": "https://github.com/T-Damer/flipper-ai-dashboard/blob/-/flipper",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Analog Clock",
               "description": "Shows analog clock on Flipper screen",
               "author": "@scrolltex",
@@ -6186,16 +6501,16 @@
               ],
               "sourceIcons": "🏛️",
               "name": "DCF77 Transmitter",
-              "description": "Sends the DCF77 time signal (badly) on the 125khz LFRFID antenna and on GPIO C3 pin",
-              "author": "@arha & @xMasterX",
-              "authorUrl": "",
-              "rating": "⭐ 1.4k",
+              "description": "Radio clock emulator lab with DCF77, MSF, WWVB, JJY and others, plus many debugging features",
+              "author": "@arha",
+              "authorUrl": "https://github.com/arha",
+              "rating": "⭐ 75",
               "officialUrl": "https://lab.flipper.net/apps/dcf77",
               "communityUrl": "",
-              "repoUrl": "https://github.com/xMasterX/all-the-plugins/blob/-/apps_source_code/flipper-dcf77",
+              "repoUrl": "https://github.com/arha/flipper-dcf77",
               "links": {
                 "official": "https://lab.flipper.net/apps/dcf77",
-                "github": "https://github.com/xMasterX/all-the-plugins/blob/-/apps_source_code/flipper-dcf77",
+                "github": "https://github.com/arha/flipper-dcf77",
                 "community": ""
               }
             },
@@ -6374,6 +6689,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "FlipNote",
+              "description": "Real text editor for Flipper Zero",
+              "author": "morty517",
+              "authorUrl": "https://github.com/morty517",
+              "rating": "⭐ 5",
+              "officialUrl": "https://lab.flipper.net/apps/flipnote",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/morty517/flipnote",
+              "links": {
+                "official": "https://lab.flipper.net/apps/flipnote",
+                "github": "https://github.com/morty517/flipnote",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Flipp Pomodoro",
               "description": "Boost Your Productivity with the Pomodoro Timer",
               "author": "@Th3Un1q3",
@@ -6385,6 +6721,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/flipp_pomodoro",
                 "github": "https://github.com/xMasterX/all-the-plugins/blob/-/apps_source_code/flipp_pomodoro",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "FlipPass",
+              "description": "KeePass (KDBX) password vault browser with HID writing via USB and Bluetooth.",
+              "author": "Arckanos",
+              "authorUrl": "https://github.com/Arckanos",
+              "rating": "⭐ 2",
+              "officialUrl": "https://lab.flipper.net/apps/flippass",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/Arckanos/FlipPass",
+              "links": {
+                "official": "https://lab.flipper.net/apps/flippass",
+                "github": "https://github.com/Arckanos/FlipPass",
                 "community": ""
               }
             },
@@ -7046,6 +7403,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "SKIDcity",
+              "description": "Educational: Don't be a SKID!",
+              "author": "H4W9",
+              "authorUrl": "https://github.com/H4W9",
+              "rating": "⭐ 13",
+              "officialUrl": "https://lab.flipper.net/apps/skid_city",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/H4W9/SKIDcity_App",
+              "links": {
+                "official": "https://lab.flipper.net/apps/skid_city",
+                "github": "https://github.com/H4W9/SKIDcity_App",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Smack My Dolphin Up!",
               "description": "For those whom won't bother yourself with dolphin emotional state",
               "author": "siberianbot",
@@ -7413,6 +7791,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Flight Monitor",
+              "description": "War Thunder flight parameters monitor with BLE connectivity",
+              "author": "Dr.Mosfet",
+              "authorUrl": "",
+              "rating": "⭐ 5",
+              "officialUrl": "https://lab.flipper.net/apps/flight_monitor",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/kamylwnb/flight_monitor",
+              "links": {
+                "official": "https://lab.flipper.net/apps/flight_monitor",
+                "github": "https://github.com/kamylwnb/flight_monitor",
+                "community": ""
+              }
+            },
+            {
+              "section": "Bluetooth",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "MagicBand Plus Lights (Unofficial)",
               "description": "Trigger light effects on compatible bands. Not affiliated with Disney.",
               "author": "Henry Willis (Haw8411)",
@@ -7652,7 +8051,7 @@
               "description": "Universal Intercom Keys",
               "author": "GlUTEN-BASH",
               "authorUrl": "https://github.com/GlUTEN-BASH",
-              "rating": "⭐ 559",
+              "rating": "⭐ 560",
               "officialUrl": "",
               "communityUrl": "https://github.com/GlUTEN-BASH/Flipper-Starnew",
               "repoUrl": "https://github.com/GlUTEN-BASH/Flipper-Starnew",
@@ -7699,7 +8098,7 @@
               "description": "Database of Tonies for the Toniebox",
               "author": "nortakales",
               "authorUrl": "https://github.com/nortakales",
-              "rating": "⭐ 453",
+              "rating": "⭐ 454",
               "officialUrl": "",
               "communityUrl": "https://github.com/nortakales/flipper-zero-tonies",
               "repoUrl": "https://github.com/nortakales/flipper-zero-tonies",
@@ -7788,7 +8187,7 @@
               "description": "Dumps of TouchTune's remote",
               "author": "jimilinuxguy",
               "authorUrl": "https://github.com/jimilinuxguy",
-              "rating": "⭐ 691",
+              "rating": "⭐ 690",
               "officialUrl": "",
               "communityUrl": "https://github.com/jimilinuxguy/flipperzero-touchtunes",
               "repoUrl": "https://github.com/jimilinuxguy/flipperzero-touchtunes",
@@ -8698,7 +9097,7 @@
               "description": "Visualize and manage animations directly from your computer",
               "author": "Ooggle",
               "authorUrl": "https://github.com/Ooggle",
-              "rating": "⭐ 491",
+              "rating": "⭐ 492",
               "officialUrl": "",
               "communityUrl": "https://github.com/Ooggle/FlipperAnimationManager",
               "repoUrl": "https://github.com/Ooggle/FlipperAnimationManager",
@@ -8986,7 +9385,7 @@
               "description": "Preforms WiFi deauth attacks via a custom ESP8266 module board",
               "author": "SequoiaSan",
               "authorUrl": "https://github.com/SequoiaSan",
-              "rating": "⭐ 478",
+              "rating": "⭐ 479",
               "officialUrl": "",
               "communityUrl": "https://github.com/SequoiaSan/FlipperZero-Wifi-ESP8266-Deauther-Module",
               "repoUrl": "https://github.com/SequoiaSan/FlipperZero-Wifi-ESP8266-Deauther-Module",
