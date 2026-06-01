@@ -45,7 +45,7 @@ Discover Flipper Zero apps, Flipper Zero plugins, Flipper Zero games, and practi
 | Source | App | Description | Author | Rating | Links |
 |--------|-----|-------------|--------|--------|-------|
 | 🏛️ | [Enhanced Sub-Ghz Chat](https://github.com/xMasterX/all-the-plugins/blob/-/apps_source_code/esubghz_chat) | Send text messages over Sub-GHz radio to another Flippers | @twisted-pear & @xMasterX & more in ReadMe | ⭐ 1.5k | [Official](https://lab.flipper.net/apps/esubghz_chat) / [GitHub](https://github.com/xMasterX/all-the-plugins/blob/-/apps_source_code/esubghz_chat) |
-| 🏛️ | [Flipper ham APRS TX](https://github.com/yo3gnd/flipper-zero-aprs-tx) | An APRS transmitter using Flipper Zero's SubGHZ module exclusively | [@yo3gnd](https://github.com/yo3gnd) | ⭐ 37 | [Official](https://lab.flipper.net/apps/aprstx) / [GitHub](https://github.com/yo3gnd/flipper-zero-aprs-tx) |
+| 🏛️ | [Flipper ham APRS TX](https://github.com/yo3gnd/flipper-zero-aprs-tx) | An APRS transmitter using Flipper Zero's SubGHZ module exclusively | [@yo3gnd](https://github.com/yo3gnd) | ⭐ 38 | [Official](https://lab.flipper.net/apps/aprstx) / [GitHub](https://github.com/yo3gnd/flipper-zero-aprs-tx) |
 | 🏛️ | [Flipper Share](https://github.com/lomalkin/flipper-zero-apps/blob/-/flipper_share) | Direct file transfer between flippers via Sub-GHz | [@lomalkin](https://github.com/lomalkin) | ⭐ 21 | [Official](https://lab.flipper.net/apps/flipper_share) / [GitHub](https://github.com/lomalkin/flipper-zero-apps/blob/-/flipper_share) |
 | 🏛️ | [Genie Door Recorder](https://github.com/jamisonderek/flipper-zero-tutorials/blob/-/subghz/apps/genie-recorder) | This application extracts the codes from a Genie garage door remote into a .GNE file.  It also plays back a .GNE file to a Genie garage door opener. | CodeAllNight (MrDerekJamison) | ⭐ 1.4k | [Official](https://lab.flipper.net/apps/genie_record) / [GitHub](https://github.com/jamisonderek/flipper-zero-tutorials/blob/-/subghz/apps/genie-recorder) |
 | 🏛️ | [HC-11 modem](https://github.com/Giraut/flipper_zero_hc11_wireless_modem) | HC-11 wireless modem | [Giraut](https://github.com/Giraut) | ⭐ 39 | [Official](https://lab.flipper.net/apps/hc11_modem) / [GitHub](https://github.com/Giraut/flipper_zero_hc11_wireless_modem) |
@@ -159,7 +159,7 @@ Discover Flipper Zero apps, Flipper Zero plugins, Flipper Zero games, and practi
 | 🏛️ | [CO2 Logger](https://github.com/harryob2/co2_logger) | CO2 Logger with CSV export | Harry O'Brien | ⭐ 2 | [Official](https://lab.flipper.net/apps/co2_logger) / [GitHub](https://github.com/harryob2/co2_logger) |
 | 🏛️ | [DAP Link](https://github.com/flipperdevices/flipperzero-good-faps/blob/-/dap_link) | Enables use of Flipper as a debug probe for ARM devices, implements the CMSIS-DAP protocol | [@DrZlo13](https://github.com/DrZlo13) | ⭐ 460 | [Official](https://lab.flipper.net/apps/dap_link) / [GitHub](https://github.com/flipperdevices/flipperzero-good-faps/blob/-/dap_link) |
 | 🏛️ | [Digimon F-Com](https://github.com/TylerWilley/flipper-f-com) | App for interacting with digimon virtual pets | [TylerWilley](https://github.com/TylerWilley) | ⭐ 53 | [Official](https://lab.flipper.net/apps/fcom) / [GitHub](https://github.com/TylerWilley/flipper-f-com) |
-| 🏛️ | [ESP Flasher](https://github.com/0xchocolate/flipperzero-esp-flasher) | Flipper Zero app to flash ESP chips from the device (no computer connection needed!) | [0xchocolate](https://github.com/0xchocolate) | ⭐ 615 | [Official](https://lab.flipper.net/apps/esp_flasher) / [GitHub](https://github.com/0xchocolate/flipperzero-esp-flasher) |
+| 🏛️ | [ESP Flasher](https://github.com/0xchocolate/flipperzero-esp-flasher) | Flipper Zero app to flash ESP chips from the device (no computer connection needed!) | [0xchocolate](https://github.com/0xchocolate) | ⭐ 616 | [Official](https://lab.flipper.net/apps/esp_flasher) / [GitHub](https://github.com/0xchocolate/flipperzero-esp-flasher) |
 | 🏛️ | [Fencing Test Box](https://github.com/aarjaneiro/fencing_testbox) | Test box for assessment of fencing blades and body wires. | [@aarjaneiro](https://github.com/aarjaneiro) | ⭐ 8 | [Official](https://lab.flipper.net/apps/fencing_testbox) / [GitHub](https://github.com/aarjaneiro/fencing_testbox) |
 | 🏛️ | [Flashlight](https://github.com/xMasterX/all-the-plugins/blob/-/apps_source_code/flipper-flashlight) | Enables 3.3v on pin 7/C3 when you press Ok and leaves it on when you exit app | [@xMasterX](https://github.com/xMasterX) | ⭐ 1.5k | [Official](https://lab.flipper.net/apps/flashlight) / [GitHub](https://github.com/xMasterX/all-the-plugins/blob/-/apps_source_code/flipper-flashlight) |
 | 🏛️ | [Flipagotchi](https://github.com/Matt-London/pwnagotchi-flipper/blob/-/flipagotchi) | Flipagotchi | [Matt-London](https://github.com/Matt-London) | ⭐ 447 | [Official](https://lab.flipper.net/apps/flipagotchi) / [GitHub](https://github.com/Matt-London/pwnagotchi-flipper/blob/-/flipagotchi) |
@@ -460,7 +460,7 @@ Discover Flipper Zero apps, Flipper Zero plugins, Flipper Zero games, and practi
 | 🏛️ | [VIN decoder](https://github.com/evillero/vin_decoder) | Vehicle Identification Number decoder | [@evillero](https://github.com/evillero) | ⭐ 36 | [Official](https://lab.flipper.net/apps/vin_decoder) / [GitHub](https://github.com/evillero/vin_decoder) |
 | 🏛️ | [Voltage Calculator](https://github.com/HappyAmos/Flipper_FAPS/blob/-/voltcalc_app) | A simple Ohms Law calculator | [@HappyAmos](https://github.com/HappyAmos) | ⭐ 6 | [Official](https://lab.flipper.net/apps/voltcalc_app) / [GitHub](https://github.com/HappyAmos/Flipper_FAPS/blob/-/voltcalc_app) |
 | 🏛️ | [WHC SWIO Flasher](https://github.com/sukvojte/wch_swio_flasher) | A WHC CH32V003 debugger/flasher tool | Vojtech Suk | ⭐ 25 | [Official](https://lab.flipper.net/apps/wch_swio_flasher) / [GitHub](https://github.com/sukvojte/wch_swio_flasher) |
-| 🏛️ | [ZeroFIDO](https://github.com/MinorGlitch/zerofido) | FIDO2 for Flipper Zero | Alex Stoyanov | ⭐ 44 | [Official](https://lab.flipper.net/apps/zerofido) / [GitHub](https://github.com/MinorGlitch/zerofido) |
+| 🏛️ | [ZeroFIDO](https://github.com/MinorGlitch/zerofido) | FIDO2 for Flipper Zero | Alex Stoyanov | ⭐ 45 | [Official](https://lab.flipper.net/apps/zerofido) / [GitHub](https://github.com/MinorGlitch/zerofido) |
 
 ## Bluetooth
 
@@ -523,7 +523,7 @@ Discover Flipper Zero apps, Flipper Zero plugins, Flipper Zero games, and practi
 |--------|-----|-------------|--------|--------|-------|
 | 💎 | [flipperzero-bruteforce](https://github.com/tobiabocchi/flipperzero-bruteforce) | Generate .sub files to brute force Sub-GHz OOK | [tobiabocchi](https://github.com/tobiabocchi) | ⭐ 2.5k | [GitHub](https://github.com/tobiabocchi/flipperzero-bruteforce) |
 | 💎 | [Flipperzero-Concert-Bracelets](https://github.com/MakeTotalSense/Flipper-Concert-bracelets) | Sub-GHz file to trigger event LED bracelets | [MakeTotalSense](https://github.com/MakeTotalSense) | ⭐ 85 | [GitHub](https://github.com/MakeTotalSense/Flipper-Concert-bracelets) |
-| 💎 | [FlipperZero-TouchTunes](https://github.com/jimilinuxguy/flipperzero-touchtunes) | Dumps of TouchTune's remote | [jimilinuxguy](https://github.com/jimilinuxguy) | ⭐ 700 | [GitHub](https://github.com/jimilinuxguy/flipperzero-touchtunes) |
+| 💎 | [FlipperZero-TouchTunes](https://github.com/jimilinuxguy/flipperzero-touchtunes) | Dumps of TouchTune's remote | [jimilinuxguy](https://github.com/jimilinuxguy) | ⭐ 702 | [GitHub](https://github.com/jimilinuxguy/flipperzero-touchtunes) |
 | 💎 | [T119 bruteforcer](https://github.com/xb8/t119bruteforcer) | Triggers Retekess T119 restaurant pagers | [xb8](https://github.com/xb8) | ⭐ 724 | [GitHub](https://github.com/xb8/t119bruteforcer) |
 
 ### General
@@ -631,7 +631,7 @@ Discover Flipper Zero apps, Flipper Zero plugins, Flipper Zero games, and practi
 |--------|-----|-------------|--------|--------|-------|
 | 💎 | [ESP32 Marauder guide video](https://youtu.be/_YLTpNo5xa0) | Companion video for the above link |  |  | [Community](https://youtu.be/_YLTpNo5xa0) |
 | 💎 | [ESP32 Marauder on WiFi dev board](https://github.com/justcallmekoko/ESP32Marauder/wiki/flipper-zero) | Portable WiFi/Bluetooth pentesting | [justcallmekoko](https://github.com/justcallmekoko) | ⭐ 11k | [GitHub](https://github.com/justcallmekoko/ESP32Marauder/wiki/flipper-zero) |
-| 💎 | [Flipper Zero Boards](https://github.com/DrB0rk/Flipper-Zero-Boards) | ESP32 and NRF24 daughterboards for the Flipper | [DrB0rk](https://github.com/DrB0rk) | ⭐ 569 | [GitHub](https://github.com/DrB0rk/Flipper-Zero-Boards) |
+| 💎 | [Flipper Zero Boards](https://github.com/DrB0rk/Flipper-Zero-Boards) | ESP32 and NRF24 daughterboards for the Flipper | [DrB0rk](https://github.com/DrB0rk) | ⭐ 570 | [GitHub](https://github.com/DrB0rk/Flipper-Zero-Boards) |
 | 💎 | [Flipper-Zero-Backpacks](https://github.com/Chrismettal/flipper-zero-backpacks) | Backpack addon boards with ESP32, Raspberry Pi, Protoboards etc | [Chrismettal](https://github.com/Chrismettal) | ⭐ 427 | [GitHub](https://github.com/Chrismettal/flipper-zero-backpacks) |
 | 💎 | [FlipperZero-Protoboards-Kicad](https://github.com/lomalkin/flipperzero-protoboards-kicad) | KiCad prototype boards | [lomalkin](https://github.com/lomalkin) | ⭐ 111 | [GitHub](https://github.com/lomalkin/flipperzero-protoboards-kicad) |
 | 💎 | [The Mayhem Fin](https://github.com/eried/flipperzero-mayhem) | ESP32 with WiFi, BT/BLE, Micro-SD, Camera, Flashlight, NRF24/CC1101, and more | [eried](https://github.com/eried) | ⭐ 711 | [GitHub](https://github.com/eried/flipperzero-mayhem) |
@@ -669,7 +669,7 @@ Discover Flipper Zero apps, Flipper Zero plugins, Flipper Zero games, and practi
 
 | Source | App | Description | Author | Rating | Links |
 |--------|-----|-------------|--------|--------|-------|
-| 💎 | [AmiiboFlipperConverter](https://github.com/Lucaslhm/AmiiboFlipperConverter) | Script that converts Amiibo's to Flipper format | [Lucaslhm](https://github.com/Lucaslhm) | ⭐ 199 | [GitHub](https://github.com/Lucaslhm/AmiiboFlipperConverter) |
+| 💎 | [AmiiboFlipperConverter](https://github.com/Lucaslhm/AmiiboFlipperConverter) | Script that converts Amiibo's to Flipper format | [Lucaslhm](https://github.com/Lucaslhm) | ⭐ 200 | [GitHub](https://github.com/Lucaslhm/AmiiboFlipperConverter) |
 | 💎 | [BadUSB keyboard converter](http://helppox.com/badusbconvert.html) | Payload converted for non-US keyboard layouts |  |  | [Community](http://helppox.com/badusbconvert.html) |
 | 💎 | [ClassicConverter](https://github.com/equipter/ClassicConverter) | Converts Mifare Classic binary files to Flipper | [equipter](https://github.com/equipter) | ⭐ 121 | [GitHub](https://github.com/equipter/ClassicConverter) |
 | 💎 | [ClassicConverterWeb](https://micsen.github.io/flipperNfcToBin) | Converts between Mifare Classic binary and Flipper NFC file |  |  | [Community](https://micsen.github.io/flipperNfcToBin) |
@@ -708,7 +708,7 @@ Discover Flipper Zero apps, Flipper Zero plugins, Flipper Zero games, and practi
 
 | Source | App | Description | Author | Rating | Links |
 |--------|-----|-------------|--------|--------|-------|
-| 💎 | [Flipper File Toolbox](https://github.com/evilpete/flipper_toolbox) | Scripts for generating Flipper data files | [evilpete](https://github.com/evilpete) | ⭐ 943 | [GitHub](https://github.com/evilpete/flipper_toolbox) |
+| 💎 | [Flipper File Toolbox](https://github.com/evilpete/flipper_toolbox) | Scripts for generating Flipper data files | [evilpete](https://github.com/evilpete) | ⭐ 944 | [GitHub](https://github.com/evilpete/flipper_toolbox) |
 | 💎 | [Flipper Maker](https://flippermaker.github.io) | Generate Flipper Zero files on the fly |  |  | [Community](https://flippermaker.github.io) |
 | 💎 | [Flipper Zero Syntax Highlighting](https://marketplace.visualstudio.com/items?itemName=nortakales.flipper-zero-syntax-highlighting) | VSCode extension that will add syntax highlighting for Flipper Zero files |  |  | [Community](https://marketplace.visualstudio.com/items?itemName=nortakales.flipper-zero-syntax-highlighting) |
 | 💎 | [Official Web Interface](https://lab.flipper.net) | Web interface to interact with Flipper, including Paint and SUB/IR analyzer |  |  | [Community](https://lab.flipper.net) |
