@@ -239,6 +239,27 @@
               "section": "Sub-GHz",
               "subsection": "",
               "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "RS41 Tracker",
+              "description": "RS41 radiosonde receiver & decoder",
+              "author": "OK1CHP",
+              "authorUrl": "https://github.com/OK1CHP",
+              "rating": "⭐ 1",
+              "officialUrl": "https://lab.flipper.net/apps/rs41_tracker",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/yeckel/RS41flipper",
+              "links": {
+                "official": "https://lab.flipper.net/apps/rs41_tracker",
+                "github": "https://github.com/yeckel/RS41flipper",
+                "community": ""
+              }
+            },
+            {
+              "section": "Sub-GHz",
+              "subsection": "",
+              "sourceBadges": [
                 "community",
                 "official"
               ],
@@ -310,7 +331,7 @@
               "description": "A tiny on-device waveform editor for Flipper Zero that trims RAW .sub captures down to just the part you care about.",
               "author": "Lechnio",
               "authorUrl": "https://github.com/Lechnio",
-              "rating": "⭐ 15",
+              "rating": "⭐ 16",
               "officialUrl": "https://lab.flipper.net/apps/subghz_raw_edit",
               "communityUrl": "",
               "repoUrl": "https://github.com/Lechnio/SubGHz-RAW-Edit",
@@ -331,7 +352,7 @@
               "description": "SubGhz Remote, uses up to 5 .sub files",
               "author": "@gid9798 and @xMasterX",
               "authorUrl": "",
-              "rating": "⭐ 110",
+              "rating": "⭐ 111",
               "officialUrl": "https://lab.flipper.net/apps/subghz_remote_ofw",
               "communityUrl": "",
               "repoUrl": "https://github.com/DarkFlippers/SubGHz_Remote",
@@ -578,6 +599,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "flipnCGM",
+              "description": "Read Abbott FreeStyle Libre CGM serial numbers via NFC",
+              "author": "Daren Darrow",
+              "authorUrl": "",
+              "rating": "⭐ 2",
+              "officialUrl": "https://lab.flipper.net/apps/flipncgm",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/darendarrow/flipnCGM",
+              "links": {
+                "official": "https://lab.flipper.net/apps/flipncgm",
+                "github": "https://github.com/darendarrow/flipnCGM",
+                "community": ""
+              }
+            },
+            {
+              "section": "NFC",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Metroflip",
               "description": "An implementation of Metrodroid on the Flipper Zero",
               "author": "luu176",
@@ -792,7 +834,7 @@
               "description": "Create NFC files for BT MACs, Contacts, Links, Emails, Phones, Text and WiFis",
               "author": "@Willy-JL",
               "authorUrl": "https://github.com/Willy-JL",
-              "rating": "⭐ 575",
+              "rating": "⭐ 577",
               "officialUrl": "https://lab.flipper.net/apps/nfc_maker",
               "communityUrl": "",
               "repoUrl": "https://github.com/Next-Flip/Momentum-Apps/blob/-/nfc_maker",
@@ -1281,6 +1323,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Miele Scout RX2",
+              "description": "Remote control for Miele Scout RX2 robot vacuum with Drive and Menu modes",
+              "author": "Kalle H. Väravas",
+              "authorUrl": "",
+              "rating": "⭐ 3",
+              "officialUrl": "https://lab.flipper.net/apps/miele_scout",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/kallevaravas/flipper-miele-scout",
+              "links": {
+                "official": "https://lab.flipper.net/apps/miele_scout",
+                "github": "https://github.com/kallevaravas/flipper-miele-scout",
+                "community": ""
+              }
+            },
+            {
+              "section": "Infrared",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Mitsubishi AC Remote",
               "description": "Mitsubishi Electric Air Conditioner remote control",
               "author": "achistyakov",
@@ -1376,6 +1439,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/timed_remote",
                 "github": "https://github.com/anders-dc/timed-remote",
+                "community": ""
+              }
+            },
+            {
+              "section": "Infrared",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "TV Remote",
+              "description": "Record TV remote buttons and use Flipper as a TV remote",
+              "author": "@jmanion0139",
+              "authorUrl": "https://github.com/jmanion0139",
+              "rating": "⭐ 9",
+              "officialUrl": "https://lab.flipper.net/apps/flipper_tv_remote",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/jmanion0139/flipper_tv_remote",
+              "links": {
+                "official": "https://lab.flipper.net/apps/flipper_tv_remote",
+                "github": "https://github.com/jmanion0139/flipper_tv_remote",
                 "community": ""
               }
             },
@@ -2117,7 +2201,7 @@
               "description": "Flipper Zero app to flash ESP chips from the device (no computer connection needed!)",
               "author": "0xchocolate",
               "authorUrl": "https://github.com/0xchocolate",
-              "rating": "⭐ 619",
+              "rating": "⭐ 620",
               "officialUrl": "https://lab.flipper.net/apps/esp_flasher",
               "communityUrl": "",
               "repoUrl": "https://github.com/0xchocolate/flipperzero-esp-flasher",
@@ -2285,7 +2369,7 @@
               "description": "Download apps and assets directly to your Flipper Zero using WiFi.",
               "author": "JBlanked",
               "authorUrl": "https://github.com/JBlanked",
-              "rating": "⭐ 143",
+              "rating": "⭐ 144",
               "officialUrl": "https://lab.flipper.net/apps/flip_downloader",
               "communityUrl": "",
               "repoUrl": "https://github.com/jblanked/FlipDownloader",
@@ -3501,6 +3585,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Water Sensor reader",
+              "description": "Reads an analog water sensor on GPIO pin C0 and shows the raw ADC value, voltage in mV, and a progress bar in real time.",
+              "author": "Matvey Strelov",
+              "authorUrl": "",
+              "rating": "⭐ 5",
+              "officialUrl": "https://lab.flipper.net/apps/water_sensor_reader",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/MatveyStrelov/flipper-water-sensor",
+              "links": {
+                "official": "https://lab.flipper.net/apps/water_sensor_reader",
+                "github": "https://github.com/MatveyStrelov/flipper-water-sensor",
+                "community": ""
+              }
+            },
+            {
+              "section": "GPIO",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Web Crawler",
               "description": "Browse the web, fetch API data, and more.",
               "author": "JBlanked",
@@ -3568,7 +3673,7 @@
               "description": "Meshtastic serial interface for Flipper Zero",
               "author": "SAMS0N1TE",
               "authorUrl": "https://github.com/SAMS0N1TE",
-              "rating": "⭐ 32",
+              "rating": "⭐ 33",
               "officialUrl": "https://lab.flipper.net/apps/zeromesh",
               "communityUrl": "",
               "repoUrl": "https://github.com/SAMS0N1TE/ZeroMesh",
@@ -4248,6 +4353,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Brainy",
+              "description": "Classic Simon Says memory game. Follow the sequence of flashing buttons and sounds for as long as you can!",
+              "author": "@deya-eldeen",
+              "authorUrl": "https://github.com/deya-eldeen",
+              "rating": "⭐ 1",
+              "officialUrl": "https://lab.flipper.net/apps/brainy",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/deya-eldeen/flipperzero-brainy",
+              "links": {
+                "official": "https://lab.flipper.net/apps/brainy",
+                "github": "https://github.com/deya-eldeen/flipperzero-brainy",
+                "community": ""
+              }
+            },
+            {
+              "section": "Games",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "BzzBzz",
               "description": "Haptic rhythm-matching game",
               "author": "Koray Er",
@@ -4280,6 +4406,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/catacombs",
                 "github": "https://github.com/apfxtech/FlipperCatacombs",
+                "community": ""
+              }
+            },
+            {
+              "section": "Games",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Cell Lab",
+              "description": "A tiny pixel-world life simulator for Flipper Zero.",
+              "author": "PilotOfAsuka",
+              "authorUrl": "https://github.com/PilotOfAsuka",
+              "rating": "⭐ 3",
+              "officialUrl": "https://lab.flipper.net/apps/cell_lab",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/PilotOfAsuka/cell_lab_fliperzero",
+              "links": {
+                "official": "https://lab.flipper.net/apps/cell_lab",
+                "github": "https://github.com/PilotOfAsuka/cell_lab_fliperzero",
                 "community": ""
               }
             },
@@ -5575,6 +5722,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Stratagem Hero",
+              "description": "Helldivers 2 Stratagem Hero game for Flipper Zero",
+              "author": "Maxim Kulkin",
+              "authorUrl": "",
+              "rating": "⭐ 2",
+              "officialUrl": "https://lab.flipper.net/apps/stratahero",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/maximkulkin/flipper-zero-stratagem-hero",
+              "links": {
+                "official": "https://lab.flipper.net/apps/stratahero",
+                "github": "https://github.com/maximkulkin/flipper-zero-stratagem-hero",
+                "community": ""
+              }
+            },
+            {
+              "section": "Games",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Sudoku",
               "description": "Sudoku game",
               "author": "@profelis",
@@ -5798,6 +5966,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/videopoker",
                 "github": "https://github.com/xMasterX/all-the-plugins/blob/-/apps_source_code/videopoker",
+                "community": ""
+              }
+            },
+            {
+              "section": "Games",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Volor Savanna",
+              "description": "A text adventure game",
+              "author": "Invizabel",
+              "authorUrl": "https://github.com/Invizabel",
+              "rating": "⭐ 1",
+              "officialUrl": "https://lab.flipper.net/apps/volorsavanna",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/Invizabel/VolorSavanna/blob/-/Volor Savanna/FlipperZero",
+              "links": {
+                "official": "https://lab.flipper.net/apps/volorsavanna",
+                "github": "https://github.com/Invizabel/VolorSavanna/blob/-/Volor Savanna/FlipperZero",
                 "community": ""
               }
             },
@@ -7088,6 +7277,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "FlipperTrack",
+              "description": "HID activity simulator for productivity monitoring research",
+              "author": "@pinkpwningclub",
+              "authorUrl": "https://github.com/pinkpwningclub",
+              "rating": "⭐ 7",
+              "officialUrl": "https://lab.flipper.net/apps/flipper_track",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/pinkpwningclub/flipperTrack",
+              "links": {
+                "official": "https://lab.flipper.net/apps/flipper_track",
+                "github": "https://github.com/pinkpwningclub/flipperTrack",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "FlipperZero Clock",
               "description": "FlipperZero Customizable Clock",
               "author": "mdaskalov",
@@ -7151,6 +7361,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "HabitFlow",
+              "description": "Offline habit tracker for Flipper Zero — goals, streaks, progress, automatic saves, and optional prompts when the calendar advances.",
+              "author": "Endika",
+              "authorUrl": "https://github.com/Endika",
+              "rating": "⭐ 3",
+              "officialUrl": "https://lab.flipper.net/apps/flipper_habit_flow",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/Endika/flipper-habit-flow",
+              "links": {
+                "official": "https://lab.flipper.net/apps/flipper_habit_flow",
+                "github": "https://github.com/Endika/flipper-habit-flow",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "HEX Editor",
               "description": "Read text files line by line and edit them without a computer or smartphone.",
               "author": "@dunaevai135",
@@ -7183,6 +7414,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/hex_viewer",
                 "github": "https://github.com/QtRoS/flipper-zero-hex-viewer",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "HyperFocus Calc",
+              "description": "Hyperfocal calculator for Flipper Zero — focal length, full-stop aperture, and per-sensor circle of confusion (CoC), with optional manual CoC editing.",
+              "author": "Endika",
+              "authorUrl": "https://github.com/Endika",
+              "rating": "⭐ 5",
+              "officialUrl": "https://lab.flipper.net/apps/flipper_hyper_focus_calc",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/Endika/flipper-hyper-focus-calc",
+              "links": {
+                "official": "https://lab.flipper.net/apps/flipper_hyper_focus_calc",
+                "github": "https://github.com/Endika/flipper-hyper-focus-calc",
                 "community": ""
               }
             },
@@ -7974,7 +8226,7 @@
               "description": "FIDO2 for Flipper Zero",
               "author": "Alex Stoyanov",
               "authorUrl": "",
-              "rating": "⭐ 51",
+              "rating": "⭐ 52",
               "officialUrl": "https://lab.flipper.net/apps/zerofido",
               "communityUrl": "",
               "repoUrl": "https://github.com/MinorGlitch/zerofido",
@@ -8110,7 +8362,7 @@
               "description": "Claude Code companion - physical remote control with audio feedback",
               "author": "jxw1102",
               "authorUrl": "https://github.com/jxw1102",
-              "rating": "⭐ 32",
+              "rating": "⭐ 33",
               "officialUrl": "https://lab.flipper.net/apps/claude_buddy",
               "communityUrl": "",
               "repoUrl": "https://github.com/jxw1102/flipper-claude-buddy/blob/-/flipper-app",
@@ -8215,7 +8467,7 @@
               "description": "Application for monitoring PC resources",
               "author": "Olejka",
               "authorUrl": "https://github.com/Olejka",
-              "rating": "⭐ 93",
+              "rating": "⭐ 92",
               "officialUrl": "https://lab.flipper.net/apps/pc_monitor",
               "communityUrl": "",
               "repoUrl": "https://github.com/TheSainEyereg/flipper-pc-monitor",
@@ -8429,7 +8681,7 @@
               "description": "Universal Intercom Keys",
               "author": "GlUTEN-BASH",
               "authorUrl": "https://github.com/GlUTEN-BASH",
-              "rating": "⭐ 568",
+              "rating": "⭐ 569",
               "officialUrl": "",
               "communityUrl": "https://github.com/GlUTEN-BASH/Flipper-Starnew",
               "repoUrl": "https://github.com/GlUTEN-BASH/Flipper-Starnew",
@@ -9344,7 +9596,7 @@
               "description": "A collection of over 420 public animations from tons of different creators",
               "author": "Kf637",
               "authorUrl": "https://github.com/Kf637",
-              "rating": "⭐ 241",
+              "rating": "⭐ 242",
               "officialUrl": "",
               "communityUrl": "https://github.com/Kf637/Animations-for-Flipper-Zero",
               "repoUrl": "https://github.com/Kf637/Animations-for-Flipper-Zero",
@@ -10224,7 +10476,7 @@
               "description": "Yet another Amiibo to Flipper conversion script",
               "author": "0xz00n",
               "authorUrl": "https://github.com/0xz00n",
-              "rating": "⭐ 242",
+              "rating": "⭐ 243",
               "officialUrl": "",
               "communityUrl": "https://github.com/0xz00n/FlipMiibo",
               "repoUrl": "https://github.com/0xz00n/FlipMiibo",
