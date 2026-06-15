@@ -209,7 +209,7 @@ Discover Flipper Zero apps, Flipper Zero plugins, Flipper Zero games, and practi
 | 🏛️ | [MAX31855](https://github.com/skotopes/flipperzero_max31855) | MAX31855 Thermocouple Sensor App | [Aku](https://github.com/Aku) | ⭐ 13 | [Official](https://lab.flipper.net/apps/max31855) / [GitHub](https://github.com/skotopes/flipperzero_max31855) |
 | 🏛️ | [MH-Z19 UART](https://github.com/skotopes/flipperzero_mhz19_uart) | MH-Z19 UART | [Aku](https://github.com/Aku) | ⭐ 20 | [Official](https://lab.flipper.net/apps/mhz19_uart) / [GitHub](https://github.com/skotopes/flipperzero_mhz19_uart) |
 | 🏛️ | [Moisture Sensor](https://github.com/smallwat3r/flipperzero-moisture-sensor) | Read values from a capacitive moisture sensor v1.2 | [smallwat3r](https://github.com/smallwat3r) | ⭐ 6 | [Official](https://lab.flipper.net/apps/moisture_sensor) / [GitHub](https://github.com/smallwat3r/flipperzero-moisture-sensor) |
-| 🏛️ | [Nearby Files](https://github.com/Stichoza/flipper-nearby-files) | GPS-enabled file browser that displays files sorted by distance from your current location. | [@Stichoza](https://github.com/Stichoza) | ⭐ 24 | [Official](https://lab.flipper.net/apps/nearby_files) / [GitHub](https://github.com/Stichoza/flipper-nearby-files) |
+| 🏛️ | [Nearby Files](https://github.com/Stichoza/flipper-nearby-files) | GPS-enabled file browser that displays files sorted by distance from your current location. | [@Stichoza](https://github.com/Stichoza) | ⭐ 25 | [Official](https://lab.flipper.net/apps/nearby_files) / [GitHub](https://github.com/Stichoza/flipper-nearby-files) |
 | 🏛️ | [Noptel LRF sampler](https://github.com/Giraut/flipper_zero_noptel_lrf_sampler) | Noptel LRF rangefinder sampler | [Giraut](https://github.com/Giraut) | ⭐ 9 | [Official](https://lab.flipper.net/apps/noptel_lrf_sampler) / [GitHub](https://github.com/Giraut/flipper_zero_noptel_lrf_sampler) |
 | 💎 | [NRF24 & Mousejacking](https://github.com/mothball187/flipperzero-nrf24) | (outdated) PoC NRF24 library and mousejack exploitation app | [mothball187](https://github.com/mothball187) | ⭐ 326 | [GitHub](https://github.com/mothball187/flipperzero-nrf24) |
 | 🏛️ | [PIR HC-SR501 Alarm](https://github.com/ku6a-cj/-PIR-HC-SR501-Proximity-alarm-Flipper-zero) | Simple proximity alarm app for Flipper Zero using HC-SR501 PIR sensor. | [ku6a-cj](https://github.com/ku6a-cj) | ⭐ 2 | [Official](https://lab.flipper.net/apps/pir_hc_sr501_alarm) / [GitHub](https://github.com/ku6a-cj/-PIR-HC-SR501-Proximity-alarm-Flipper-zero) |
@@ -473,7 +473,7 @@ Discover Flipper Zero apps, Flipper Zero plugins, Flipper Zero games, and practi
 | 🏛️ | [Video Game Module Tool](https://github.com/flipperdevices/flipperzero-good-faps/blob/-/video_game_module_tool) | This app is a standalone firmware updater/installer for the Video Game Module | [@gsurkov](https://github.com/gsurkov) | ⭐ 462 | [Official](https://lab.flipper.net/apps/video_game_module_tool) / [GitHub](https://github.com/flipperdevices/flipperzero-good-faps/blob/-/video_game_module_tool) |
 | 🏛️ | [VIN decoder](https://github.com/evillero/vin_decoder) | Vehicle Identification Number decoder | [@evillero](https://github.com/evillero) | ⭐ 38 | [Official](https://lab.flipper.net/apps/vin_decoder) / [GitHub](https://github.com/evillero/vin_decoder) |
 | 🏛️ | [Voltage Calculator](https://github.com/HappyAmos/Flipper_FAPS/blob/-/voltcalc_app) | A simple Ohms Law calculator | [@HappyAmos](https://github.com/HappyAmos) | ⭐ 6 | [Official](https://lab.flipper.net/apps/voltcalc_app) / [GitHub](https://github.com/HappyAmos/Flipper_FAPS/blob/-/voltcalc_app) |
-| 🏛️ | [WHC SWIO Flasher](https://github.com/sukvojte/wch_swio_flasher) | A WHC CH32V003 debugger/flasher tool | Vojtech Suk | ⭐ 26 | [Official](https://lab.flipper.net/apps/wch_swio_flasher) / [GitHub](https://github.com/sukvojte/wch_swio_flasher) |
+| 🏛️ | [WHC SWIO Flasher](https://github.com/sukvojte/wch_swio_flasher) | A WHC CH32V003 debugger/flasher tool | Vojtech Suk | ⭐ 27 | [Official](https://lab.flipper.net/apps/wch_swio_flasher) / [GitHub](https://github.com/sukvojte/wch_swio_flasher) |
 | 🏛️ | [ZeroFIDO](https://github.com/MinorGlitch/zerofido) | FIDO2 for Flipper Zero | Alex Stoyanov | ⭐ 53 | [Official](https://lab.flipper.net/apps/zerofido) / [GitHub](https://github.com/MinorGlitch/zerofido) |
 
 ## Bluetooth
@@ -528,7 +528,7 @@ Discover Flipper Zero apps, Flipper Zero plugins, Flipper Zero games, and practi
 
 | Source | App | Description | Author | Rating | Links |
 |--------|-----|-------------|--------|--------|-------|
-| 💎 | [Flipper-Zero-Tonies](https://github.com/nortakales/flipper-zero-tonies) | Database of Tonies for the Toniebox | [nortakales](https://github.com/nortakales) | ⭐ 485 | [GitHub](https://github.com/nortakales/flipper-zero-tonies) |
+| 💎 | [Flipper-Zero-Tonies](https://github.com/nortakales/flipper-zero-tonies) | Database of Tonies for the Toniebox | [nortakales](https://github.com/nortakales) | ⭐ 486 | [GitHub](https://github.com/nortakales/flipper-zero-tonies) |
 | 💎 | [FlipperAmiibo](https://github.com/Gioman101/FlipperAmiibo) | Bank vault of Amiibos to Flipper's format | [Gioman101](https://github.com/Gioman101) | ⭐ 3.6k | [GitHub](https://github.com/Gioman101/FlipperAmiibo) |
 
 ### Sub-GHz
@@ -616,9 +616,9 @@ Discover Flipper Zero apps, Flipper Zero plugins, Flipper Zero games, and practi
 | 💎 | [DoobTheGoober Animations](https://github.com/CharlesTheGreat77/FlipperZeroAnimation) | Custom animations from the creator of zip2Animation | [CharlesTheGreat77](https://github.com/CharlesTheGreat77) | ⭐ 94 | [GitHub](https://github.com/CharlesTheGreat77/FlipperZeroAnimation) |
 | 💎 | [Haseosama Animations](https://github.com/Haseosama/FZ_Animations) | Great collection of custom animations | [Haseosama](https://github.com/Haseosama) | ⭐ 116 | [GitHub](https://github.com/Haseosama/FZ_Animations) |
 | 💎 | [Kf637/Animations-for-Flipper-Zero](https://github.com/Kf637/Animations-for-Flipper-Zero) | A collection of over 420 public animations from tons of different creators | [Kf637](https://github.com/Kf637) | ⭐ 242 | [GitHub](https://github.com/Kf637/Animations-for-Flipper-Zero) |
-| 💎 | [Kuronons Graphics](https://github.com/Kuronons/FZ_graphics) | Custom animations, passport backgrounds & profile pictures | [Kuronons](https://github.com/Kuronons) | ⭐ 555 | [GitHub](https://github.com/Kuronons/FZ_graphics) |
+| 💎 | [Kuronons Graphics](https://github.com/Kuronons/FZ_graphics) | Custom animations, passport backgrounds & profile pictures | [Kuronons](https://github.com/Kuronons) | ⭐ 556 | [GitHub](https://github.com/Kuronons/FZ_graphics) |
 | 💎 | [Oneamongthetrees Animations/Graphics](https://github.com/oneamongthetrees/fz-gfx) | Collection of custom animations and passport icons | [oneamongthetrees](https://github.com/oneamongthetrees) | ⭐ 16 | [GitHub](https://github.com/oneamongthetrees/fz-gfx) |
-| 💎 | [Talking Sasquach Animations](https://github.com/skizzophrenic/Talking-Sasquach) | Literally wrote the book on making animations | [skizzophrenic](https://github.com/skizzophrenic) | ⭐ 746 | [GitHub](https://github.com/skizzophrenic/Talking-Sasquach) |
+| 💎 | [Talking Sasquach Animations](https://github.com/skizzophrenic/Talking-Sasquach) | Literally wrote the book on making animations | [skizzophrenic](https://github.com/skizzophrenic) | ⭐ 747 | [GitHub](https://github.com/skizzophrenic/Talking-Sasquach) |
 | 💎 | [UberGuidoZ Graphics](https://github.com/UberGuidoZ/Flipper/tree/main/Graphics) | Brief description and links to resources, including PYX host | [UberGuidoZ](https://github.com/UberGuidoZ) | ⭐ 17.1k | [GitHub](https://github.com/UberGuidoZ/Flipper/tree/main/Graphics) |
 | 💎 | [Wr3nch Animations](https://github.com/wrenchathome/flip0anims) | Some custom animations and scripts | [wrenchathome](https://github.com/wrenchathome) | ⭐ 274 | [GitHub](https://github.com/wrenchathome/flip0anims) |
 
@@ -701,7 +701,7 @@ Discover Flipper Zero apps, Flipper Zero plugins, Flipper Zero games, and practi
 |--------|-----|-------------|--------|--------|-------|
 | 💎 | [CLI Tools](https://github.com/lomalkin/flipperzero-cli-tools) | Python scripts to screenshot/stream screen | [lomalkin](https://github.com/lomalkin) | ⭐ 97 | [GitHub](https://github.com/lomalkin/flipperzero-cli-tools) |
 | 💎 | [FlipperScripts](https://github.com/DroomOne/FlipperScripts) | Modify the state and level of your dolphin | [DroomOne](https://github.com/DroomOne) | ⭐ 209 | [GitHub](https://github.com/DroomOne/FlipperScripts) |
-| 💎 | [Fztea](https://github.com/jon4hz/fztea) | Connect to your Flipper's UI over serial or make it accessible via SSH | [jon4hz](https://github.com/jon4hz) | ⭐ 396 | [GitHub](https://github.com/jon4hz/fztea) |
+| 💎 | [Fztea](https://github.com/jon4hz/fztea) | Connect to your Flipper's UI over serial or make it accessible via SSH | [jon4hz](https://github.com/jon4hz) | ⭐ 397 | [GitHub](https://github.com/jon4hz/fztea) |
 | 💎 | [Pagger](https://meoker.github.io/pagger) | Sub-GHz generators for restaurants/kiosks paging systems |  |  | [Community](https://meoker.github.io/pagger) |
 | 💎 | [pyFlipper](https://github.com/wh00hw/pyFlipper) | Unofficial CLI wrapper writter in Python | [wh00hw](https://github.com/wh00hw) | ⭐ 435 | [GitHub](https://github.com/wh00hw/pyFlipper) |
 | 💎 | [SUB Plotters / comparers](https://github.com/ShotokanZH/flipper_sub_plotters_comparers) | Python package to plot and compare multiple .sub files | [ShotokanZH](https://github.com/ShotokanZH) | ⭐ 129 | [GitHub](https://github.com/ShotokanZH/flipper_sub_plotters_comparers) |
