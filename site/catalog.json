@@ -225,7 +225,7 @@
               "description": "Sub-GHz Radio Scanner with audio output to internal speaker",
               "author": "@RocketGod-git",
               "authorUrl": "https://github.com/RocketGod-git",
-              "rating": "⭐ 111",
+              "rating": "⭐ 112",
               "officialUrl": "https://lab.flipper.net/apps/radio_scanner",
               "communityUrl": "",
               "repoUrl": "https://github.com/RocketGod-git/Flipper-Zero-Radio-Scanner",
@@ -331,7 +331,7 @@
               "description": "A tiny on-device waveform editor for Flipper Zero that trims RAW .sub captures down to just the part you care about.",
               "author": "Lechnio",
               "authorUrl": "https://github.com/Lechnio",
-              "rating": "⭐ 24",
+              "rating": "⭐ 25",
               "officialUrl": "https://lab.flipper.net/apps/subghz_raw_edit",
               "communityUrl": "",
               "repoUrl": "https://github.com/Lechnio/SubGHz-RAW-Edit",
@@ -352,7 +352,7 @@
               "description": "SubGhz Remote, uses up to 5 .sub files",
               "author": "@gid9798 and @xMasterX",
               "authorUrl": "",
-              "rating": "⭐ 112",
+              "rating": "⭐ 113",
               "officialUrl": "https://lab.flipper.net/apps/subghz_remote_ofw",
               "communityUrl": "",
               "repoUrl": "https://github.com/DarkFlippers/SubGHz_Remote",
@@ -380,6 +380,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/subghz_scheduler",
                 "github": "https://github.com/shalebridge/flipper-subghz-scheduler",
+                "community": ""
+              }
+            },
+            {
+              "section": "Sub-GHz",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Subhound",
+              "description": "Classify Flipper SubGhz BinRAW captures on-device",
+              "author": "maxwalks",
+              "authorUrl": "https://github.com/maxwalks",
+              "rating": "⭐ 8",
+              "officialUrl": "https://lab.flipper.net/apps/subhound",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/maxwalks/subhound/blob/-/flipper-app",
+              "links": {
+                "official": "https://lab.flipper.net/apps/subhound",
+                "github": "https://github.com/maxwalks/subhound/blob/-/flipper-app",
                 "community": ""
               }
             },
@@ -834,7 +855,7 @@
               "description": "Create NFC files for BT MACs, Contacts, Links, Emails, Phones, Text and WiFis",
               "author": "@Willy-JL",
               "authorUrl": "https://github.com/Willy-JL",
-              "rating": "⭐ 579",
+              "rating": "⭐ 580",
               "officialUrl": "https://lab.flipper.net/apps/nfc_maker",
               "communityUrl": "",
               "repoUrl": "https://github.com/Next-Flip/Momentum-Apps/blob/-/nfc_maker",
@@ -1449,6 +1470,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Polk MagnifiMini Remote",
+              "description": "IR remote for the Polk MagnifiMini soundbar",
+              "author": "varunyellina",
+              "authorUrl": "https://github.com/varunyellina",
+              "rating": "⭐ 1",
+              "officialUrl": "https://lab.flipper.net/apps/polk_magnifimini_remote",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/varunyellina/flipper-ir-remote-polkmagnifi",
+              "links": {
+                "official": "https://lab.flipper.net/apps/polk_magnifimini_remote",
+                "github": "https://github.com/varunyellina/flipper-ir-remote-polkmagnifi",
+                "community": ""
+              }
+            },
+            {
+              "section": "Infrared",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Tamagometer",
               "description": "Talk to your Tamagotchi Connection (2024) with the tamagometer website and your Flipper",
               "author": "zacharesmer",
@@ -1591,7 +1633,7 @@
               "description": "Companion app for the Lab401 DigiLab",
               "author": "Lab401 & tixlegeek",
               "authorUrl": "",
-              "rating": "⭐ 35",
+              "rating": "⭐ 36",
               "officialUrl": "https://lab.flipper.net/apps/401_digilab",
               "communityUrl": "",
               "repoUrl": "https://github.com/lab-401/fzDigiLab/blob/-/./401DigiLabApp",
@@ -1633,7 +1675,7 @@
               "description": "A camera suite application for the Flipper Zero ESP32-CAM module.",
               "author": "@CodyTolene @Z4urce @leedave @rnadyrshin",
               "authorUrl": "",
-              "rating": "⭐ 156",
+              "rating": "⭐ 157",
               "officialUrl": "https://lab.flipper.net/apps/camera_suite",
               "communityUrl": "",
               "repoUrl": "https://github.com/CodyTolene/Flipper-Zero-Camera-Suite/blob/-/fap",
@@ -1739,7 +1781,7 @@
               "description": "App exploiting vulnerability to open any Sentry Safe and Master Lock electronic safes without pin code.",
               "author": "@H4ckd4ddy",
               "authorUrl": "https://github.com/H4ckd4ddy",
-              "rating": "⭐ 573",
+              "rating": "⭐ 574",
               "officialUrl": "https://lab.flipper.net/apps/gpio_sentry_safe",
               "communityUrl": "https://github.com/H4ckd4ddy/flipperzero-sentry-safe-plugin",
               "repoUrl": "https://github.com/H4ckd4ddy/flipperzero-sentry-safe-plugin",
@@ -2176,6 +2218,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "CO2 detector MH-Z19",
+              "description": "CO2 detector with MH-Z19 sensor via PWM. Stable readings, history graph, calibration offset.",
+              "author": "razerhome",
+              "authorUrl": "https://github.com/razerhome",
+              "rating": "⭐ 2",
+              "officialUrl": "https://lab.flipper.net/apps/co2_detector_mh_z19",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/razerhome/flipper-zero-co2-mh-z19",
+              "links": {
+                "official": "https://lab.flipper.net/apps/co2_detector_mh_z19",
+                "github": "https://github.com/razerhome/flipper-zero-co2-mh-z19",
+                "community": ""
+              }
+            },
+            {
+              "section": "GPIO",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "CO2 Logger",
               "description": "CO2 Logger with CSV export",
               "author": "Harry O'Brien",
@@ -2453,7 +2516,7 @@
               "description": "Utilize WiFi to retrieve data from 20 different APIs.",
               "author": "JBlanked",
               "authorUrl": "https://github.com/JBlanked",
-              "rating": "⭐ 26",
+              "rating": "⭐ 27",
               "officialUrl": "https://lab.flipper.net/apps/flip_library",
               "communityUrl": "",
               "repoUrl": "https://github.com/jblanked/FlipLibrary",
@@ -2481,6 +2544,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/flip_map",
                 "github": "https://github.com/jblanked/FlipMap",
+                "community": ""
+              }
+            },
+            {
+              "section": "GPIO",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Flipper Blinker",
+              "description": "Transmit Morse code with an external LED on GPIO PC3",
+              "author": "T3chieJack",
+              "authorUrl": "https://github.com/T3chieJack",
+              "rating": "⭐ 1",
+              "officialUrl": "https://lab.flipper.net/apps/flipper_blinker",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/T3chieJack/FlipperBlinker",
+              "links": {
+                "official": "https://lab.flipper.net/apps/flipper_blinker",
+                "github": "https://github.com/T3chieJack/FlipperBlinker",
                 "community": ""
               }
             },
@@ -2712,6 +2796,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/fn_test",
                 "github": "https://github.com/polarikus/flipper-zero_fn_tester",
+                "community": ""
+              }
+            },
+            {
+              "section": "GPIO",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "FReD FM",
+              "description": "FM + RDS radio board app",
+              "author": "pchmielewski1",
+              "authorUrl": "https://github.com/pchmielewski1",
+              "rating": "⭐ 4",
+              "officialUrl": "https://lab.flipper.net/apps/fred_fm",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/pchmielewski1/tea5767-pt22xx-fm-radio-with-volume-control",
+              "links": {
+                "official": "https://lab.flipper.net/apps/fred_fm",
+                "github": "https://github.com/pchmielewski1/tea5767-pt22xx-fm-radio-with-volume-control",
                 "community": ""
               }
             },
@@ -3399,7 +3504,7 @@
               "description": "Simultaneous UHF RFID Reader that supports the M6E Nano, M7E Hecto, and YRM1000 series Readers. Read up to 150 UHF tags per second [Using ThingMagic Readers]!",
               "author": "@Haffnerriley",
               "authorUrl": "https://github.com/Haffnerriley",
-              "rating": "⭐ 154",
+              "rating": "⭐ 155",
               "officialUrl": "https://lab.flipper.net/apps/simultaneous_rfid_reader",
               "communityUrl": "",
               "repoUrl": "https://github.com/haffnerriley/Simultaneous-UHF-RFID-FlipperZero/blob/-/simultaneous_rfid_reader",
@@ -4074,7 +4179,7 @@
               "description": "Scans a PC for vulnerabilities and saves results",
               "author": "MarkCyber",
               "authorUrl": "https://github.com/MarkCyber",
-              "rating": "⭐ 346",
+              "rating": "⭐ 348",
               "officialUrl": "",
               "communityUrl": "https://github.com/MarkCyber/BadUSB/blob/main/HackStuff/VulnerabilityScanner.txt",
               "repoUrl": "https://github.com/MarkCyber/BadUSB/blob/main/HackStuff/VulnerabilityScanner.txt",
@@ -4996,6 +5101,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/gameoflife",
                 "github": "https://github.com/xMasterX/all-the-plugins/blob/-/apps_source_code/game_of_life",
+                "community": ""
+              }
+            },
+            {
+              "section": "Games",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Gurpil",
+              "description": "Endless side-scroller: pick your wheel shape, the terrain decides your speed.",
+              "author": "Endika",
+              "authorUrl": "https://github.com/Endika",
+              "rating": "⭐ 2",
+              "officialUrl": "https://lab.flipper.net/apps/flipper_gurpil",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/Endika/flipper-gurpil",
+              "links": {
+                "official": "https://lab.flipper.net/apps/flipper_gurpil",
+                "github": "https://github.com/Endika/flipper-gurpil",
                 "community": ""
               }
             },
@@ -7760,6 +7886,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Network Subnet Helper",
+              "description": "A tool to view network subnets and other details.",
+              "author": "aaumkar",
+              "authorUrl": "https://github.com/aaumkar",
+              "rating": "⭐ 1",
+              "officialUrl": "https://lab.flipper.net/apps/network_subnet",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/aaumkar/network_subnet",
+              "links": {
+                "official": "https://lab.flipper.net/apps/network_subnet",
+                "github": "https://github.com/aaumkar/network_subnet",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Orgasmotron",
               "description": "Vibrate Flipper in different modes",
               "author": "Leedave",
@@ -7855,6 +8002,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/pocket_cvss",
                 "github": "https://github.com/vavkamil/pocket-cvss",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "PocketLab",
+              "description": "Learn your Flipper with short, gamified hands-on labs.",
+              "author": "PerfectoWeb",
+              "authorUrl": "https://github.com/PerfectoWeb",
+              "rating": "⭐ 3",
+              "officialUrl": "https://lab.flipper.net/apps/pocketlab",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/PerfectoWeb/flipper-pocketlab",
+              "links": {
+                "official": "https://lab.flipper.net/apps/pocketlab",
+                "github": "https://github.com/PerfectoWeb/flipper-pocketlab",
                 "community": ""
               }
             },
@@ -8687,7 +8855,7 @@
               "description": "Free BadUSB payloads for ethical hacking (and fun)",
               "author": "MarkCyber",
               "authorUrl": "https://github.com/MarkCyber",
-              "rating": "⭐ 346",
+              "rating": "⭐ 348",
               "officialUrl": "",
               "communityUrl": "https://github.com/MarkCyber/BadUSB",
               "repoUrl": "https://github.com/MarkCyber/BadUSB",
@@ -8781,7 +8949,7 @@
               "description": "Collection of musics for FlipperZero Music Player",
               "author": "neverfa11ing",
               "authorUrl": "https://github.com/neverfa11ing",
-              "rating": "⭐ 375",
+              "rating": "⭐ 376",
               "officialUrl": "",
               "communityUrl": "https://github.com/neverfa11ing/FlipperMusicRTTTL",
               "repoUrl": "https://github.com/neverfa11ing/FlipperMusicRTTTL",
@@ -8943,7 +9111,7 @@
               "description": "Dumps of TouchTune's remote",
               "author": "jimilinuxguy",
               "authorUrl": "https://github.com/jimilinuxguy",
-              "rating": "⭐ 709",
+              "rating": "⭐ 711",
               "officialUrl": "",
               "communityUrl": "https://github.com/jimilinuxguy/flipperzero-touchtunes",
               "repoUrl": "https://github.com/jimilinuxguy/flipperzero-touchtunes",
@@ -9272,7 +9440,7 @@
               "description": "Updated plugin tutorial based on new build methods",
               "author": "csBlueChip",
               "authorUrl": "https://github.com/csBlueChip",
-              "rating": "⭐ 298",
+              "rating": "⭐ 299",
               "officialUrl": "",
               "communityUrl": "https://github.com/csBlueChip/FlipperZero_plugin_howto",
               "repoUrl": "https://github.com/csBlueChip/FlipperZero_plugin_howto",
@@ -10141,7 +10309,7 @@
               "description": "Preforms WiFi deauth attacks via a custom ESP8266 module board",
               "author": "SequoiaSan",
               "authorUrl": "https://github.com/SequoiaSan",
-              "rating": "⭐ 481",
+              "rating": "⭐ 482",
               "officialUrl": "",
               "communityUrl": "https://github.com/SequoiaSan/FlipperZero-Wifi-ESP8266-Deauther-Module",
               "repoUrl": "https://github.com/SequoiaSan/FlipperZero-Wifi-ESP8266-Deauther-Module",
@@ -10272,7 +10440,7 @@
               "description": "3D-Printable cases with custom iButton interface",
               "author": "s0ko1ex",
               "authorUrl": "https://github.com/s0ko1ex",
-              "rating": "⭐ 124",
+              "rating": "⭐ 125",
               "officialUrl": "",
               "communityUrl": "https://github.com/s0ko1ex/FlipperZero-Hardware",
               "repoUrl": "https://github.com/s0ko1ex/FlipperZero-Hardware",
@@ -10476,7 +10644,7 @@
               "description": "Script that converts Amiibo's to Flipper format",
               "author": "Lucaslhm",
               "authorUrl": "https://github.com/Lucaslhm",
-              "rating": "⭐ 200",
+              "rating": "⭐ 201",
               "officialUrl": "",
               "communityUrl": "https://github.com/Lucaslhm/AmiiboFlipperConverter",
               "repoUrl": "https://github.com/Lucaslhm/AmiiboFlipperConverter",
