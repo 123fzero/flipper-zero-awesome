@@ -78,7 +78,7 @@
               "description": "An APRS transmitter using Flipper Zero's SubGHZ module exclusively",
               "author": "@yo3gnd",
               "authorUrl": "https://github.com/yo3gnd",
-              "rating": "⭐ 45",
+              "rating": "⭐ 46",
               "officialUrl": "https://lab.flipper.net/apps/aprstx",
               "communityUrl": "",
               "repoUrl": "https://github.com/yo3gnd/flipper-zero-aprs-tx",
@@ -432,6 +432,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Walkie Talkie",
+              "description": "Receive-only FRS channel activity and RSSI scanner",
+              "author": "coolshrimp",
+              "authorUrl": "https://github.com/coolshrimp",
+              "rating": "⭐ 1",
+              "officialUrl": "https://lab.flipper.net/apps/walkie_talkie",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/coolshrimp/flipperzero-walkie-talkie",
+              "links": {
+                "official": "https://lab.flipper.net/apps/walkie_talkie",
+                "github": "https://github.com/coolshrimp/flipperzero-walkie-talkie",
+                "community": ""
+              }
+            },
+            {
+              "section": "Sub-GHz",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Weather Station",
               "description": "Receive weather data from a wide range of supported Sub-1GHz remote sensor",
               "author": "@Skorpionm",
@@ -592,6 +613,27 @@
         {
           "name": "",
           "items": [
+            {
+              "section": "NFC",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "CFS Tag Writer",
+              "description": "Read, write & clone CFS filament spool NFC tags",
+              "author": "P. Schattenberg",
+              "authorUrl": "",
+              "rating": "⭐ 1",
+              "officialUrl": "https://lab.flipper.net/apps/cfs_tag_writer",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/pwschattenberg/cfs-tag-writer",
+              "links": {
+                "official": "https://lab.flipper.net/apps/cfs_tag_writer",
+                "github": "https://github.com/pwschattenberg/cfs-tag-writer",
+                "community": ""
+              }
+            },
             {
               "section": "NFC",
               "subsection": "",
@@ -1229,6 +1271,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/flame_rng",
                 "github": "https://github.com/OrionW06/Flame-RNG",
+                "community": ""
+              }
+            },
+            {
+              "section": "Infrared",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Flipper Share IR",
+              "description": "Direct file transfer between flippers via IR",
+              "author": "@lomalkin",
+              "authorUrl": "https://github.com/lomalkin",
+              "rating": "⭐ 22",
+              "officialUrl": "https://lab.flipper.net/apps/flipper_share_ir",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/lomalkin/flipper-zero-apps/blob/-/flipper_share_ir",
+              "links": {
+                "official": "https://lab.flipper.net/apps/flipper_share_ir",
+                "github": "https://github.com/lomalkin/flipper-zero-apps/blob/-/flipper_share_ir",
                 "community": ""
               }
             },
@@ -2180,7 +2243,7 @@
               "description": "Flipper Air Mouse using BMI160 module",
               "author": "@ginkage",
               "authorUrl": "https://github.com/ginkage",
-              "rating": "⭐ 144",
+              "rating": "⭐ 145",
               "officialUrl": "https://lab.flipper.net/apps/air_mouse",
               "communityUrl": "",
               "repoUrl": "https://github.com/ginkage/FlippAirMouse",
@@ -2785,6 +2848,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "FM Radio",
+              "description": "FM radio for TEA5767 and Si4703 tuner boards with auto-detection and SD card station presets.",
+              "author": "Coolshrimp",
+              "authorUrl": "https://github.com/Coolshrimp",
+              "rating": "⭐ 0",
+              "officialUrl": "https://lab.flipper.net/apps/fm_radio",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/coolshrimp/flipperzero-fm-radio",
+              "links": {
+                "official": "https://lab.flipper.net/apps/fm_radio",
+                "github": "https://github.com/coolshrimp/flipperzero-fm-radio",
+                "community": ""
+              }
+            },
+            {
+              "section": "GPIO",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "FN Tester",
               "description": "Application for testing the fiscal drive (Only for the Russian market)",
               "author": "Igor Danilov",
@@ -3279,6 +3363,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/moisture_sensor",
                 "github": "https://github.com/smallwat3r/flipperzero-moisture-sensor",
+                "community": ""
+              }
+            },
+            {
+              "section": "GPIO",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "MQ-3 Alcometer",
+              "description": "Alcohol meter (breathalyzer) using MQ-3 sensor",
+              "author": "serjantlk",
+              "authorUrl": "https://github.com/serjantlk",
+              "rating": "⭐ 5",
+              "officialUrl": "https://lab.flipper.net/apps/alcohol_sensor",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/serjantlk/MQ-3-Alcometer",
+              "links": {
+                "official": "https://lab.flipper.net/apps/alcohol_sensor",
+                "github": "https://github.com/serjantlk/MQ-3-Alcometer",
                 "community": ""
               }
             },
@@ -5237,6 +5342,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "IRONWYRM",
+              "description": "A turn-based modular mech fighting game.",
+              "author": "Henry Gurney",
+              "authorUrl": "",
+              "rating": "⭐ 2",
+              "officialUrl": "https://lab.flipper.net/apps/ironwyrm",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/Atompunk78/IRONWYRM",
+              "links": {
+                "official": "https://lab.flipper.net/apps/ironwyrm",
+                "github": "https://github.com/Atompunk78/IRONWYRM",
+                "community": ""
+              }
+            },
+            {
+              "section": "Games",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Jetpack Game",
               "description": "Jetpack Game",
               "author": "@timstrasser",
@@ -5417,6 +5543,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/montyhall",
                 "github": "https://github.com/xMasterX/all-the-plugins/blob/-/apps_source_code/montyhall",
+                "community": ""
+              }
+            },
+            {
+              "section": "Games",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Morse Trainer",
+              "description": "Learn Morse code from zero through progressive levels",
+              "author": "Baris Mert",
+              "authorUrl": "",
+              "rating": "⭐ 0",
+              "officialUrl": "https://lab.flipper.net/apps/morse_trainer",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/barismert98/flipper-morse-trainer",
+              "links": {
+                "official": "https://lab.flipper.net/apps/morse_trainer",
+                "github": "https://github.com/barismert98/flipper-morse-trainer",
                 "community": ""
               }
             },
@@ -7844,6 +7991,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Morse Flipper",
+              "description": "Learn, practise, send, and experiment with Morse code on Flipper Zero.",
+              "author": "@yo3gnd",
+              "authorUrl": "https://github.com/yo3gnd",
+              "rating": "⭐ 18",
+              "officialUrl": "https://lab.flipper.net/apps/morse_flipper",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/yo3gnd/morse-flipper",
+              "links": {
+                "official": "https://lab.flipper.net/apps/morse_flipper",
+                "github": "https://github.com/yo3gnd/morse-flipper",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Multi Converter",
               "description": "A multi-unit converter written with an easy and expandable system for adding new units and conversion methods",
               "author": "@theisolinearchip",
@@ -7876,6 +8044,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/multi_counter",
                 "github": "https://github.com/JadePossible/Flipper-Multi-Counter",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Multi Tally",
+              "description": "Six independent tally counters, one per hardware button",
+              "author": "ziper",
+              "authorUrl": "https://github.com/ziper",
+              "rating": "⭐ 1",
+              "officialUrl": "https://lab.flipper.net/apps/multi_tally",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/aseypalich1/flipper-multi-counter",
+              "links": {
+                "official": "https://lab.flipper.net/apps/multi_tally",
+                "github": "https://github.com/aseypalich1/flipper-multi-counter",
                 "community": ""
               }
             },
@@ -7960,6 +8149,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/password_manager",
                 "github": "https://github.com/Rrycbarm/flipperZeroPasswordManager",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Persian Calendar",
+              "description": "Persian (Jalali) calendar with date converter and weekday display",
+              "author": "amir",
+              "authorUrl": "https://github.com/amir",
+              "rating": "⭐ 0",
+              "officialUrl": "https://lab.flipper.net/apps/persian_calendar",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/AmirNcode/flipper-persian-calendar",
+              "links": {
+                "official": "https://lab.flipper.net/apps/persian_calendar",
+                "github": "https://github.com/AmirNcode/flipper-persian-calendar",
                 "community": ""
               }
             },
@@ -8296,6 +8506,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/smack_my_dolphin_up",
                 "github": "https://github.com/siberianbot/smack-my-dolphin-up",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Smoke Free",
+              "description": "Tracks time without smoking with persistent SD card logging",
+              "author": "Dr.Mosfet",
+              "authorUrl": "",
+              "rating": "⭐ 2",
+              "officialUrl": "https://lab.flipper.net/apps/smoke_free",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/kamylwnb/smoke_free",
+              "links": {
+                "official": "https://lab.flipper.net/apps/smoke_free",
+                "github": "https://github.com/kamylwnb/smoke_free",
                 "community": ""
               }
             },
@@ -8975,7 +9206,7 @@
               "description": "Universal Intercom Keys",
               "author": "GlUTEN-BASH",
               "authorUrl": "https://github.com/GlUTEN-BASH",
-              "rating": "⭐ 574",
+              "rating": "⭐ 573",
               "officialUrl": "",
               "communityUrl": "https://github.com/GlUTEN-BASH/Flipper-Starnew",
               "repoUrl": "https://github.com/GlUTEN-BASH/Flipper-Starnew",
@@ -9022,7 +9253,7 @@
               "description": "Database of Tonies for the Toniebox",
               "author": "nortakales",
               "authorUrl": "https://github.com/nortakales",
-              "rating": "⭐ 499",
+              "rating": "⭐ 500",
               "officialUrl": "",
               "communityUrl": "https://github.com/nortakales/flipper-zero-tonies",
               "repoUrl": "https://github.com/nortakales/flipper-zero-tonies",
@@ -9785,7 +10016,7 @@
               "description": "A dump with animations and manifest creator for batch files",
               "author": "mnenkov",
               "authorUrl": "https://github.com/mnenkov",
-              "rating": "⭐ 273",
+              "rating": "⭐ 274",
               "officialUrl": "",
               "communityUrl": "https://github.com/mnenkov/flipper-zero-animations",
               "repoUrl": "https://github.com/mnenkov/flipper-zero-animations",
@@ -9890,7 +10121,7 @@
               "description": "A collection of over 420 public animations from tons of different creators",
               "author": "Kf637",
               "authorUrl": "https://github.com/Kf637",
-              "rating": "⭐ 241",
+              "rating": "⭐ 243",
               "officialUrl": "",
               "communityUrl": "https://github.com/Kf637/Animations-for-Flipper-Zero",
               "repoUrl": "https://github.com/Kf637/Animations-for-Flipper-Zero",
@@ -10204,7 +10435,7 @@
               "description": "Backpack addon boards with ESP32, Raspberry Pi, Protoboards etc",
               "author": "Chrismettal",
               "authorUrl": "https://github.com/Chrismettal",
-              "rating": "⭐ 431",
+              "rating": "⭐ 432",
               "officialUrl": "",
               "communityUrl": "https://github.com/Chrismettal/flipper-zero-backpacks",
               "repoUrl": "https://github.com/Chrismettal/flipper-zero-backpacks",
@@ -10309,7 +10540,7 @@
               "description": "Preforms WiFi deauth attacks via a custom ESP8266 module board",
               "author": "SequoiaSan",
               "authorUrl": "https://github.com/SequoiaSan",
-              "rating": "⭐ 482",
+              "rating": "⭐ 483",
               "officialUrl": "",
               "communityUrl": "https://github.com/SequoiaSan/FlipperZero-Wifi-ESP8266-Deauther-Module",
               "repoUrl": "https://github.com/SequoiaSan/FlipperZero-Wifi-ESP8266-Deauther-Module",
