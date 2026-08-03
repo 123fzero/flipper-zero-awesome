@@ -1023,7 +1023,7 @@
               "description": "eMRTD Reader",
               "author": "bettse",
               "authorUrl": "https://github.com/bettse",
-              "rating": "⭐ 105",
+              "rating": "⭐ 106",
               "officialUrl": "https://lab.flipper.net/apps/passy",
               "communityUrl": "",
               "repoUrl": "https://github.com/bettse/passy",
@@ -1759,7 +1759,7 @@
               "description": "A camera suite application for the Flipper Zero ESP32-CAM module.",
               "author": "@CodyTolene @Z4urce @leedave @rnadyrshin",
               "authorUrl": "",
-              "rating": "⭐ 156",
+              "rating": "⭐ 158",
               "officialUrl": "https://lab.flipper.net/apps/camera_suite",
               "communityUrl": "",
               "repoUrl": "https://github.com/CodyTolene/Flipper-Zero-Camera-Suite/blob/-/fap",
@@ -1822,7 +1822,7 @@
               "description": "Offline multiplayer party games on the ESP32-S2 WiFi board; friends join your WiFi and play in their phone browser.",
               "author": "Tarik Caramanico",
               "authorUrl": "",
-              "rating": "⭐ 62",
+              "rating": "⭐ 65",
               "officialUrl": "https://lab.flipper.net/apps/hotspot_arcade",
               "communityUrl": "",
               "repoUrl": "https://github.com/tarikbc/hotspot-arcade/blob/-/flipper/hotspot-arcade",
@@ -2579,7 +2579,7 @@
               "description": "Download apps and assets directly to your Flipper Zero using WiFi.",
               "author": "JBlanked",
               "authorUrl": "https://github.com/JBlanked",
-              "rating": "⭐ 149",
+              "rating": "⭐ 150",
               "officialUrl": "https://lab.flipper.net/apps/flip_downloader",
               "communityUrl": "",
               "repoUrl": "https://github.com/jblanked/FlipDownloader",
@@ -2600,7 +2600,7 @@
               "description": "Chat with Google's Gemini AI on your Flipper Zero",
               "author": "JBlanked",
               "authorUrl": "https://github.com/JBlanked",
-              "rating": "⭐ 17",
+              "rating": "⭐ 18",
               "officialUrl": "https://lab.flipper.net/apps/flip_gemini",
               "communityUrl": "",
               "repoUrl": "https://github.com/jblanked/FlipGemini",
@@ -2621,7 +2621,7 @@
               "description": "Utilize WiFi to retrieve data from 20 different APIs.",
               "author": "JBlanked",
               "authorUrl": "https://github.com/JBlanked",
-              "rating": "⭐ 27",
+              "rating": "⭐ 28",
               "officialUrl": "https://lab.flipper.net/apps/flip_library",
               "communityUrl": "",
               "repoUrl": "https://github.com/jblanked/FlipLibrary",
@@ -2642,7 +2642,7 @@
               "description": "Find Flipper Zero Users.",
               "author": "JBlanked",
               "authorUrl": "https://github.com/JBlanked",
-              "rating": "⭐ 16",
+              "rating": "⭐ 17",
               "officialUrl": "https://lab.flipper.net/apps/flip_map",
               "communityUrl": "",
               "repoUrl": "https://github.com/jblanked/FlipMap",
@@ -2705,7 +2705,7 @@
               "description": "FlipperHTTP Companion App",
               "author": "JBlanked",
               "authorUrl": "https://github.com/JBlanked",
-              "rating": "⭐ 21",
+              "rating": "⭐ 22",
               "officialUrl": "https://lab.flipper.net/apps/flipper_http",
               "communityUrl": "",
               "repoUrl": "https://github.com/jblanked/FlipperHTTP-App",
@@ -2768,7 +2768,7 @@
               "description": "Social media platform for the Flipper Zero.",
               "author": "JBlanked",
               "authorUrl": "https://github.com/JBlanked",
-              "rating": "⭐ 126",
+              "rating": "⭐ 127",
               "officialUrl": "https://lab.flipper.net/apps/flip_social",
               "communityUrl": "",
               "repoUrl": "https://github.com/jblanked/FlipSocial",
@@ -2789,7 +2789,7 @@
               "description": "Flipper Zero Telegram Client",
               "author": "JBlanked",
               "authorUrl": "https://github.com/JBlanked",
-              "rating": "⭐ 12",
+              "rating": "⭐ 13",
               "officialUrl": "https://lab.flipper.net/apps/flip_telegram",
               "communityUrl": "",
               "repoUrl": "https://github.com/jblanked/FlipTelegram",
@@ -2831,7 +2831,7 @@
               "description": "Use WiFi to get GPS and Weather information on your Flipper Zero.",
               "author": "JBlanked",
               "authorUrl": "https://github.com/JBlanked",
-              "rating": "⭐ 41",
+              "rating": "⭐ 42",
               "officialUrl": "https://lab.flipper.net/apps/flip_weather",
               "communityUrl": "",
               "repoUrl": "https://github.com/jblanked/FlipWeather",
@@ -2852,7 +2852,7 @@
               "description": "FlipperHTTP companion app. Scan, deauth, and save WiFi networks on your Flipper Zero.",
               "author": "JBlanked",
               "authorUrl": "https://github.com/JBlanked",
-              "rating": "⭐ 198",
+              "rating": "⭐ 200",
               "officialUrl": "https://lab.flipper.net/apps/flip_wifi",
               "communityUrl": "",
               "repoUrl": "https://github.com/jblanked/FlipWiFi",
@@ -2873,7 +2873,7 @@
               "description": "The first open-world multiplayer game for the Flipper Zero",
               "author": "JBlanked",
               "authorUrl": "https://github.com/JBlanked",
-              "rating": "⭐ 40",
+              "rating": "⭐ 41",
               "officialUrl": "https://lab.flipper.net/apps/flip_world",
               "communityUrl": "",
               "repoUrl": "https://github.com/jblanked/FlipWorld/blob/-/FlipperZero/src",
@@ -3862,7 +3862,7 @@
               "description": "Flipper Zero console, handling game display rendering and input forwarding",
               "author": "JBlanked",
               "authorUrl": "https://github.com/JBlanked",
-              "rating": "⭐ 6",
+              "rating": "⭐ 7",
               "officialUrl": "https://lab.flipper.net/apps/video_game_module_console",
               "communityUrl": "",
               "repoUrl": "https://github.com/jblanked/Video-Game-Module-Console",
@@ -3932,6 +3932,48 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/wiegand_reader",
                 "github": "https://github.com/jamisonderek/flipper-zero-tutorials/blob/-/gpio/wiegand",
+                "community": ""
+              }
+            },
+            {
+              "section": "GPIO",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "WoL Flipper",
+              "description": "Wake-on-LAN over the ESP32-S2 WiFi dev board, with a built in flasher",
+              "author": "keetsta",
+              "authorUrl": "https://github.com/keetsta",
+              "rating": "⭐ 1",
+              "officialUrl": "https://lab.flipper.net/apps/wol_flipper",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/keetsta/wol-flipper",
+              "links": {
+                "official": "https://lab.flipper.net/apps/wol_flipper",
+                "github": "https://github.com/keetsta/wol-flipper",
+                "community": ""
+              }
+            },
+            {
+              "section": "GPIO",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Xbox POST Code Reader",
+              "description": "Read Xbox boot POST codes over I2C and decode them offline",
+              "author": "coolshrimp",
+              "authorUrl": "https://github.com/coolshrimp",
+              "rating": "⭐ 6",
+              "officialUrl": "https://lab.flipper.net/apps/xbox_postcode_reader",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/coolshrimp/flipperzero-xbox-post-code-reader",
+              "links": {
+                "official": "https://lab.flipper.net/apps/xbox_postcode_reader",
+                "github": "https://github.com/coolshrimp/flipperzero-xbox-post-code-reader",
                 "community": ""
               }
             },
@@ -4079,6 +4121,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/bc_scanner",
                 "github": "https://github.com/polarikus/flipper-zero_bc_scanner_emulator",
+                "community": ""
+              }
+            },
+            {
+              "section": "USB",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "CCID",
+              "description": "Emulates a USB smart card reader (CCID) with an ISO7816 T=0 card",
+              "author": "Filipe Rodrigues",
+              "authorUrl": "",
+              "rating": "⭐ 1",
+              "officialUrl": "https://lab.flipper.net/apps/ccid_test",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/kidbomb/flipper-ccid-app",
+              "links": {
+                "official": "https://lab.flipper.net/apps/ccid_test",
+                "github": "https://github.com/kidbomb/flipper-ccid-app",
                 "community": ""
               }
             },
@@ -5195,6 +5258,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Fortune Spinner",
+              "description": "Spin for YES, NO, or MAYBE",
+              "author": "Ugur",
+              "authorUrl": "https://github.com/Ugur",
+              "rating": "⭐ 1",
+              "officialUrl": "https://lab.flipper.net/apps/fortune_spinner",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/xantopren/fortune-spinner",
+              "links": {
+                "official": "https://lab.flipper.net/apps/fortune_spinner",
+                "github": "https://github.com/xantopren/fortune-spinner",
+                "community": ""
+              }
+            },
+            {
+              "section": "Games",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Furious Birds",
               "description": "Furious Birds game",
               "author": "Dmitry Ermashev",
@@ -5880,6 +5964,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/rock_paper_scissors",
                 "github": "https://github.com/jamisonderek/flipper-zero-tutorials/blob/-/subghz/plugins/rock_paper_scissors",
+                "community": ""
+              }
+            },
+            {
+              "section": "Games",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Rock Paper Scissors",
+              "description": "Play rock, paper, or scissors",
+              "author": "Ugur",
+              "authorUrl": "https://github.com/Ugur",
+              "rating": "⭐ 1",
+              "officialUrl": "https://lab.flipper.net/apps/pixel_rps",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/xantopren/rock-paper-scissors",
+              "links": {
+                "official": "https://lab.flipper.net/apps/pixel_rps",
+                "github": "https://github.com/xantopren/rock-paper-scissors",
                 "community": ""
               }
             },
@@ -6683,7 +6788,7 @@
               "description": "Play any MP3 from the SD card through the internal speaker, a MAX98357A amplifier, or a filtered PAM8403 board.",
               "author": "Coolshrimp",
               "authorUrl": "https://github.com/Coolshrimp",
-              "rating": "⭐ 10",
+              "rating": "⭐ 11",
               "officialUrl": "https://lab.flipper.net/apps/mp3_player",
               "communityUrl": "",
               "repoUrl": "https://github.com/coolshrimp/flipperzero-mp3-player",
@@ -7470,7 +7575,7 @@
               "description": "Pre-save your JavaScript files for quick execution.",
               "author": "JBlanked",
               "authorUrl": "https://github.com/JBlanked",
-              "rating": "⭐ 21",
+              "rating": "⭐ 22",
               "officialUrl": "https://lab.flipper.net/apps/fast_js_app",
               "communityUrl": "",
               "repoUrl": "https://github.com/jblanked/FastJS-FlipperZero",
@@ -8058,7 +8163,7 @@
               "description": "Learn, practise, send, and experiment with Morse code on Flipper Zero.",
               "author": "@yo3gnd",
               "authorUrl": "https://github.com/yo3gnd",
-              "rating": "⭐ 17",
+              "rating": "⭐ 18",
               "officialUrl": "https://lab.flipper.net/apps/morse_flipper",
               "communityUrl": "",
               "repoUrl": "https://github.com/yo3gnd/morse-flipper",
@@ -8212,6 +8317,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/password_manager",
                 "github": "https://github.com/Rrycbarm/flipperZeroPasswordManager",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Period Tracker",
+              "description": "Track menstrual cycles for multiple people with predictions and alerts",
+              "author": "Roman Gorshunov",
+              "authorUrl": "",
+              "rating": "⭐ 2",
+              "officialUrl": "https://lab.flipper.net/apps/period_tracker",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/gorshunovr/period_tracker",
+              "links": {
+                "official": "https://lab.flipper.net/apps/period_tracker",
+                "github": "https://github.com/gorshunovr/period_tracker",
                 "community": ""
               }
             },
@@ -8583,7 +8709,7 @@
               "description": "Tracks time without smoking with persistent SD card logging",
               "author": "Dr.Mosfet",
               "authorUrl": "",
-              "rating": "⭐ 2",
+              "rating": "⭐ 3",
               "officialUrl": "https://lab.flipper.net/apps/smoke_free",
               "communityUrl": "",
               "repoUrl": "https://github.com/kamylwnb/smoke_free",
@@ -8814,7 +8940,7 @@
               "description": "FIDO2 for Flipper Zero",
               "author": "Alex Stoyanov",
               "authorUrl": "",
-              "rating": "⭐ 62",
+              "rating": "⭐ 63",
               "officialUrl": "https://lab.flipper.net/apps/zerofido",
               "communityUrl": "",
               "repoUrl": "https://github.com/MinorGlitch/zerofido",
@@ -9891,7 +10017,7 @@
               "description": "Fork of official firmware which adds custom graphics, community applications & files",
               "author": "skizzophrenic",
               "authorUrl": "https://github.com/skizzophrenic",
-              "rating": "⭐ 365",
+              "rating": "⭐ 366",
               "officialUrl": "",
               "communityUrl": "https://github.com/skizzophrenic/SquachWare-CFW",
               "repoUrl": "https://github.com/skizzophrenic/SquachWare-CFW",
@@ -10205,7 +10331,7 @@
               "description": "Custom animations, passport backgrounds & profile pictures",
               "author": "Kuronons",
               "authorUrl": "https://github.com/Kuronons",
-              "rating": "⭐ 565",
+              "rating": "⭐ 566",
               "officialUrl": "",
               "communityUrl": "https://github.com/Kuronons/FZ_graphics",
               "repoUrl": "https://github.com/Kuronons/FZ_graphics",
