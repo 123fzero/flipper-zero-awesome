@@ -78,7 +78,7 @@
               "description": "An APRS transmitter using the internal or external Sub-GHz CC1101",
               "author": "@yo3gnd",
               "authorUrl": "https://github.com/yo3gnd",
-              "rating": "⭐ 45",
+              "rating": "⭐ 46",
               "officialUrl": "https://lab.flipper.net/apps/aprstx",
               "communityUrl": "",
               "repoUrl": "https://github.com/yo3gnd/flipper-zero-aprs-tx",
@@ -116,11 +116,32 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "FM TX",
+              "description": "Experimental MP3 audio over CC1101 FM.",
+              "author": "@yo3gnd",
+              "authorUrl": "https://github.com/yo3gnd",
+              "rating": "⭐ 9",
+              "officialUrl": "https://lab.flipper.net/apps/fmtx",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/yo3gnd/fmtx",
+              "links": {
+                "official": "https://lab.flipper.net/apps/fmtx",
+                "github": "https://github.com/yo3gnd/fmtx",
+                "community": ""
+              }
+            },
+            {
+              "section": "Sub-GHz",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Genie Door Recorder",
               "description": "This application extracts the codes from a Genie garage door remote into a .GNE file.  It also plays back a .GNE file to a Genie garage door opener.",
               "author": "CodeAllNight (MrDerekJamison)",
               "authorUrl": "",
-              "rating": "⭐ 1.4k",
+              "rating": "⭐ 1.5k",
               "officialUrl": "https://lab.flipper.net/apps/genie_record",
               "communityUrl": "",
               "repoUrl": "https://github.com/jamisonderek/flipper-zero-tutorials/blob/-/subghz/apps/genie-recorder",
@@ -162,7 +183,7 @@
               "description": "Converts Flipper music files (.FMF and .TXT) into Sub-GHz files (.SUB).",
               "author": "CodeAllNight (MrDerekJamison)",
               "authorUrl": "",
-              "rating": "⭐ 1.4k",
+              "rating": "⭐ 1.5k",
               "officialUrl": "https://lab.flipper.net/apps/fmf_to_sub",
               "communityUrl": "",
               "repoUrl": "https://github.com/jamisonderek/flipper-zero-tutorials/blob/-/subghz/fmf_to_sub",
@@ -631,6 +652,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/cfs_tag_writer",
                 "github": "https://github.com/pwschattenberg/cfs-tag-writer",
+                "community": ""
+              }
+            },
+            {
+              "section": "NFC",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "ChaosID",
+              "description": "Card forensics + risk classification + MIFARE Classic dictionary attack",
+              "author": "cybersantana83 (Cristiano Santana, Cafe com Solda)",
+              "authorUrl": "",
+              "rating": "⭐ 3",
+              "officialUrl": "https://lab.flipper.net/apps/chaos_id",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/cybersantana83/ChaosID",
+              "links": {
+                "official": "https://lab.flipper.net/apps/chaos_id",
+                "github": "https://github.com/cybersantana83/ChaosID",
                 "community": ""
               }
             },
@@ -1191,7 +1233,7 @@
               "description": "An NTAG215 parser, writer, emulator, remixer, duplicator",
               "author": "bettse",
               "authorUrl": "https://github.com/bettse",
-              "rating": "⭐ 50",
+              "rating": "⭐ 51",
               "officialUrl": "https://lab.flipper.net/apps/weebo",
               "communityUrl": "",
               "repoUrl": "https://github.com/bettse/weebo",
@@ -1575,6 +1617,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Samsung AC Remote",
+              "description": "Samsung Electric Air Conditioner remote control",
+              "author": "@dappermint",
+              "authorUrl": "https://github.com/dappermint",
+              "rating": "⭐ 1",
+              "officialUrl": "https://lab.flipper.net/apps/samsung_ac_remote",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/dappermint/samsung-ac-remote-flipper-app",
+              "links": {
+                "official": "https://lab.flipper.net/apps/samsung_ac_remote",
+                "github": "https://github.com/dappermint/samsung-ac-remote-flipper-app",
+                "community": ""
+              }
+            },
+            {
+              "section": "Infrared",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Tamagometer",
               "description": "Talk to your Tamagotchi Connection (2024) with the tamagometer website and your Flipper",
               "author": "zacharesmer",
@@ -1665,7 +1728,7 @@
               "description": "Advanced infrared remote application",
               "author": "@kala13x",
               "authorUrl": "https://github.com/kala13x",
-              "rating": "⭐ 247",
+              "rating": "⭐ 248",
               "officialUrl": "https://lab.flipper.net/apps/flipper_xremote",
               "communityUrl": "https://github.com/kala13x/flipper-xremote",
               "repoUrl": "https://github.com/kala13x/flipper-xremote",
@@ -1759,7 +1822,7 @@
               "description": "A camera suite application for the Flipper Zero ESP32-CAM module.",
               "author": "@CodyTolene @Z4urce @leedave @rnadyrshin",
               "authorUrl": "",
-              "rating": "⭐ 160",
+              "rating": "⭐ 159",
               "officialUrl": "https://lab.flipper.net/apps/camera_suite",
               "communityUrl": "",
               "repoUrl": "https://github.com/CodyTolene/Flipper-Zero-Camera-Suite/blob/-/fap",
@@ -1801,7 +1864,7 @@
               "description": "Companion app for Ghost ESP Firmware.",
               "author": "@Spooks4567, @jaylikesbunda and @tototo31",
               "authorUrl": "",
-              "rating": "⭐ 93",
+              "rating": "⭐ 94",
               "officialUrl": "https://lab.flipper.net/apps/ghost_esp",
               "communityUrl": "",
               "repoUrl": "https://github.com/GhostESP-Revival/GhostESP-FlipperCompanion",
@@ -1819,7 +1882,7 @@
               ],
               "sourceIcons": "🏛️",
               "name": "[ESP32] Hotspot Arcade",
-              "description": "Offline multiplayer party games on the ESP32-S2 WiFi board; friends join your WiFi and play in their phone browser.",
+              "description": "Offline multiplayer party games on an ESP32 WiFi board; friends join your WiFi and play in their phone browser.",
               "author": "Tarik Caramanico",
               "authorUrl": "",
               "rating": "⭐ 71",
@@ -1949,7 +2012,7 @@
               "description": "Enables wireless transmission of magstripe data",
               "author": "Zachary Weiss",
               "authorUrl": "",
-              "rating": "⭐ 721",
+              "rating": "⭐ 722",
               "officialUrl": "https://lab.flipper.net/apps/magspoof",
               "communityUrl": "",
               "repoUrl": "https://github.com/zacharyweiss/magspoof_flipper",
@@ -2579,7 +2642,7 @@
               "description": "Download apps and assets directly to your Flipper Zero using WiFi.",
               "author": "JBlanked",
               "authorUrl": "https://github.com/JBlanked",
-              "rating": "⭐ 150",
+              "rating": "⭐ 152",
               "officialUrl": "https://lab.flipper.net/apps/flip_downloader",
               "communityUrl": "",
               "repoUrl": "https://github.com/jblanked/FlipDownloader",
@@ -2768,7 +2831,7 @@
               "description": "Social media platform for the Flipper Zero.",
               "author": "JBlanked",
               "authorUrl": "https://github.com/JBlanked",
-              "rating": "⭐ 127",
+              "rating": "⭐ 128",
               "officialUrl": "https://lab.flipper.net/apps/flip_social",
               "communityUrl": "",
               "repoUrl": "https://github.com/jblanked/FlipSocial",
@@ -3710,6 +3773,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "SSD1306 Test",
+              "description": "Diagnostic tool for SSD1306 I2C OLED displays (128x64, yellow-bar and mono variants)",
+              "author": "martin bogomolni",
+              "authorUrl": "",
+              "rating": "⭐ 3",
+              "officialUrl": "https://lab.flipper.net/apps/ssd1306_test",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/martinbogo/ssd1306_test",
+              "links": {
+                "official": "https://lab.flipper.net/apps/ssd1306_test",
+                "github": "https://github.com/martinbogo/ssd1306_test",
+                "community": ""
+              }
+            },
+            {
+              "section": "GPIO",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "SWD Probe",
               "description": "ARM SWD (Single Wire Debug) Probe",
               "author": "@g3gg0 & (fixes by @xMasterX)",
@@ -3925,7 +4009,7 @@
               "description": "Application for reading and sending Wiegand signals. Connect D0, D1, GND wires to Flipper Zero to read signals.",
               "author": "Derek Jamison (@CodeAllNight)",
               "authorUrl": "",
-              "rating": "⭐ 1.4k",
+              "rating": "⭐ 1.5k",
               "officialUrl": "https://lab.flipper.net/apps/wiegand_reader",
               "communityUrl": "",
               "repoUrl": "https://github.com/jamisonderek/flipper-zero-tutorials/blob/-/gpio/wiegand",
@@ -4504,7 +4588,7 @@
               "description": "Labyrinth game v0.1 that supports the Video Game Module motion sensor.  Written by @CodeAllNight (https://youtube.com/MrDerekJamison/about)",
               "author": "@CodeAllNight (MrDerekJamison)",
               "authorUrl": "",
-              "rating": "⭐ 1.4k",
+              "rating": "⭐ 1.5k",
               "officialUrl": "https://lab.flipper.net/apps/air_labyrinth",
               "communityUrl": "",
               "repoUrl": "https://github.com/jamisonderek/flipper-zero-tutorials/blob/-/vgm/apps/air_labyrinth",
@@ -5957,7 +6041,7 @@
               "description": "Play the rock-paper-scissors game with your friends using the Flipper Zero Sub-GHz radio!",
               "author": "jamisonderek",
               "authorUrl": "https://github.com/jamisonderek",
-              "rating": "⭐ 1.4k",
+              "rating": "⭐ 1.5k",
               "officialUrl": "https://lab.flipper.net/apps/rock_paper_scissors",
               "communityUrl": "",
               "repoUrl": "https://github.com/jamisonderek/flipper-zero-tutorials/blob/-/subghz/plugins/rock_paper_scissors",
@@ -6658,6 +6742,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Ear Trainer",
+              "description": "Learn intervals, chords and scales by ear",
+              "author": "Baris Mert",
+              "authorUrl": "",
+              "rating": "⭐ 4",
+              "officialUrl": "https://lab.flipper.net/apps/ear_trainer",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/barismert98/flipper-ear-trainer",
+              "links": {
+                "official": "https://lab.flipper.net/apps/ear_trainer",
+                "github": "https://github.com/barismert98/flipper-ear-trainer",
+                "community": ""
+              }
+            },
+            {
+              "section": "Media",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Flipper Keyller",
               "description": "Flipper Keyller is an app for the Flipper Zero that emulates the iconic sounds of the classic 80s keychain.",
               "author": "Esteban Fuentealba",
@@ -6669,6 +6774,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/executor_keychain",
                 "github": "https://github.com/EstebanFuentealba/Flipper-Keyller",
+                "community": ""
+              }
+            },
+            {
+              "section": "Media",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "FlipPiano",
+              "description": "14-key 2-octave mini piano app with frequency display and volume controls.",
+              "author": "bergrfpv",
+              "authorUrl": "https://github.com/bergrfpv",
+              "rating": "⭐ 3",
+              "officialUrl": "https://lab.flipper.net/apps/flippiano",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/bergr22/FlipPiano",
+              "links": {
+                "official": "https://lab.flipper.net/apps/flippiano",
+                "github": "https://github.com/bergr22/FlipPiano",
                 "community": ""
               }
             },
@@ -6788,7 +6914,7 @@
               "description": "Play any MP3 from the SD card through the internal speaker, a MAX98357A amplifier, or a filtered PAM8403 board.",
               "author": "Coolshrimp",
               "authorUrl": "https://github.com/Coolshrimp",
-              "rating": "⭐ 11",
+              "rating": "⭐ 14",
               "officialUrl": "https://lab.flipper.net/apps/mp3_player",
               "communityUrl": "",
               "repoUrl": "https://github.com/coolshrimp/flipperzero-mp3-player",
@@ -8016,7 +8142,7 @@
               "description": "@README.md",
               "author": "Torron",
               "authorUrl": "https://github.com/Torron",
-              "rating": "⭐ 387",
+              "rating": "⭐ 388",
               "officialUrl": "https://lab.flipper.net/apps/key_copier",
               "communityUrl": "",
               "repoUrl": "https://github.com/zinongli/KeyCopier",
@@ -8233,6 +8359,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/multi_tally",
                 "github": "https://github.com/aseypalich1/flipper-multi-counter",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Net Calculator",
+              "description": "Offline IPv4 VLSM subnet calculator",
+              "author": "WolfRor",
+              "authorUrl": "https://github.com/WolfRor",
+              "rating": "⭐ 1",
+              "officialUrl": "https://lab.flipper.net/apps/net_calculator",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/WolfRorDev/Net-Calculator-for-Flipper-Zero",
+              "links": {
+                "official": "https://lab.flipper.net/apps/net_calculator",
+                "github": "https://github.com/WolfRorDev/Net-Calculator-for-Flipper-Zero",
                 "community": ""
               }
             },
@@ -8642,6 +8789,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "San Morse",
+              "description": "Morse code trainer with a decision-tree guide and text-to-Morse playback",
+              "author": "sanjorge",
+              "authorUrl": "https://github.com/sanjorge",
+              "rating": "⭐ 1",
+              "officialUrl": "https://lab.flipper.net/apps/san_morse",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/sanjorgek/san-morse-flipper",
+              "links": {
+                "official": "https://lab.flipper.net/apps/san_morse",
+                "github": "https://github.com/sanjorgek/san-morse-flipper",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Segment Clock",
               "description": "Display simple segment clock on Flipper screen",
               "author": "sergo",
@@ -8936,6 +9104,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "WikiFlip",
+              "description": "Offline cybersecurity dictionary for Flipper Zero",
+              "author": "Roger Arana",
+              "authorUrl": "",
+              "rating": "⭐ 1",
+              "officialUrl": "https://lab.flipper.net/apps/wikiflip",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/RogerF5-Security/WikiFlip",
+              "links": {
+                "official": "https://lab.flipper.net/apps/wikiflip",
+                "github": "https://github.com/RogerF5-Security/WikiFlip",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "ZeroFIDO",
               "description": "FIDO2 for Flipper Zero",
               "author": "Alex Stoyanov",
@@ -8960,6 +9149,27 @@
         {
           "name": "",
           "items": [
+            {
+              "section": "Bluetooth",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Android KB Bridge",
+              "description": "BLE Serial bridge: Android phone keyboard/touchpad → USB HID on PC",
+              "author": "andybeg",
+              "authorUrl": "https://github.com/andybeg",
+              "rating": "⭐ 4",
+              "officialUrl": "https://lab.flipper.net/apps/android_keyboard_bridge",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/andybeg/AndroidFlipperZeroKBD/blob/-/flipper/android_keyboard_bridge",
+              "links": {
+                "official": "https://lab.flipper.net/apps/android_keyboard_bridge",
+                "github": "https://github.com/andybeg/AndroidFlipperZeroKBD/blob/-/flipper/android_keyboard_bridge",
+                "community": ""
+              }
+            },
             {
               "section": "Bluetooth",
               "subsection": "",
@@ -9076,7 +9286,7 @@
               "description": "Claude Code companion - physical remote control with audio feedback",
               "author": "jxw1102",
               "authorUrl": "https://github.com/jxw1102",
-              "rating": "⭐ 44",
+              "rating": "⭐ 45",
               "officialUrl": "https://lab.flipper.net/apps/claude_buddy",
               "communityUrl": "",
               "repoUrl": "https://github.com/jxw1102/flipper-claude-buddy/blob/-/flipper-app",
@@ -9442,7 +9652,7 @@
               "description": "Database of Tonies for the Toniebox",
               "author": "nortakales",
               "authorUrl": "https://github.com/nortakales",
-              "rating": "⭐ 510",
+              "rating": "⭐ 512",
               "officialUrl": "",
               "communityUrl": "https://github.com/nortakales/flipper-zero-tonies",
               "repoUrl": "https://github.com/nortakales/flipper-zero-tonies",
@@ -9531,7 +9741,7 @@
               "description": "Dumps of TouchTune's remote",
               "author": "jimilinuxguy",
               "authorUrl": "https://github.com/jimilinuxguy",
-              "rating": "⭐ 715",
+              "rating": "⭐ 716",
               "officialUrl": "",
               "communityUrl": "https://github.com/jimilinuxguy/flipperzero-touchtunes",
               "repoUrl": "https://github.com/jimilinuxguy/flipperzero-touchtunes",
@@ -10174,7 +10384,7 @@
               "description": "The source code for Flipper's stock firmware",
               "author": "flipperdevices",
               "authorUrl": "https://github.com/flipperdevices",
-              "rating": "⭐ 16.4k",
+              "rating": "⭐ 16.5k",
               "officialUrl": "",
               "communityUrl": "https://github.com/flipperdevices/flipperzero-firmware",
               "repoUrl": "https://github.com/flipperdevices/flipperzero-firmware",
@@ -10624,7 +10834,7 @@
               "description": "Backpack addon boards with ESP32, Raspberry Pi, Protoboards etc",
               "author": "Chrismettal",
               "authorUrl": "https://github.com/Chrismettal",
-              "rating": "⭐ 435",
+              "rating": "⭐ 436",
               "officialUrl": "",
               "communityUrl": "https://github.com/Chrismettal/flipper-zero-backpacks",
               "repoUrl": "https://github.com/Chrismettal/flipper-zero-backpacks",
@@ -10666,7 +10876,7 @@
               "description": "ESP32 with WiFi, BT/BLE, Micro-SD, Camera, Flashlight, NRF24/CC1101, and more",
               "author": "eried",
               "authorUrl": "https://github.com/eried",
-              "rating": "⭐ 718",
+              "rating": "⭐ 719",
               "officialUrl": "",
               "communityUrl": "https://github.com/eried/flipperzero-mayhem",
               "repoUrl": "https://github.com/eried/flipperzero-mayhem",
@@ -10729,7 +10939,7 @@
               "description": "Preforms WiFi deauth attacks via a custom ESP8266 module board",
               "author": "SequoiaSan",
               "authorUrl": "https://github.com/SequoiaSan",
-              "rating": "⭐ 483",
+              "rating": "⭐ 482",
               "officialUrl": "",
               "communityUrl": "https://github.com/SequoiaSan/FlipperZero-Wifi-ESP8266-Deauther-Module",
               "repoUrl": "https://github.com/SequoiaSan/FlipperZero-Wifi-ESP8266-Deauther-Module",
@@ -10750,7 +10960,7 @@
               "description": "Scans for WiFi networks via a custom Wemos module board",
               "author": "SequoiaSan",
               "authorUrl": "https://github.com/SequoiaSan",
-              "rating": "⭐ 763",
+              "rating": "⭐ 762",
               "officialUrl": "",
               "communityUrl": "https://github.com/SequoiaSan/FlipperZero-WiFi-Scanner_Module",
               "repoUrl": "https://github.com/SequoiaSan/FlipperZero-WiFi-Scanner_Module",
@@ -10818,7 +11028,7 @@
               "description": "3D-Printable case & cover models",
               "author": "MuddledBox",
               "authorUrl": "https://github.com/MuddledBox",
-              "rating": "⭐ 181",
+              "rating": "⭐ 182",
               "officialUrl": "",
               "communityUrl": "https://github.com/MuddledBox/FlipperZeroCases",
               "repoUrl": "https://github.com/MuddledBox/FlipperZeroCases",
