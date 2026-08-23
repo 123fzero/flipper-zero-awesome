@@ -373,7 +373,7 @@
               "description": "SubGhz Remote, uses up to 5 .sub files",
               "author": "@gid9798 and @xMasterX",
               "authorUrl": "",
-              "rating": "⭐ 115",
+              "rating": "⭐ 116",
               "officialUrl": "https://lab.flipper.net/apps/subghz_remote_ofw",
               "communityUrl": "",
               "repoUrl": "https://github.com/DarkFlippers/SubGHz_Remote",
@@ -422,6 +422,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/subhound",
                 "github": "https://github.com/maxwalks/subhound/blob/-/flipper-app",
+                "community": ""
+              }
+            },
+            {
+              "section": "Sub-GHz",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "TPMS Bridge",
+              "description": "Reads Renault TPMS sensors: pressure, temperature, signal level",
+              "author": "Vishov Vladimir",
+              "authorUrl": "",
+              "rating": "⭐ 4",
+              "officialUrl": "https://lab.flipper.net/apps/tpms_bridge",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/VishovVladimir/flipper-zero-tpms/blob/-/flipper/tpms_bridge",
+              "links": {
+                "official": "https://lab.flipper.net/apps/tpms_bridge",
+                "github": "https://github.com/VishovVladimir/flipper-zero-tpms/blob/-/flipper/tpms_bridge",
                 "community": ""
               }
             },
@@ -1166,6 +1187,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Specter",
+              "description": "Passively sense active 13.56 MHz NFC readers and skimmers with the onboard NFC chip. No extra hardware, never transmits.",
+              "author": "at0m-b0mb",
+              "authorUrl": "https://github.com/at0m-b0mb",
+              "rating": "⭐ 92",
+              "officialUrl": "https://lab.flipper.net/apps/specter",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/at0m-b0mb/Specter-FlipperZero",
+              "links": {
+                "official": "https://lab.flipper.net/apps/specter",
+                "github": "https://github.com/at0m-b0mb/Specter-FlipperZero",
+                "community": ""
+              }
+            },
+            {
+              "section": "NFC",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "UDECard",
               "description": "Analyse student ID cards from the University of Duisburg-Essen (Intercard).",
               "author": "Alexander Hahn (github.com/hahnworks)",
@@ -1558,7 +1600,7 @@
               "description": "Mitsubishi AC Remote for newer models",
               "author": "Str4ch",
               "authorUrl": "https://github.com/Str4ch",
-              "rating": "⭐ 2",
+              "rating": "⭐ 4",
               "officialUrl": "https://lab.flipper.net/apps/mitsubishi_ac_remote_new_protocol",
               "communityUrl": "",
               "repoUrl": "https://github.com/Str4ch/flipperzero-mitsubishi-ac-remote-new-protocol",
@@ -2054,7 +2096,7 @@
               "description": "Step Counter/Pedometer using Memsic2125 module.",
               "author": "47lecoste a.k.a. grugnoymeme",
               "authorUrl": "",
-              "rating": "⭐ 10",
+              "rating": "⭐ 11",
               "officialUrl": "https://lab.flipper.net/apps/stepcounter",
               "communityUrl": "",
               "repoUrl": "https://github.com/grugnoymeme/flipperzero-StepCounter-fap",
@@ -2481,6 +2523,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/esp_flasher",
                 "github": "https://github.com/0xchocolate/flipperzero-esp-flasher",
+                "community": ""
+              }
+            },
+            {
+              "section": "GPIO",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Fake Chip Detector",
+              "description": "Check whether an I2C sensor really is the chip it was sold as, before you solder it in.",
+              "author": "hleserg",
+              "authorUrl": "https://github.com/hleserg",
+              "rating": "⭐ 5",
+              "officialUrl": "https://lab.flipper.net/apps/fake_chip_detector",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/hleserg/flipper-fake-chip-detector/blob/-/fake_chip_detector",
+              "links": {
+                "official": "https://lab.flipper.net/apps/fake_chip_detector",
+                "github": "https://github.com/hleserg/flipper-fake-chip-detector/blob/-/fake_chip_detector",
                 "community": ""
               }
             },
@@ -3714,7 +3777,7 @@
               "description": "Simultaneous UHF RFID Reader that supports the M6E Nano, M7E Hecto, and YRM1000 series Readers. Read up to 150 UHF tags per second [Using ThingMagic Readers]!",
               "author": "@Haffnerriley",
               "authorUrl": "https://github.com/Haffnerriley",
-              "rating": "⭐ 156",
+              "rating": "⭐ 157",
               "officialUrl": "https://lab.flipper.net/apps/simultaneous_rfid_reader",
               "communityUrl": "",
               "repoUrl": "https://github.com/haffnerriley/Simultaneous-UHF-RFID-FlipperZero/blob/-/simultaneous_rfid_reader",
@@ -3820,7 +3883,7 @@
               "description": "Universal temperature sensors reader",
               "author": "Quenon",
               "authorUrl": "https://github.com/Quenon",
-              "rating": "⭐ 352",
+              "rating": "⭐ 353",
               "officialUrl": "https://lab.flipper.net/apps/unitemp",
               "communityUrl": "https://github.com/quen0n/unitemp-flipperzero",
               "repoUrl": "https://github.com/quen0n/unitemp-flipperzero",
@@ -3890,6 +3953,27 @@
               "links": {
                 "official": "",
                 "github": "https://github.com/UberGuidoZ/Flipper/tree/main/GPIO",
+                "community": ""
+              }
+            },
+            {
+              "section": "GPIO",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "UHF Expansion",
+              "description": "UHF RFID inventory reader over GPIO UART",
+              "author": "MTools Tec",
+              "authorUrl": "",
+              "rating": "⭐ 10",
+              "officialUrl": "https://lab.flipper.net/apps/uhf_expansion",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/mtoolstec/fz-uhf-expansion",
+              "links": {
+                "official": "https://lab.flipper.net/apps/uhf_expansion",
+                "github": "https://github.com/mtoolstec/fz-uhf-expansion",
                 "community": ""
               }
             },
@@ -4016,6 +4100,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/wiegand_reader",
                 "github": "https://github.com/jamisonderek/flipper-zero-tutorials/blob/-/gpio/wiegand",
+                "community": ""
+              }
+            },
+            {
+              "section": "GPIO",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "WiFi Internet Watch",
+              "description": "Select a WiFi network and monitor internet availability through ESP-AT",
+              "author": "Pavel Druzhinin",
+              "authorUrl": "",
+              "rating": "⭐ 1",
+              "officialUrl": "https://lab.flipper.net/apps/wifi_internet_watch",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/DruzhininPavel/wifi-internet-watch-flipper",
+              "links": {
+                "official": "https://lab.flipper.net/apps/wifi_internet_watch",
+                "github": "https://github.com/DruzhininPavel/wifi-internet-watch-flipper",
                 "community": ""
               }
             },
@@ -4910,6 +5015,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/chess",
                 "github": "https://github.com/xtruan/flipper-chess",
+                "community": ""
+              }
+            },
+            {
+              "section": "Games",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "CIDR Challenge",
+              "description": "IPv4 subnetting trainer for Flipper Zero",
+              "author": "Alastor",
+              "authorUrl": "https://github.com/Alastor",
+              "rating": "⭐ 5",
+              "officialUrl": "https://lab.flipper.net/apps/cidr_challenge",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/AlastorApps/cidrchallengef0",
+              "links": {
+                "official": "https://lab.flipper.net/apps/cidr_challenge",
+                "github": "https://github.com/AlastorApps/cidrchallengef0",
                 "community": ""
               }
             },
@@ -6826,6 +6952,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Handpan Chords",
+              "description": "See which pads to strike for any chord on your handpan",
+              "author": "KingBoa (NoodleNugget.com)",
+              "authorUrl": "",
+              "rating": "⭐ 1",
+              "officialUrl": "https://lab.flipper.net/apps/handpan_chords",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/NoodleNugget-com/handpan_chords",
+              "links": {
+                "official": "https://lab.flipper.net/apps/handpan_chords",
+                "github": "https://github.com/NoodleNugget-com/handpan_chords",
+                "community": ""
+              }
+            },
+            {
+              "section": "Media",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Image viewer",
               "description": "Image viewer for flipper zero!",
               "author": "@polioan",
@@ -7323,7 +7470,7 @@
               "description": "Software-based TOTP/HOTP authenticator for Flipper Zero device",
               "author": "Alexander Kopachov (@akopachov)",
               "authorUrl": "",
-              "rating": "⭐ 666",
+              "rating": "⭐ 667",
               "officialUrl": "https://lab.flipper.net/apps/totp",
               "communityUrl": "",
               "repoUrl": "https://github.com/akopachov/flipper-zero_authenticator/blob/-/totp",
@@ -8023,6 +8170,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/fordradiocode",
                 "github": "https://github.com/DavidB445/fz_fordradiocodes",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Guitar Chords",
+              "description": "Browse guitar chord diagrams and practice chord progressions with a built-in metronome.",
+              "author": "KingBoa / NoodleNugget.com",
+              "authorUrl": "",
+              "rating": "⭐ 1",
+              "officialUrl": "https://lab.flipper.net/apps/guitar_chords",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/NoodleNugget-com/flipper-guitar-chords",
+              "links": {
+                "official": "https://lab.flipper.net/apps/guitar_chords",
+                "github": "https://github.com/NoodleNugget-com/flipper-guitar-chords",
                 "community": ""
               }
             },
@@ -9129,7 +9297,7 @@
               "description": "FIDO2 for Flipper Zero",
               "author": "Alex Stoyanov",
               "authorUrl": "",
-              "rating": "⭐ 67",
+              "rating": "⭐ 68",
               "officialUrl": "https://lab.flipper.net/apps/zerofido",
               "communityUrl": "",
               "repoUrl": "https://github.com/MinorGlitch/zerofido",
@@ -9160,7 +9328,7 @@
               "description": "BLE Serial bridge: Android phone keyboard/touchpad → USB HID on PC",
               "author": "andybeg",
               "authorUrl": "https://github.com/andybeg",
-              "rating": "⭐ 8",
+              "rating": "⭐ 9",
               "officialUrl": "https://lab.flipper.net/apps/android_keyboard_bridge",
               "communityUrl": "",
               "repoUrl": "https://github.com/andybeg/AndroidFlipperZeroKBD/blob/-/flipper/android_keyboard_bridge",
@@ -9202,7 +9370,7 @@
               "description": "Application that spams broadcast packets to Apple, Android, and Windows",
               "author": "noproto",
               "authorUrl": "https://github.com/noproto",
-              "rating": "⭐ 190",
+              "rating": "⭐ 191",
               "officialUrl": "",
               "communityUrl": "https://github.com/noproto/ble_spam_ofw",
               "repoUrl": "https://github.com/noproto/ble_spam_ofw",
@@ -9652,7 +9820,7 @@
               "description": "Database of Tonies for the Toniebox",
               "author": "nortakales",
               "authorUrl": "https://github.com/nortakales",
-              "rating": "⭐ 521",
+              "rating": "⭐ 522",
               "officialUrl": "",
               "communityUrl": "https://github.com/nortakales/flipper-zero-tonies",
               "repoUrl": "https://github.com/nortakales/flipper-zero-tonies",
@@ -9741,7 +9909,7 @@
               "description": "Dumps of TouchTune's remote",
               "author": "jimilinuxguy",
               "authorUrl": "https://github.com/jimilinuxguy",
-              "rating": "⭐ 718",
+              "rating": "⭐ 719",
               "officialUrl": "",
               "communityUrl": "https://github.com/jimilinuxguy/flipperzero-touchtunes",
               "repoUrl": "https://github.com/jimilinuxguy/flipperzero-touchtunes",
@@ -10049,7 +10217,7 @@
               "description": "Generate TOTP authentication codes",
               "author": "akopachov",
               "authorUrl": "https://github.com/akopachov",
-              "rating": "⭐ 666",
+              "rating": "⭐ 667",
               "officialUrl": "",
               "communityUrl": "https://github.com/akopachov/flipper-zero_authenticator",
               "repoUrl": "https://github.com/akopachov/flipper-zero_authenticator",
@@ -10541,7 +10709,7 @@
               "description": "Custom animations, passport backgrounds & profile pictures",
               "author": "Kuronons",
               "authorUrl": "https://github.com/Kuronons",
-              "rating": "⭐ 570",
+              "rating": "⭐ 571",
               "officialUrl": "",
               "communityUrl": "https://github.com/Kuronons/FZ_graphics",
               "repoUrl": "https://github.com/Kuronons/FZ_graphics",
@@ -11552,7 +11720,7 @@
               "description": "Connect to your Flipper's UI over serial or make it accessible via SSH",
               "author": "jon4hz",
               "authorUrl": "https://github.com/jon4hz",
-              "rating": "⭐ 399",
+              "rating": "⭐ 400",
               "officialUrl": "",
               "communityUrl": "https://github.com/jon4hz/fztea",
               "repoUrl": "https://github.com/jon4hz/fztea",
