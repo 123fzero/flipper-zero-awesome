@@ -100,7 +100,7 @@ Discover Flipper Zero apps, Flipper Zero plugins, Flipper Zero games, and practi
 | 🏛️ | [NFC APDU Runner](https://github.com/xMasterX/all-the-plugins/blob/-/apps_source_code/nfc_apdu_runner) | Run APDU commands from script files | [SpenserCai](https://github.com/SpenserCai) | ⭐ 1.5k | [Official](https://lab.flipper.net/apps/nfc_apdu_runner) / [GitHub](https://github.com/xMasterX/all-the-plugins/blob/-/apps_source_code/nfc_apdu_runner) |
 | 🏛️ | [NFC Login](https://github.com/Play2BReal/NFC-Login) | NFC based desktop login using USB HID or BLE HID | [Play2BReal](https://github.com/Play2BReal) | ⭐ 23 | [Official](https://lab.flipper.net/apps/nfc_login) / [GitHub](https://github.com/Play2BReal/NFC-Login) |
 | 🏛️ | [Nfc Magic](https://github.com/flipperdevices/flipperzero-good-faps/blob/-/nfc_magic) | Application for writing to NFC tags with modifiable sector 0 | [@AloneLiberty](https://github.com/AloneLiberty) | ⭐ 479 | [Official](https://lab.flipper.net/apps/nfc_magic) / [GitHub](https://github.com/flipperdevices/flipperzero-good-faps/blob/-/nfc_magic) |
-| 🏛️ | [NFC Maker](https://github.com/Next-Flip/Momentum-Apps/blob/-/nfc_maker) | Create NFC files for BT MACs, Contacts, Links, Emails, Phones, Text and WiFis | [@Willy-JL](https://github.com/Willy-JL) | ⭐ 600 | [Official](https://lab.flipper.net/apps/nfc_maker) / [GitHub](https://github.com/Next-Flip/Momentum-Apps/blob/-/nfc_maker) |
+| 🏛️ | [NFC Maker](https://github.com/Next-Flip/Momentum-Apps/blob/-/nfc_maker) | Create NFC files for BT MACs, Contacts, Links, Emails, Phones, Text and WiFis | [@Willy-JL](https://github.com/Willy-JL) | ⭐ 601 | [Official](https://lab.flipper.net/apps/nfc_maker) / [GitHub](https://github.com/Next-Flip/Momentum-Apps/blob/-/nfc_maker) |
 | 🏛️ | [NFC Stock Manager Alpha](https://github.com/Endika/flipper-nfc-stock) | NFC-based inventory: scan a tag to open or create an item, edit stock, location and minimum, with multi-warehouse DB and CSV export. | [Endika](https://github.com/Endika) | ⭐ 6 | [Official](https://lab.flipper.net/apps/nfc_stock_manager) / [GitHub](https://github.com/Endika/flipper-nfc-stock) |
 | 🏛️ | [NFC Tools](https://github.com/wakdev/nfctools-fz) | NFC Tools can read and write your NFC tags | [Wakdev](https://github.com/Wakdev) | ⭐ 55 | [Official](https://lab.flipper.net/apps/nfc_tools) / [GitHub](https://github.com/wakdev/nfctools-fz) |
 | 🏛️ | [NFC URL](https://github.com/y-dejong/nfcurl) | Create NFC tags that direct you to a URL | Yasper De Jong | ⭐ 16 | [Official](https://lab.flipper.net/apps/nfcurl) / [GitHub](https://github.com/y-dejong/nfcurl) |
@@ -264,7 +264,7 @@ Discover Flipper Zero apps, Flipper Zero plugins, Flipper Zero games, and practi
 | 🏛️ | [WiFi Internet Watch](https://github.com/DruzhininPavel/wifi-internet-watch-flipper) | Select a WiFi network and monitor internet availability through ESP-AT | Pavel Druzhinin | ⭐ 3 | [Official](https://lab.flipper.net/apps/wifi_internet_watch) / [GitHub](https://github.com/DruzhininPavel/wifi-internet-watch-flipper) |
 | 🏛️ | [WoL Flipper](https://github.com/keetsta/wol-flipper) | Wake-on-LAN over the ESP32-S2 WiFi dev board, with a built in flasher | [keetsta](https://github.com/keetsta) | ⭐ 3 | [Official](https://lab.flipper.net/apps/wol_flipper) / [GitHub](https://github.com/keetsta/wol-flipper) |
 | 🏛️ | [Xbox POST Code Reader](https://github.com/coolshrimp/flipperzero-xbox-post-code-reader) | Read Xbox boot POST codes over I2C and decode them offline | [coolshrimp](https://github.com/coolshrimp) | ⭐ 7 | [Official](https://lab.flipper.net/apps/xbox_postcode_reader) / [GitHub](https://github.com/coolshrimp/flipperzero-xbox-post-code-reader) |
-| 🏛️ | [YRM100X_PRO](https://github.com/AlexeySmirnov74/YRM100X_PRO) | UHF RFID reader, writer, clone and tag toolkit. | [@AlexeySmirnov74](https://github.com/AlexeySmirnov74) | ⭐ 1 | [Official](https://lab.flipper.net/apps/yrm100x_pro) / [GitHub](https://github.com/AlexeySmirnov74/YRM100X_PRO) |
+| 🏛️ | [YRM100X_PRO](https://github.com/AlexeySmirnov74/YRM100X_PRO) | UHF RFID reader, writer, clone and tag toolkit. | [@AlexeySmirnov74](https://github.com/AlexeySmirnov74) | ⭐ 2 | [Official](https://lab.flipper.net/apps/yrm100x_pro) / [GitHub](https://github.com/AlexeySmirnov74/YRM100X_PRO) |
 | 🏛️ | [Zeitraffer](https://github.com/theageoflove/flipperzero-zeitraffer) | Simple intervalometer/timelapse app | [theageoflove](https://github.com/theageoflove) | ⭐ 41 | [Official](https://lab.flipper.net/apps/zeitraffer) / [GitHub](https://github.com/theageoflove/flipperzero-zeitraffer) |
 | 🏛️ | [ZeroMesh](https://github.com/SAMS0N1TE/ZeroMesh) | Meshtastic client with offline vector maps, over serial or Bluetooth | [SAMS0N1TE](https://github.com/SAMS0N1TE) | ⭐ 47 | [Official](https://lab.flipper.net/apps/zeromesh) / [GitHub](https://github.com/SAMS0N1TE/ZeroMesh) |
 
@@ -294,7 +294,7 @@ Discover Flipper Zero apps, Flipper Zero plugins, Flipper Zero games, and practi
 | 🏛️ | [USB Game Controller](https://github.com/expected-ingot/flipper-xinput) | An app that emulates XInput controllers | [crapbass](https://github.com/crapbass) | ⭐ 11 | [Official](https://lab.flipper.net/apps/xinput_controller) / [GitHub](https://github.com/expected-ingot/flipper-xinput) |
 | 🏛️ 💎 | [USB HID Autofire](https://github.com/xMasterX/all-the-plugins/blob/-/apps_source_code/usb_hid_autofire) | This is a simple Flipper Zero application to send left-clicks as a USB HID device. | [@pbek](https://github.com/pbek) | ⭐ 1.5k | [Official](https://lab.flipper.net/apps/usb_hid_autofire) / [GitHub](https://github.com/xMasterX/all-the-plugins/blob/-/apps_source_code/usb_hid_autofire) / [Community](https://github.com/pbek/usb_hid_autofire) |
 | 🏛️ | [USB Remote](https://github.com/fidian/flipper-hid-app) | Use Flipper as a HID remote control over USB | Momentum Team | ⭐ 7 | [Official](https://lab.flipper.net/apps/hid_usb) / [GitHub](https://github.com/fidian/flipper-hid-app) |
-| 💎 | [Vulnerability Scanner](https://github.com/MarkCyber/BadUSB/blob/main/HackStuff/VulnerabilityScanner.txt) | Scans a PC for vulnerabilities and saves results | [MarkCyber](https://github.com/MarkCyber) | ⭐ 377 | [GitHub](https://github.com/MarkCyber/BadUSB/blob/main/HackStuff/VulnerabilityScanner.txt) |
+| 💎 | [Vulnerability Scanner](https://github.com/MarkCyber/BadUSB/blob/main/HackStuff/VulnerabilityScanner.txt) | Scans a PC for vulnerabilities and saves results | [MarkCyber](https://github.com/MarkCyber) | ⭐ 378 | [GitHub](https://github.com/MarkCyber/BadUSB/blob/main/HackStuff/VulnerabilityScanner.txt) |
 
 ## Games
 
@@ -335,7 +335,7 @@ Discover Flipper Zero apps, Flipper Zero plugins, Flipper Zero games, and practi
 | 🏛️ | [Five Nights at Flipper's](https://github.com/sillygir1/flipperzero-fnaf) | Five Nights at Flipper's | [sillygir1](https://github.com/sillygir1) | ⭐ 31 | [Official](https://lab.flipper.net/apps/flipperzero_fnaf) / [GitHub](https://github.com/sillygir1/flipperzero-fnaf) |
 | 🏛️ 💎 | [Flappy Bird](https://github.com/xMasterX/all-the-plugins/blob/-/base_pack/flappy_bird) | Flappy Bird Game | @DroomOne & @xMasterX | ⭐ 1.5k | [Official](https://lab.flipper.net/apps/flappy_bird) / [GitHub](https://github.com/xMasterX/all-the-plugins/blob/-/base_pack/flappy_bird) / [Community](https://github.com/DroomOne/flipperzero-firmware/tree/dev/applications%2Fflappy_bird) |
 | 🏛️ | [Flight Assault](https://github.com/evillero/flight_assault) | Flight Assault is a dynamic action game where players control a spacecraft engaged in combat against enemy ships approaching from different directions. | [@evillero](https://github.com/evillero) | ⭐ 3 | [Official](https://lab.flipper.net/apps/flight_assault) / [GitHub](https://github.com/evillero/flight_assault) |
-| 🏛️ | [Flipcraft](https://github.com/apfxtech/Flipcraft) | Flipcraft is a real voxel survival sandbox for Flipper Zero | [@apfxtech](https://github.com/apfxtech) | ⭐ 10 | [Official](https://lab.flipper.net/apps/flipcraft) / [GitHub](https://github.com/apfxtech/Flipcraft) |
+| 🏛️ | [Flipcraft](https://github.com/apfxtech/Flipcraft) | Flipcraft is a real voxel survival sandbox for Flipper Zero | [@apfxtech](https://github.com/apfxtech) | ⭐ 11 | [Official](https://lab.flipper.net/apps/flipcraft) / [GitHub](https://github.com/apfxtech/Flipcraft) |
 | 🏛️ | [Flipper Hero](https://github.com/mentoster/flipper-hero) | Arrow Speed Game | [Mentoster](https://github.com/Mentoster) | ⭐ 19 | [Official](https://lab.flipper.net/apps/flipper_hero) / [GitHub](https://github.com/mentoster/flipper-hero) |
 | 🏛️ | [Flipper Poser](https://github.com/MrNull1/flipperpose) | A simple app to pose your flipper buddy for photos! | [mrnullone](https://github.com/mrnullone) | ⭐ 4 | [Official](https://lab.flipper.net/apps/flipperpose) / [GitHub](https://github.com/MrNull1/flipperpose) |
 | 🏛️ | [Flippy Road](https://github.com/rkilpadi/flippy-road) | Flippy Road Game | [@rkilpadi](https://github.com/rkilpadi) | ⭐ 1 | [Official](https://lab.flipper.net/apps/flippy_road) / [GitHub](https://github.com/rkilpadi/flippy-road) |
@@ -486,7 +486,7 @@ Discover Flipper Zero apps, Flipper Zero plugins, Flipper Zero games, and practi
 | 🏛️ | [Hex Viewer](https://github.com/QtRoS/flipper-zero-hex-viewer) | App allows to view various files as HEX | [QtRoS](https://github.com/QtRoS) | ⭐ 34 | [Official](https://lab.flipper.net/apps/hex_viewer) / [GitHub](https://github.com/QtRoS/flipper-zero-hex-viewer) |
 | 🏛️ | [HyperFocus Calc](https://github.com/Endika/flipper-hyper-focus-calc) | Hyperfocal calculator for Flipper Zero — focal length, full-stop aperture, and per-sensor circle of confusion (CoC), with optional manual CoC editing. | [Endika](https://github.com/Endika) | ⭐ 5 | [Official](https://lab.flipper.net/apps/flipper_hyper_focus_calc) / [GitHub](https://github.com/Endika/flipper-hyper-focus-calc) |
 | 🏛️ | [IconEdit](https://github.com/rdefeo/iconedit) | Icon editor | Roberto De Feo | ⭐ 19 | [Official](https://lab.flipper.net/apps/iconedit) / [GitHub](https://github.com/rdefeo/iconedit) |
-| 🏛️ | [Key Copier](https://github.com/zinongli/KeyCopier) | @README.md | [Torron](https://github.com/Torron) | ⭐ 397 | [Official](https://lab.flipper.net/apps/key_copier) / [GitHub](https://github.com/zinongli/KeyCopier) |
+| 🏛️ | [Key Copier](https://github.com/zinongli/KeyCopier) | @README.md | [Torron](https://github.com/Torron) | ⭐ 398 | [Official](https://lab.flipper.net/apps/key_copier) / [GitHub](https://github.com/zinongli/KeyCopier) |
 | 🏛️ | [KneeFlip Rehab](https://github.com/daryalok/KneeFlip-Rehab) | Timer and counter for clinician-prescribed knee rehab routines | Darya Lok | ⭐ 1 | [Official](https://lab.flipper.net/apps/kneeflip_rehab) / [GitHub](https://github.com/daryalok/KneeFlip-Rehab) |
 | 🏛️ | [Knit Counter](https://github.com/fridgepoet/knit-counter) | Counter that saves after exiting | [@fridgepoet](https://github.com/fridgepoet) | ⭐ 4 | [Official](https://lab.flipper.net/apps/knit_counter) / [GitHub](https://github.com/fridgepoet/knit-counter) |
 | 🏛️ | [LED Blinker](https://github.com/Cupprum/Blinker) | App that blinks LEDs with a decreasing frequency over time | [@Cupprum](https://github.com/Cupprum) | ⭐ 5 | [Official](https://lab.flipper.net/apps/blinker) / [GitHub](https://github.com/Cupprum/Blinker) |
@@ -504,7 +504,7 @@ Discover Flipper Zero apps, Flipper Zero plugins, Flipper Zero games, and practi
 | 🏛️ | [Password Manager](https://github.com/Rrycbarm/flipperZeroPasswordManager) | This app stores your usernames and password and can write them on your PC acting as a keyboard | [Rrycbarm](https://github.com/Rrycbarm) | ⭐ 19 | [Official](https://lab.flipper.net/apps/password_manager) / [GitHub](https://github.com/Rrycbarm/flipperZeroPasswordManager) |
 | 🏛️ | [Period Tracker](https://github.com/gorshunovr/period_tracker) | Track menstrual cycles for multiple people with predictions and alerts | Roman Gorshunov | ⭐ 3 | [Official](https://lab.flipper.net/apps/period_tracker) / [GitHub](https://github.com/gorshunovr/period_tracker) |
 | 🏛️ | [Persian Calendar](https://github.com/AmirNcode/flipper-persian-calendar) | Persian (Jalali) calendar with date converter and weekday display | [amir](https://github.com/amir) | ⭐ 0 | [Official](https://lab.flipper.net/apps/persian_calendar) / [GitHub](https://github.com/AmirNcode/flipper-persian-calendar) |
-| 🏛️ | [Pet Your Dolphin](https://github.com/dwight9339/pet_your_dolphin) | Pet your dolphin to keep it happy and earn XP | David White | ⭐ 19 | [Official](https://lab.flipper.net/apps/pet_your_dolphin) / [GitHub](https://github.com/dwight9339/pet_your_dolphin) |
+| 🏛️ | [Pet Your Dolphin](https://github.com/dwight9339/pet_your_dolphin) | Pet your dolphin to keep it happy and earn XP | David White | ⭐ 17 | [Official](https://lab.flipper.net/apps/pet_your_dolphin) / [GitHub](https://github.com/dwight9339/pet_your_dolphin) |
 | 🏛️ | [Pocket CVSS](https://github.com/vavkamil/pocket-cvss) | Offline CVSS v3.1 base calculator | [vavkamil](https://github.com/vavkamil) | ⭐ 2 | [Official](https://lab.flipper.net/apps/pocket_cvss) / [GitHub](https://github.com/vavkamil/pocket-cvss) |
 | 🏛️ | [PocketLab](https://github.com/PerfectoWeb/flipper-pocketlab) | Learn your Flipper with short, gamified hands-on labs. | [PerfectoWeb](https://github.com/PerfectoWeb) | ⭐ 10 | [Official](https://lab.flipper.net/apps/pocketlab) / [GitHub](https://github.com/PerfectoWeb/flipper-pocketlab) |
 | 🏛️ | [Pomodoro Timer](https://github.com/xMasterX/all-the-plugins/blob/-/apps_source_code/pomodoro) | Use your Flipper Zero as a Pomodoro Timer. | [@sbrin](https://github.com/sbrin) | ⭐ 1.5k | [Official](https://lab.flipper.net/apps/pomodoro_timer) / [GitHub](https://github.com/xMasterX/all-the-plugins/blob/-/apps_source_code/pomodoro) |
@@ -532,7 +532,7 @@ Discover Flipper Zero apps, Flipper Zero plugins, Flipper Zero games, and practi
 | 🏛️ | [Video Game Module Tool](https://github.com/flipperdevices/flipperzero-good-faps/blob/-/video_game_module_tool) | This app is a standalone firmware updater/installer for the Video Game Module | [@gsurkov](https://github.com/gsurkov) | ⭐ 479 | [Official](https://lab.flipper.net/apps/video_game_module_tool) / [GitHub](https://github.com/flipperdevices/flipperzero-good-faps/blob/-/video_game_module_tool) |
 | 🏛️ | [VIN decoder](https://github.com/evillero/vin_decoder) | Vehicle Identification Number decoder | [@evillero](https://github.com/evillero) | ⭐ 38 | [Official](https://lab.flipper.net/apps/vin_decoder) / [GitHub](https://github.com/evillero/vin_decoder) |
 | 🏛️ | [Voltage Calculator](https://github.com/HappyAmos/Flipper_FAPS/blob/-/voltcalc_app) | A simple Ohms Law calculator | [@HappyAmos](https://github.com/HappyAmos) | ⭐ 6 | [Official](https://lab.flipper.net/apps/voltcalc_app) / [GitHub](https://github.com/HappyAmos/Flipper_FAPS/blob/-/voltcalc_app) |
-| 🏛️ | [WHC SWIO Flasher](https://github.com/sukvojte/wch_swio_flasher) | A WHC CH32V003 debugger/flasher tool | Vojtech Suk | ⭐ 27 | [Official](https://lab.flipper.net/apps/wch_swio_flasher) / [GitHub](https://github.com/sukvojte/wch_swio_flasher) |
+| 🏛️ | [WHC SWIO Flasher](https://github.com/sukvojte/wch_swio_flasher) | A WHC CH32V003 debugger/flasher tool | Vojtech Suk | ⭐ 28 | [Official](https://lab.flipper.net/apps/wch_swio_flasher) / [GitHub](https://github.com/sukvojte/wch_swio_flasher) |
 | 🏛️ | [WikiFlip](https://github.com/RogerF5-Security/WikiFlip) | Offline cybersecurity dictionary for Flipper Zero | Roger Arana | ⭐ 4 | [Official](https://lab.flipper.net/apps/wikiflip) / [GitHub](https://github.com/RogerF5-Security/WikiFlip) |
 | 🏛️ | [ZeroFIDO](https://github.com/MinorGlitch/zerofido) | FIDO2 for Flipper Zero | Alex Stoyanov | ⭐ 78 | [Official](https://lab.flipper.net/apps/zerofido) / [GitHub](https://github.com/MinorGlitch/zerofido) |
 
@@ -562,14 +562,14 @@ Discover Flipper Zero apps, Flipper Zero plugins, Flipper Zero games, and practi
 |--------|-----|-------------|--------|--------|-------|
 | 💎 | [FalsePhilosophers Flipper BadUSB](https://github.com/FalsePhilosopher/badusb) | Flipper Zero community ducky payload repo | [FalsePhilosopher](https://github.com/FalsePhilosopher) | ⭐ 2k | [GitHub](https://github.com/FalsePhilosopher/badusb) |
 | 💎 | [Flipper BadUSB Payloads](https://github.com/I-Am-Jakoby/Flipper-Zero-BadUSB) | Collection of payloads formatted to work on the Flipper Zero | [I-Am-Jakoby](https://github.com/I-Am-Jakoby) | ⭐ 7.1k | [GitHub](https://github.com/I-Am-Jakoby/Flipper-Zero-BadUSB) |
-| 💎 | [MarkCyber](https://github.com/MarkCyber/BadUSB) | Free BadUSB payloads for ethical hacking (and fun) | [MarkCyber](https://github.com/MarkCyber) | ⭐ 377 | [GitHub](https://github.com/MarkCyber/BadUSB) |
+| 💎 | [MarkCyber](https://github.com/MarkCyber/BadUSB) | Free BadUSB payloads for ethical hacking (and fun) | [MarkCyber](https://github.com/MarkCyber) | ⭐ 378 | [GitHub](https://github.com/MarkCyber/BadUSB) |
 | 💎 | [My-Flipper-Shits](https://github.com/aleff-github/my-flipper-shits) | Free and open-source BadUSB payloads for Flipper Zero | [aleff-github](https://github.com/aleff-github) | ⭐ 1.8k | [GitHub](https://github.com/aleff-github/my-flipper-shits) |
 
 ### Infrared
 
 | Source | App | Description | Author | Rating | Links |
 |--------|-----|-------------|--------|--------|-------|
-| 💎 | [Flipper-IRDB](https://github.com/logickworkshop/Flipper-IRDB) | Many IR dumps for various devices | [logickworkshop](https://github.com/logickworkshop) | ⭐ 2.5k | [GitHub](https://github.com/logickworkshop/Flipper-IRDB) |
+| 💎 | [Flipper-IRDB](https://github.com/logickworkshop/Flipper-IRDB) | Many IR dumps for various devices | [logickworkshop](https://github.com/logickworkshop) | ⭐ 2.6k | [GitHub](https://github.com/logickworkshop/Flipper-IRDB) |
 
 ### Music
 
@@ -582,7 +582,7 @@ Discover Flipper Zero apps, Flipper Zero plugins, Flipper Zero games, and practi
 
 | Source | App | Description | Author | Rating | Links |
 |--------|-----|-------------|--------|--------|-------|
-| 💎 | [Flipper-StarNew](https://github.com/GlUTEN-BASH/Flipper-Starnew) | Universal Intercom Keys | [GlUTEN-BASH](https://github.com/GlUTEN-BASH) | ⭐ 580 | [GitHub](https://github.com/GlUTEN-BASH/Flipper-Starnew) |
+| 💎 | [Flipper-StarNew](https://github.com/GlUTEN-BASH/Flipper-Starnew) | Universal Intercom Keys | [GlUTEN-BASH](https://github.com/GlUTEN-BASH) | ⭐ 582 | [GitHub](https://github.com/GlUTEN-BASH/Flipper-Starnew) |
 | 💎 | [FlipperZero-Goodies](https://github.com/wetox-team/flipperzero-goodies) | Intercom keys, scripts, etc | [wetox-team](https://github.com/wetox-team) | ⭐ 1.4k | [GitHub](https://github.com/wetox-team/flipperzero-goodies) |
 
 ### NFC/RFID
@@ -597,9 +597,9 @@ Discover Flipper Zero apps, Flipper Zero plugins, Flipper Zero games, and practi
 | Source | App | Description | Author | Rating | Links |
 |--------|-----|-------------|--------|--------|-------|
 | 💎 | [flipperzero-bruteforce](https://github.com/tobiabocchi/flipperzero-bruteforce) | Generate .sub files to brute force Sub-GHz OOK | [tobiabocchi](https://github.com/tobiabocchi) | ⭐ 2.5k | [GitHub](https://github.com/tobiabocchi/flipperzero-bruteforce) |
-| 💎 | [Flipperzero-Concert-Bracelets](https://github.com/MakeTotalSense/Flipper-Concert-bracelets) | Sub-GHz file to trigger event LED bracelets | [MakeTotalSense](https://github.com/MakeTotalSense) | ⭐ 92 | [GitHub](https://github.com/MakeTotalSense/Flipper-Concert-bracelets) |
-| 💎 | [FlipperZero-TouchTunes](https://github.com/jimilinuxguy/flipperzero-touchtunes) | Dumps of TouchTune's remote | [jimilinuxguy](https://github.com/jimilinuxguy) | ⭐ 726 | [GitHub](https://github.com/jimilinuxguy/flipperzero-touchtunes) |
-| 💎 | [T119 bruteforcer](https://github.com/xb8/t119bruteforcer) | Triggers Retekess T119 restaurant pagers | [xb8](https://github.com/xb8) | ⭐ 730 | [GitHub](https://github.com/xb8/t119bruteforcer) |
+| 💎 | [Flipperzero-Concert-Bracelets](https://github.com/MakeTotalSense/Flipper-Concert-bracelets) | Sub-GHz file to trigger event LED bracelets | [MakeTotalSense](https://github.com/MakeTotalSense) | ⭐ 93 | [GitHub](https://github.com/MakeTotalSense/Flipper-Concert-bracelets) |
+| 💎 | [FlipperZero-TouchTunes](https://github.com/jimilinuxguy/flipperzero-touchtunes) | Dumps of TouchTune's remote | [jimilinuxguy](https://github.com/jimilinuxguy) | ⭐ 727 | [GitHub](https://github.com/jimilinuxguy/flipperzero-touchtunes) |
+| 💎 | [T119 bruteforcer](https://github.com/xb8/t119bruteforcer) | Triggers Retekess T119 restaurant pagers | [xb8](https://github.com/xb8) | ⭐ 731 | [GitHub](https://github.com/xb8/t119bruteforcer) |
 
 ### General
 
@@ -618,7 +618,7 @@ Discover Flipper Zero apps, Flipper Zero plugins, Flipper Zero games, and practi
 
 | Source | App | Description | Author | Rating | Links |
 |--------|-----|-------------|--------|--------|-------|
-| 💎 | [Flipper Zero Evil Portal](https://github.com/bigbrodude6119/flipper-zero-evil-portal) | An evil captive portal Wi-Fi access point using the Flipper Zero and Wi-Fi dev board | [bigbrodude6119](https://github.com/bigbrodude6119) | ⭐ 2.3k | [GitHub](https://github.com/bigbrodude6119/flipper-zero-evil-portal) |
+| 💎 | [Flipper Zero Evil Portal](https://github.com/bigbrodude6119/flipper-zero-evil-portal) | An evil captive portal Wi-Fi access point using the Flipper Zero and Wi-Fi dev board | [bigbrodude6119](https://github.com/bigbrodude6119) | ⭐ 2.4k | [GitHub](https://github.com/bigbrodude6119/flipper-zero-evil-portal) |
 | 💎 | [FZEE Flasher](https://fzeeflasher.com) | Easy web flasher for various different wifi boards |  |  | [Community](https://fzeeflasher.com) |
 | 💎 | [Maraduer Official](https://github.com/justcallmekoko/ESP32Marauder) | Official site from JustCallMeKoko, including various ESP32 options | [justcallmekoko](https://github.com/justcallmekoko) | ⭐ 12.4k | [GitHub](https://github.com/justcallmekoko/ESP32Marauder) |
 | 💎 | [SkeletonMan's ESP32 Flasher](https://github.com/SkeletonMan03/FZEasyMarauderFlash) | Python script to flash multiple boards with Marauder or BlackMagic | [SkeletonMan03](https://github.com/SkeletonMan03) | ⭐ 1.4k | [GitHub](https://github.com/SkeletonMan03/FZEasyMarauderFlash) |
@@ -679,7 +679,7 @@ Discover Flipper Zero apps, Flipper Zero plugins, Flipper Zero games, and practi
 | 💎 | [Kf637/Animations-for-Flipper-Zero](https://github.com/Kf637/Animations-for-Flipper-Zero) | A collection of over 420 public animations from tons of different creators | [Kf637](https://github.com/Kf637) | ⭐ 247 | [GitHub](https://github.com/Kf637/Animations-for-Flipper-Zero) |
 | 💎 | [Kuronons Graphics](https://github.com/Kuronons/FZ_graphics) | Custom animations, passport backgrounds & profile pictures | [Kuronons](https://github.com/Kuronons) | ⭐ 574 | [GitHub](https://github.com/Kuronons/FZ_graphics) |
 | 💎 | [Oneamongthetrees Animations/Graphics](https://github.com/oneamongthetrees/fz-gfx) | Collection of custom animations and passport icons | [oneamongthetrees](https://github.com/oneamongthetrees) | ⭐ 16 | [GitHub](https://github.com/oneamongthetrees/fz-gfx) |
-| 💎 | [Talking Sasquach Animations](https://github.com/skizzophrenic/Talking-Sasquach) | Literally wrote the book on making animations | [skizzophrenic](https://github.com/skizzophrenic) | ⭐ 774 | [GitHub](https://github.com/skizzophrenic/Talking-Sasquach) |
+| 💎 | [Talking Sasquach Animations](https://github.com/skizzophrenic/Talking-Sasquach) | Literally wrote the book on making animations | [skizzophrenic](https://github.com/skizzophrenic) | ⭐ 775 | [GitHub](https://github.com/skizzophrenic/Talking-Sasquach) |
 | 💎 | [UberGuidoZ Graphics](https://github.com/UberGuidoZ/Flipper/tree/main/Graphics) | Brief description and links to resources, including PYX host | [UberGuidoZ](https://github.com/UberGuidoZ) | ⭐ 17.5k | [GitHub](https://github.com/UberGuidoZ/Flipper/tree/main/Graphics) |
 | 💎 | [Wr3nch Animations](https://github.com/wrenchathome/flip0anims) | Some custom animations and scripts | [wrenchathome](https://github.com/wrenchathome) | ⭐ 281 | [GitHub](https://github.com/wrenchathome/flip0anims) |
 
@@ -775,7 +775,7 @@ Discover Flipper Zero apps, Flipper Zero plugins, Flipper Zero games, and practi
 |--------|-----|-------------|--------|--------|-------|
 | 💎 | [FBT-AARCH64](https://github.com/qqmajikpp/FBT-AARCH64) | A script that sets up FBT's toolchain on ARM devices | [qqmajikpp](https://github.com/qqmajikpp) | ⭐ 22 | [GitHub](https://github.com/qqmajikpp/FBT-AARCH64) |
 | 💎 | [flipper0](https://crates.io/crates/flipper0) | Rusty crate with safe interface to Flipper Firmware and autogen bindings underneath |  |  | [Community](https://crates.io/crates/flipper0) |
-| 💎 | [flipperzero-rs](https://github.com/dcoles/flipperzero-rs) | Hand-crafted bindings to Flipper Firmware with custom build tool | [dcoles](https://github.com/dcoles) | ⭐ 688 | [GitHub](https://github.com/dcoles/flipperzero-rs) |
+| 💎 | [flipperzero-rs](https://github.com/dcoles/flipperzero-rs) | Hand-crafted bindings to Flipper Firmware with custom build tool | [dcoles](https://github.com/dcoles) | ⭐ 689 | [GitHub](https://github.com/dcoles/flipperzero-rs) |
 | 💎 | [flipperzero-sesproject](https://github.com/hedger/flipperzero-sesproject) | Segger Embedded Studio project | [hedger](https://github.com/hedger) | ⭐ 43 | [GitHub](https://github.com/hedger/flipperzero-sesproject) |
 | 💎 | [fzfs](https://github.com/dakhnod/fzfs) | Flipper Zero filesystem driver | [dakhnod](https://github.com/dakhnod) | ⭐ 224 | [GitHub](https://github.com/dakhnod/fzfs) |
 
