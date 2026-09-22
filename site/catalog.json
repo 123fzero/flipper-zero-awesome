@@ -394,7 +394,7 @@
               "description": "SubGhz Remote, uses up to 5 .sub files",
               "author": "@gid9798 and @xMasterX",
               "authorUrl": "",
-              "rating": "⭐ 116",
+              "rating": "⭐ 117",
               "officialUrl": "https://lab.flipper.net/apps/subghz_remote_ofw",
               "communityUrl": "",
               "repoUrl": "https://github.com/DarkFlippers/SubGHz_Remote",
@@ -572,7 +572,7 @@
               "description": "FDX-B format file maker for animal microchips",
               "author": "Skye Gibbs",
               "authorUrl": "",
-              "rating": "⭐ 9",
+              "rating": "⭐ 10",
               "officialUrl": "https://lab.flipper.net/apps/fdxb_maker",
               "communityUrl": "",
               "repoUrl": "https://github.com/snowsign/fdxb-maker",
@@ -1086,7 +1086,7 @@
               "description": "NFC Tools can read and write your NFC tags",
               "author": "Wakdev",
               "authorUrl": "https://github.com/Wakdev",
-              "rating": "⭐ 55",
+              "rating": "⭐ 56",
               "officialUrl": "https://lab.flipper.net/apps/nfc_tools",
               "communityUrl": "",
               "repoUrl": "https://github.com/wakdev/nfctools-fz",
@@ -1254,7 +1254,7 @@
               "description": "Passively sense active 13.56 MHz NFC readers and skimmers with the onboard NFC chip. No extra hardware, never transmits.",
               "author": "at0m-b0mb",
               "authorUrl": "https://github.com/at0m-b0mb",
-              "rating": "⭐ 103",
+              "rating": "⭐ 104",
               "officialUrl": "https://lab.flipper.net/apps/specter",
               "communityUrl": "",
               "repoUrl": "https://github.com/at0m-b0mb/Specter-FlipperZero",
@@ -2039,6 +2039,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/hotspot_arcade",
                 "github": "https://github.com/tarikbc/hotspot-arcade/blob/-/flipper/hotspot-arcade",
+                "community": ""
+              }
+            },
+            {
+              "section": "GPIO",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "[ESP32] WiFi Census",
+              "description": "Passive Wi-Fi device census over an ESP32 Marauder board - count the devices around you, then compare two places and see who was at both.",
+              "author": "Endika",
+              "authorUrl": "https://github.com/Endika",
+              "rating": "⭐ 0",
+              "officialUrl": "https://lab.flipper.net/apps/flipper_wifi_census",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/Endika/flipper-wifi-census",
+              "links": {
+                "official": "https://lab.flipper.net/apps/flipper_wifi_census",
+                "github": "https://github.com/Endika/flipper-wifi-census",
                 "community": ""
               }
             },
@@ -4746,7 +4767,7 @@
               "description": "Scans a PC for vulnerabilities and saves results",
               "author": "MarkCyber",
               "authorUrl": "https://github.com/MarkCyber",
-              "rating": "⭐ 380",
+              "rating": "⭐ 381",
               "officialUrl": "",
               "communityUrl": "https://github.com/MarkCyber/BadUSB/blob/main/HackStuff/VulnerabilityScanner.txt",
               "repoUrl": "https://github.com/MarkCyber/BadUSB/blob/main/HackStuff/VulnerabilityScanner.txt",
@@ -5046,6 +5067,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "BEEPBACK",
+              "description": "Simon-style memory game: five modes, changing rules, and a daily run every Flipper in the world plays the same.",
+              "author": "Tijnv50",
+              "authorUrl": "https://github.com/Tijnv50",
+              "rating": "⭐ 6",
+              "officialUrl": "https://lab.flipper.net/apps/beepback",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/h4sw5q2wr9-byte/BEEPBACK",
+              "links": {
+                "official": "https://lab.flipper.net/apps/beepback",
+                "github": "https://github.com/h4sw5q2wr9-byte/BEEPBACK",
+                "community": ""
+              }
+            },
+            {
+              "section": "Games",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Bomberduck",
               "description": "Bomberduck(Bomberman) Game",
               "author": "@leo-need-more-coffee & @xMasterX",
@@ -5057,6 +5099,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/bomberduck",
                 "github": "https://github.com/xMasterX/all-the-plugins/blob/-/base_pack/bomberduck",
+                "community": ""
+              }
+            },
+            {
+              "section": "Games",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Bounce",
+              "description": "Nokia-style Bounce: roll, jump, collect every ring and reach the exit.",
+              "author": "Tom Varghese",
+              "authorUrl": "",
+              "rating": "⭐ 0",
+              "officialUrl": "https://lab.flipper.net/apps/bounce",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/tomxposed/flipper-bounce",
+              "links": {
+                "official": "https://lab.flipper.net/apps/bounce",
+                "github": "https://github.com/tomxposed/flipper-bounce",
                 "community": ""
               }
             },
@@ -5395,6 +5458,27 @@
                 "official": "https://lab.flipper.net/apps/doom",
                 "github": "https://github.com/xMasterX/all-the-plugins/blob/-/base_pack/doom",
                 "community": "https://github.com/p4nic4ttack/doom-flipper-zero"
+              }
+            },
+            {
+              "section": "Games",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Dragotchi",
+              "description": "Raise a dragon; hunt the airwaves",
+              "author": "MrModd (original), fork by willem",
+              "authorUrl": "",
+              "rating": "⭐ 2",
+              "officialUrl": "https://lab.flipper.net/apps/dragotchi",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/Mohnki/dragotchi-flipper",
+              "links": {
+                "official": "https://lab.flipper.net/apps/dragotchi",
+                "github": "https://github.com/Mohnki/dragotchi-flipper",
+                "community": ""
               }
             },
             {
@@ -6573,6 +6657,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/spaceimpactii985e",
                 "github": "https://github.com/Erbonator3000/Flipper-Zero-Space-Impact-II",
+                "community": ""
+              }
+            },
+            {
+              "section": "Games",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Stack Attack",
+              "description": "Push crates, fill rows, don't get crushed. A remake of the legendary Siemens mobile game",
+              "author": "@Negenii",
+              "authorUrl": "https://github.com/Negenii",
+              "rating": "⭐ 5",
+              "officialUrl": "https://lab.flipper.net/apps/stack_attack",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/Negenii/flipper-stack-attack",
+              "links": {
+                "official": "https://lab.flipper.net/apps/stack_attack",
+                "github": "https://github.com/Negenii/flipper-stack-attack",
                 "community": ""
               }
             },
@@ -7848,7 +7953,7 @@
               "description": "Crack combo locks in 8 attempts or less",
               "author": "@CharlesTheGreat77",
               "authorUrl": "https://github.com/CharlesTheGreat77",
-              "rating": "⭐ 41",
+              "rating": "⭐ 42",
               "officialUrl": "https://lab.flipper.net/apps/combo_cracker",
               "communityUrl": "",
               "repoUrl": "https://github.com/CharlesTheGreat77/ComboCracker-FZ",
@@ -8583,7 +8688,7 @@
               "description": "App for saving obtained vaules from lishi tool.",
               "author": "@evillero",
               "authorUrl": "https://github.com/evillero",
-              "rating": "⭐ 54",
+              "rating": "⭐ 56",
               "officialUrl": "https://lab.flipper.net/apps/lishi",
               "communityUrl": "",
               "repoUrl": "https://github.com/evillero/lishi",
@@ -8646,7 +8751,7 @@
               "description": "Learn, practise, send, and experiment with Morse code on Flipper Zero.",
               "author": "@yo3gnd",
               "authorUrl": "https://github.com/yo3gnd",
-              "rating": "⭐ 21",
+              "rating": "⭐ 22",
               "officialUrl": "https://lab.flipper.net/apps/morse_flipper",
               "communityUrl": "",
               "repoUrl": "https://github.com/yo3gnd/morse-flipper",
@@ -9272,6 +9377,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Talk Timer",
+              "description": "Presentation clicker with discreet talk timer via USB or Bluetooth HID",
+              "author": "Manoah Ruiz Rodriguez",
+              "authorUrl": "",
+              "rating": "⭐ 0",
+              "officialUrl": "https://lab.flipper.net/apps/talk_timer",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/Mableton/talk_timer",
+              "links": {
+                "official": "https://lab.flipper.net/apps/talk_timer",
+                "github": "https://github.com/Mableton/talk_timer",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Tasks",
               "description": "A simple to-do application.",
               "author": "Stanislav Vasilev(Madman10K)",
@@ -9514,6 +9640,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/zerofido",
                 "github": "https://github.com/MinorGlitch/zerofido",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Zoom Remote",
+              "description": "Remote control for Zoom Workplace on macOS and Windows via USB or Bluetooth HID",
+              "author": "Manoah Ruiz Rodriguez",
+              "authorUrl": "",
+              "rating": "⭐ 0",
+              "officialUrl": "https://lab.flipper.net/apps/zoom_remote",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/Mableton/zoom_remote",
+              "links": {
+                "official": "https://lab.flipper.net/apps/zoom_remote",
+                "github": "https://github.com/Mableton/zoom_remote",
                 "community": ""
               }
             }
@@ -9863,7 +10010,7 @@
               "description": "Free BadUSB payloads for ethical hacking (and fun)",
               "author": "MarkCyber",
               "authorUrl": "https://github.com/MarkCyber",
-              "rating": "⭐ 380",
+              "rating": "⭐ 381",
               "officialUrl": "",
               "communityUrl": "https://github.com/MarkCyber/BadUSB",
               "repoUrl": "https://github.com/MarkCyber/BadUSB",
@@ -10030,7 +10177,7 @@
               "description": "Database of Tonies for the Toniebox",
               "author": "nortakales",
               "authorUrl": "https://github.com/nortakales",
-              "rating": "⭐ 549",
+              "rating": "⭐ 551",
               "officialUrl": "",
               "communityUrl": "https://github.com/nortakales/flipper-zero-tonies",
               "repoUrl": "https://github.com/nortakales/flipper-zero-tonies",
@@ -10919,7 +11066,7 @@
               "description": "Custom animations, passport backgrounds & profile pictures",
               "author": "Kuronons",
               "authorUrl": "https://github.com/Kuronons",
-              "rating": "⭐ 577",
+              "rating": "⭐ 578",
               "officialUrl": "",
               "communityUrl": "https://github.com/Kuronons/FZ_graphics",
               "repoUrl": "https://github.com/Kuronons/FZ_graphics",
@@ -10961,7 +11108,7 @@
               "description": "Literally wrote the book on making animations",
               "author": "skizzophrenic",
               "authorUrl": "https://github.com/skizzophrenic",
-              "rating": "⭐ 775",
+              "rating": "⭐ 776",
               "officialUrl": "",
               "communityUrl": "https://github.com/skizzophrenic/Talking-Sasquach",
               "repoUrl": "https://github.com/skizzophrenic/Talking-Sasquach",
@@ -11888,7 +12035,7 @@
               "description": "Python scripts to screenshot/stream screen",
               "author": "lomalkin",
               "authorUrl": "https://github.com/lomalkin",
-              "rating": "⭐ 97",
+              "rating": "⭐ 98",
               "officialUrl": "",
               "communityUrl": "https://github.com/lomalkin/flipperzero-cli-tools",
               "repoUrl": "https://github.com/lomalkin/flipperzero-cli-tools",
@@ -11972,7 +12119,7 @@
               "description": "Unofficial CLI wrapper writter in Python",
               "author": "wh00hw",
               "authorUrl": "https://github.com/wh00hw",
-              "rating": "⭐ 442",
+              "rating": "⭐ 443",
               "officialUrl": "",
               "communityUrl": "https://github.com/wh00hw/pyFlipper",
               "repoUrl": "https://github.com/wh00hw/pyFlipper",
