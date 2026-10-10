@@ -631,6 +631,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "RFID Maker",
+              "description": "Create RFID files from decimal facility codes and card numbers",
+              "author": "KindaCharming",
+              "authorUrl": "https://github.com/KindaCharming",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/rfid_maker",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/jeremydbean/FlipperRFIDMaker",
+              "links": {
+                "official": "https://lab.flipper.net/apps/rfid_maker",
+                "github": "https://github.com/jeremydbean/FlipperRFIDMaker",
+                "community": ""
+              }
+            },
+            {
+              "section": "RFID",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "T5577 multiwriter",
               "description": "Application for writing several keys to one t5577",
               "author": "@Leptopt1los",
@@ -694,6 +715,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/biovault",
                 "github": "https://github.com/flamebarke/biovault-flipper",
+                "community": ""
+              }
+            },
+            {
+              "section": "NFC",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "CFS RFID",
+              "description": "Creality K2/K1/CFS RFID Spool Reader, Writer & Emulator",
+              "author": "mitchsurp",
+              "authorUrl": "https://github.com/mitchsurp",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/k2_rfid",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/mitchsurp/K2-RFID-Flipper",
+              "links": {
+                "official": "https://lab.flipper.net/apps/k2_rfid",
+                "github": "https://github.com/mitchsurp/K2-RFID-Flipper",
                 "community": ""
               }
             },
@@ -1292,6 +1334,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "TonUINO Writer",
+              "description": "NFC card writer for TonUINO audio boxes",
+              "author": "Bastelsaal",
+              "authorUrl": "https://github.com/Bastelsaal",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/tonuino_writer",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/Bastelsaal/tonuino-flipper-zero",
+              "links": {
+                "official": "https://lab.flipper.net/apps/tonuino_writer",
+                "github": "https://github.com/Bastelsaal/tonuino-flipper-zero",
+                "community": ""
+              }
+            },
+            {
+              "section": "NFC",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "UDECard",
               "description": "Analyse student ID cards from the University of Duisburg-Essen (Intercard).",
               "author": "Alexander Hahn (github.com/hahnworks)",
@@ -1806,6 +1869,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Roku App",
+              "description": "Control your Roku TV from one interface",
+              "author": "Sifi11",
+              "authorUrl": "https://github.com/Sifi11",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/roku_app",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/sifi11/Flipper-Roku-App/blob/-/Roku-App",
+              "links": {
+                "official": "https://lab.flipper.net/apps/roku_app",
+                "github": "https://github.com/sifi11/Flipper-Roku-App/blob/-/Roku-App",
+                "community": ""
+              }
+            },
+            {
+              "section": "Infrared",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Samsung AC Remote",
               "description": "Samsung Electric Air Conditioner remote control",
               "author": "@dappermint",
@@ -1817,6 +1901,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/samsung_ac_remote",
                 "github": "https://github.com/dappermint/samsung-ac-remote-flipper-app",
+                "community": ""
+              }
+            },
+            {
+              "section": "Infrared",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "TamaConnect",
+              "description": "Infrared companion for virtual pet devices",
+              "author": "sp2013",
+              "authorUrl": "https://github.com/sp2013",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/tama_connect",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/s2013p/TamaConnect",
+              "links": {
+                "official": "https://lab.flipper.net/apps/tama_connect",
+                "github": "https://github.com/s2013p/TamaConnect",
                 "community": ""
               }
             },
@@ -3983,6 +4088,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Smart Home",
+              "description": "Control supported smart home devices through a Wi-Fi Developer Board",
+              "author": "Vincenzo",
+              "authorUrl": "https://github.com/Vincenzo",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/smart_home",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/biotechnicallc/SmartHome",
+              "links": {
+                "official": "https://lab.flipper.net/apps/smart_home",
+                "github": "https://github.com/biotechnicallc/SmartHome",
+                "community": ""
+              }
+            },
+            {
+              "section": "GPIO",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "SPI Mem Manager",
               "description": "Application for reading and writing 25-series SPI memory chips",
               "author": "@drunkbatya",
@@ -4784,27 +4910,6 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
-              "name": "USB Internet Bridge",
-              "description": "HTTPS bridge over USB CDC",
-              "author": "mete888",
-              "authorUrl": "https://github.com/mete888",
-              "rating": "",
-              "officialUrl": "https://lab.flipper.net/apps/usb_internet_bridge",
-              "communityUrl": "",
-              "repoUrl": "https://github.com/mete888/flipper_usb_to_wifi",
-              "links": {
-                "official": "https://lab.flipper.net/apps/usb_internet_bridge",
-                "github": "https://github.com/mete888/flipper_usb_to_wifi",
-                "community": ""
-              }
-            },
-            {
-              "section": "USB",
-              "subsection": "",
-              "sourceBadges": [
-                "official"
-              ],
-              "sourceIcons": "🏛️",
               "name": "USB Remote",
               "description": "Use Flipper as a HID remote control over USB",
               "author": "Momentum Team",
@@ -4868,6 +4973,27 @@
               "links": {
                 "official": "",
                 "github": "https://github.com/123fzero/123DiceDnD",
+                "community": ""
+              }
+            },
+            {
+              "section": "Games",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "20 Questions",
+              "description": "Think of anything. Your Flipper guesses it in 20 questions. Fully offline.",
+              "author": "Cheesedog223",
+              "authorUrl": "https://github.com/Cheesedog223",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/twentyq",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/Cheesedog223/20Q_Flipper0",
+              "links": {
+                "official": "https://lab.flipper.net/apps/twentyq",
+                "github": "https://github.com/Cheesedog223/20Q_Flipper0",
                 "community": ""
               }
             },
@@ -5414,6 +5540,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/countdown",
                 "github": "https://github.com/sistemasorp/flipper-countdown",
+                "community": ""
+              }
+            },
+            {
+              "section": "Games",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Cribbage Calc",
+              "description": "Quickly count a cribbage hand or crib",
+              "author": "Dylan Christiansen",
+              "authorUrl": "",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/cribbage_calc",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/dchristiansen/cribCalc",
+              "links": {
+                "official": "https://lab.flipper.net/apps/cribbage_calc",
+                "github": "https://github.com/dchristiansen/cribCalc",
                 "community": ""
               }
             },
@@ -6730,6 +6877,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Solitaire",
+              "description": "Klondike Solitaire card game",
+              "author": "doofy-dev",
+              "authorUrl": "https://github.com/doofy-dev",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/solitaire",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/doofy-dev/flipper_solitaire",
+              "links": {
+                "official": "https://lab.flipper.net/apps/solitaire",
+                "github": "https://github.com/doofy-dev/flipper_solitaire",
+                "community": ""
+              }
+            },
+            {
+              "section": "Games",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Space Impact II",
               "description": "Space Impact II clone",
               "author": "Eero Prittinen",
@@ -6741,6 +6909,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/spaceimpactii985e",
                 "github": "https://github.com/Erbonator3000/Flipper-Zero-Space-Impact-II",
+                "community": ""
+              }
+            },
+            {
+              "section": "Games",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Stack",
+              "description": "Classic skill and timing game where you layer falling blocks to build the highest tower.",
+              "author": "bergr22",
+              "authorUrl": "https://github.com/bergr22",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/stack_game",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/bergr22/Stack",
+              "links": {
+                "official": "https://lab.flipper.net/apps/stack_game",
+                "github": "https://github.com/bergr22/Stack",
                 "community": ""
               }
             },
@@ -8747,6 +8936,48 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Internet Bridge",
+              "description": "HTTPS bridge over USB or Bluetooth",
+              "author": "mete888",
+              "authorUrl": "https://github.com/mete888",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/usb_internet_bridge",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/mete888/flipper_usb_to_wifi",
+              "links": {
+                "official": "https://lab.flipper.net/apps/usb_internet_bridge",
+                "github": "https://github.com/mete888/flipper_usb_to_wifi",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Internet Time",
+              "description": "Swatch Internet Time (@beats), local clock, optional DCF77 sync",
+              "author": "inernet-time-screen",
+              "authorUrl": "https://github.com/inernet-time-screen",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/internet_time_screen",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/sureserverman/internet-time-screen",
+              "links": {
+                "official": "https://lab.flipper.net/apps/internet_time_screen",
+                "github": "https://github.com/sureserverman/internet-time-screen",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Key Copier",
               "description": "@README.md",
               "author": "Torron",
@@ -9041,6 +9272,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Pack Track",
+              "description": "Track shipments on the device, with live status over a WiFi devboard.",
+              "author": "thecoolguy2001",
+              "authorUrl": "https://github.com/thecoolguy2001",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/package_tracker",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/thecoolguy2001/flipper-pack-track",
+              "links": {
+                "official": "https://lab.flipper.net/apps/package_tracker",
+                "github": "https://github.com/thecoolguy2001/flipper-pack-track",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Password Generator",
               "description": "Simple password generator",
               "author": "@anakod & @henrygab",
@@ -9241,6 +9493,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/programmercalc",
                 "github": "https://github.com/armixz/Flipper-Zero-Programmer-Calculator",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Pulse BPM",
+              "description": "Tap along a pulse to measure heart rate; live BPM, locks after 20 seconds",
+              "author": "iz1poz",
+              "authorUrl": "https://github.com/iz1poz",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/pulse_bpm",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/alaviation/flipper-pulse",
+              "links": {
+                "official": "https://lab.flipper.net/apps/pulse_bpm",
+                "github": "https://github.com/alaviation/flipper-pulse",
                 "community": ""
               }
             },
@@ -9577,6 +9850,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/tasks",
                 "github": "https://github.com/MadLadSquad/FlipperTasks",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Telemeter",
+              "description": "Measure distance from lightning-to-thunder or muzzle-flash-to-boom delay",
+              "author": "iz1poz",
+              "authorUrl": "https://github.com/iz1poz",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/telemetro",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/alaviation/flipper-telemeter",
+              "links": {
+                "official": "https://lab.flipper.net/apps/telemetro",
+                "github": "https://github.com/alaviation/flipper-telemeter",
                 "community": ""
               }
             },
@@ -10070,6 +10364,48 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/magicband_plus_lights",
                 "github": "https://github.com/Haw8411/magic-band-plus-lights",
+                "community": ""
+              }
+            },
+            {
+              "section": "Bluetooth",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Now Playing",
+              "description": "Mac Now Playing display and BLE remote",
+              "author": "Now Playing contributors",
+              "authorUrl": "",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/now_playing",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/Vchekryzhov/mac-media-remote/blob/-/flipper/now_playing",
+              "links": {
+                "official": "https://lab.flipper.net/apps/now_playing",
+                "github": "https://github.com/Vchekryzhov/mac-media-remote/blob/-/flipper/now_playing",
+                "community": ""
+              }
+            },
+            {
+              "section": "Bluetooth",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "PC Health Remote",
+              "description": "PC temperatures & load on your Flipper, with vibro/sound alerts and tips",
+              "author": "vladatman",
+              "authorUrl": "https://github.com/vladatman",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/pc_health_remote",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/vladatman/pc-health-remote/blob/-/flipper",
+              "links": {
+                "official": "https://lab.flipper.net/apps/pc_health_remote",
+                "github": "https://github.com/vladatman/pc-health-remote/blob/-/flipper",
                 "community": ""
               }
             },
