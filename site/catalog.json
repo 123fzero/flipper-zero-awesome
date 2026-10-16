@@ -284,6 +284,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "RF Survey",
+              "description": "Sweep a frequency range, log RSSI to CSV, locate a source and capture it.",
+              "author": "tbelbek",
+              "authorUrl": "https://github.com/tbelbek",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/rfsurvey",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/tbelbek/flipper-rf-survey",
+              "links": {
+                "official": "https://lab.flipper.net/apps/rfsurvey",
+                "github": "https://github.com/tbelbek/flipper-rf-survey",
+                "community": ""
+              }
+            },
+            {
+              "section": "Sub-GHz",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "RS41 Tracker",
               "description": "RS41 radiosonde receiver & decoder",
               "author": "OK1CHP",
@@ -1019,6 +1040,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "MTools",
+              "description": "Magic tag tools for MIFARE Classic and ISO15693",
+              "author": "MTools Tec",
+              "authorUrl": "",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/mtools",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/mtoolstec/flipper-mtools",
+              "links": {
+                "official": "https://lab.flipper.net/apps/mtools",
+                "github": "https://github.com/mtoolstec/flipper-mtools",
+                "community": ""
+              }
+            },
+            {
+              "section": "NFC",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Networking NFC + QR",
               "description": "Emulate NFC and display QR codes simultaneously",
               "author": "DonJulve",
@@ -1502,6 +1544,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/xremote",
                 "github": "https://github.com/leedave/flipper-zero-cross-remote",
+                "community": ""
+              }
+            },
+            {
+              "section": "Infrared",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Daikin64 AC Remote",
+              "description": "Daikin64 APGS02-compatible AC remote",
+              "author": "mrcalifornium",
+              "authorUrl": "https://github.com/mrcalifornium",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/daikin64_ac_remote",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/mrcalifornium/flipperzero-daikin64-ac-remote/blob/-/applications_user/daikin64_ac_remote",
+              "links": {
+                "official": "https://lab.flipper.net/apps/daikin64_ac_remote",
+                "github": "https://github.com/mrcalifornium/flipperzero-daikin64-ac-remote/blob/-/applications_user/daikin64_ac_remote",
                 "community": ""
               }
             },
@@ -4089,7 +4152,7 @@
               ],
               "sourceIcons": "🏛️",
               "name": "Smart Home",
-              "description": "Control supported smart home devices through a Wi-Fi Developer Board",
+              "description": "Control Home Assistant devices through a Wi-Fi Developer Board",
               "author": "Vincenzo",
               "authorUrl": "https://github.com/Vincenzo",
               "rating": "",
@@ -4205,6 +4268,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/unitemp",
                 "github": "https://github.com/quen0n/unitemp-flipperzero",
+                "community": ""
+              }
+            },
+            {
+              "section": "GPIO",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Tesla Mod",
+              "description": "Tesla CAN bus toolkit — FSD region-gate bypass, nag killer, BMS dashboard, and more. Requires CAN Add-On.",
+              "author": "hypery11",
+              "authorUrl": "https://github.com/hypery11",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/tesla_mod",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/hypery11/flipper-tesla-fsd",
+              "links": {
+                "official": "https://lab.flipper.net/apps/tesla_mod",
+                "github": "https://github.com/hypery11/flipper-tesla-fsd",
                 "community": ""
               }
             },
@@ -4730,6 +4814,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/flip_tdi",
                 "github": "https://github.com/flipperdevices/flipperzero-good-faps/blob/-/flip_tdi",
+                "community": ""
+              }
+            },
+            {
+              "section": "USB",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Jiggler",
+              "description": "Mouse jiggler with invisible net-zero moves, random timing, and a desktop helper that pauses it while you work",
+              "author": "rseufert",
+              "authorUrl": "https://github.com/rseufert",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/jiggler",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/rseufert/jiggler",
+              "links": {
+                "official": "https://lab.flipper.net/apps/jiggler",
+                "github": "https://github.com/rseufert/jiggler",
                 "community": ""
               }
             },
@@ -6435,6 +6540,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "NW Crawl",
+              "description": "Tiny roguelike: walk the alphabet streets of NW Portland to the Witch's Castle",
+              "author": "rseufert",
+              "authorUrl": "https://github.com/rseufert",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/nw_crawl",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/rseufert/nw_crawl",
+              "links": {
+                "official": "https://lab.flipper.net/apps/nw_crawl",
+                "github": "https://github.com/rseufert/nw_crawl",
+                "community": ""
+              }
+            },
+            {
+              "section": "Games",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Paint",
               "description": "A basic Paint app, Click Ok to draw dot, hold Ok to enable drawing continuously, hold Back to clear the screen",
               "author": "@n-o-T-I-n-s-a-n-e",
@@ -7708,6 +7834,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Step Seq",
+              "description": "Melody and drum step sequencer for the piezo speaker, with songs, chords and Music Player export",
+              "author": "rseufert",
+              "authorUrl": "https://github.com/rseufert",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/step_seq",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/rseufert/step_seq",
+              "links": {
+                "official": "https://lab.flipper.net/apps/step_seq",
+                "github": "https://github.com/rseufert/step_seq",
+                "community": ""
+              }
+            },
+            {
+              "section": "Media",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Text to SAM",
               "description": "Convert text to speech on your Flipper Zero with SAM (Software Automatic Mouth).",
               "author": "@Round-Pi & (Fixes by @Willy-JL)",
@@ -8842,6 +8989,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/flipper_habit_flow",
                 "github": "https://github.com/Endika/flipper-habit-flow",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Hanzi Cards",
+              "description": "Mandarin flashcards: HSK 1-4, simplified or traditional, pinyin, tone sounds and a tone quiz",
+              "author": "rseufert",
+              "authorUrl": "https://github.com/rseufert",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/hanzi_cards",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/rseufert/hanzi_cards",
+              "links": {
+                "official": "https://lab.flipper.net/apps/hanzi_cards",
+                "github": "https://github.com/rseufert/hanzi_cards",
                 "community": ""
               }
             },
@@ -10343,6 +10511,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/fliptok_live_chat",
                 "github": "https://github.com/kamylwnb/FlipTok_Live_Chat",
+                "community": ""
+              }
+            },
+            {
+              "section": "Bluetooth",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Kindle Click",
+              "description": "Turn Kindle pages: the Flipper acts as a Kindle Click remote",
+              "author": "zuyan9",
+              "authorUrl": "https://github.com/zuyan9",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/kindle_click",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/zuyan9/Flipper-Zero-Kindle-Click",
+              "links": {
+                "official": "https://lab.flipper.net/apps/kindle_click",
+                "github": "https://github.com/zuyan9/Flipper-Zero-Kindle-Click",
                 "community": ""
               }
             },
