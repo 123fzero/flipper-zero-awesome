@@ -1743,6 +1743,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "IR Pad",
+              "description": "Customizable portrait IR remote with an on-device editor.",
+              "author": "tbelbek",
+              "authorUrl": "https://github.com/tbelbek",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/irpad",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/tbelbek/flipper-ir-pad",
+              "links": {
+                "official": "https://lab.flipper.net/apps/irpad",
+                "github": "https://github.com/tbelbek/flipper-ir-pad",
+                "community": ""
+              }
+            },
+            {
+              "section": "Infrared",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "IR Scope",
               "description": "App allows to see incoming IR signals.",
               "author": "@kallanreed",
@@ -4253,6 +4274,27 @@
               "section": "GPIO",
               "subsection": "",
               "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Telink SWS",
+              "description": "Telink SWire (SWS) master: probe, read RAM/regs, dump SPI flash",
+              "author": "ngxson",
+              "authorUrl": "https://github.com/ngxson",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/telink_sws",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/ngxson/flipper-telink/blob/-/telink_sws",
+              "links": {
+                "official": "https://lab.flipper.net/apps/telink_sws",
+                "github": "https://github.com/ngxson/flipper-telink/blob/-/telink_sws",
+                "community": ""
+              }
+            },
+            {
+              "section": "GPIO",
+              "subsection": "",
+              "sourceBadges": [
                 "community",
                 "official"
               ],
@@ -4803,6 +4845,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "FlipBase",
+              "description": "USB toy-to-life base emulator (Disney Infinity portal)",
+              "author": "Space-Raler",
+              "authorUrl": "https://github.com/Space-Raler",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/flipbase",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/Space-Raler/FlipBase",
+              "links": {
+                "official": "https://lab.flipper.net/apps/flipbase",
+                "github": "https://github.com/Space-Raler/FlipBase",
+                "community": ""
+              }
+            },
+            {
+              "section": "USB",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "FlipTDI",
               "description": "Flipper FTDI232H emulator.",
               "author": "SkorP",
@@ -4910,7 +4973,7 @@
               ],
               "sourceIcons": "🏛️",
               "name": "PC Monitor USB",
-              "description": "Application for monitoring PC resources via USB",
+              "description": "PC resource monitor & USB soundboard pad",
               "author": "DonJulve",
               "authorUrl": "https://github.com/DonJulve",
               "rating": "",
@@ -5824,6 +5887,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Elementis Zeta",
+              "description": "Creature-collecting RPG with 4-level grayscale, 4 languages and an IR link",
+              "author": "Daniel Jahziel",
+              "authorUrl": "",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/elementis_zeta",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/jahziel1/Elementis-Zeta/blob/-/nucleo",
+              "links": {
+                "official": "https://lab.flipper.net/apps/elementis_zeta",
+                "github": "https://github.com/jahziel1/Elementis-Zeta/blob/-/nucleo",
+                "community": ""
+              }
+            },
+            {
+              "section": "Games",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Fighter Jet",
               "description": "Fighter Jet game.",
               "author": "Erbonator3000",
@@ -6267,7 +6351,7 @@
               ],
               "sourceIcons": "🏛️",
               "name": "IRONWYRM",
-              "description": "A turn-based modular mech fighting game.",
+              "description": "A turn-based modular mech fighting game for the Flipper Zero",
               "author": "Henry Gurney",
               "authorUrl": "",
               "rating": "",
@@ -6593,6 +6677,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/pinball0",
                 "github": "https://github.com/rdefeo/pinball0",
+                "community": ""
+              }
+            },
+            {
+              "section": "Games",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Pod",
+              "description": "Meet other Flippers over sub-GHz, log encounters and battle them.",
+              "author": "thecoolguy2001",
+              "authorUrl": "https://github.com/thecoolguy2001",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/pod",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/thecoolguy2001/flipper-pod",
+              "links": {
+                "official": "https://lab.flipper.net/apps/pod",
+                "github": "https://github.com/thecoolguy2001/flipper-pod",
                 "community": ""
               }
             },
@@ -7446,6 +7551,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Yulia's Cats",
+              "description": "Cozy virtual pet: Yulia and her cats Nugget and Baby",
+              "author": "rseufert",
+              "authorUrl": "https://github.com/rseufert",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/yulia_cats",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/rseufert/yulia_cats",
+              "links": {
+                "official": "https://lab.flipper.net/apps/yulia_cats",
+                "github": "https://github.com/rseufert/yulia_cats",
+                "community": ""
+              }
+            },
+            {
+              "section": "Games",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "ZERO!",
               "description": "ZERO! Get rid of all your cards before your opponents do!",
               "author": "Racso",
@@ -7509,6 +7635,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/atm",
                 "github": "https://github.com/apfxtech/FlipperATM",
+                "community": ""
+              }
+            },
+            {
+              "section": "Media",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Bible [BSB]",
+              "description": "Browse and save BSB scripture passages with route.bible NFC sharing",
+              "author": "dpshde",
+              "authorUrl": "https://github.com/dpshde",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/bible_bsb",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/dpshde/bible-bsb/blob/-/bible_bsb",
+              "links": {
+                "official": "https://lab.flipper.net/apps/bible_bsb",
+                "github": "https://github.com/dpshde/bible-bsb/blob/-/bible_bsb",
                 "community": ""
               }
             },
@@ -7855,6 +8002,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Taiko Player",
+              "description": "Play TJA charts with PCM audio from the SD card",
+              "author": "ZeroNinx",
+              "authorUrl": "https://github.com/ZeroNinx",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/taiko_player",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/ZeroNinx/flipper-zero-taiko-player",
+              "links": {
+                "official": "https://lab.flipper.net/apps/taiko_player",
+                "github": "https://github.com/ZeroNinx/flipper-zero-taiko-player",
+                "community": ""
+              }
+            },
+            {
+              "section": "Media",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Text to SAM",
               "description": "Convert text to speech on your Flipper Zero with SAM (Software Automatic Mouth).",
               "author": "@Round-Pi & (Fixes by @Willy-JL)",
@@ -8170,6 +8338,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/animation_switcher",
                 "github": "https://github.com/lsalik2/FlipperAnimationSwitcher",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "App Search",
+              "description": "Launch any installed app or built-in tool, most-used first.",
+              "author": "tbelbek",
+              "authorUrl": "https://github.com/tbelbek",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/appsearch",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/tbelbek/flipper-app-search",
+              "links": {
+                "official": "https://lab.flipper.net/apps/appsearch",
+                "github": "https://github.com/tbelbek/flipper-app-search",
                 "community": ""
               }
             },
@@ -8621,6 +8810,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Fav Launcher",
+              "description": "Icon-grid launcher for your Flipper favorites.",
+              "author": "tbelbek",
+              "authorUrl": "https://github.com/tbelbek",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/flauncher",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/tbelbek/flipper-fav-launcher",
+              "links": {
+                "official": "https://lab.flipper.net/apps/flauncher",
+                "github": "https://github.com/tbelbek/flipper-fav-launcher",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Financial Calculator",
               "description": "Solve TVM Problems with this calculator",
               "author": "schaene",
@@ -8810,6 +9020,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Flipper Lotto",
+              "description": "Pick random numbers for lottery tickets",
+              "author": "molykima",
+              "authorUrl": "https://github.com/molykima",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/flipper_lotto",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/molykima/Flipper-Lottery-Number-Generator",
+              "links": {
+                "official": "https://lab.flipper.net/apps/flipper_lotto",
+                "github": "https://github.com/molykima/Flipper-Lottery-Number-Generator",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Flipper Time Tracker",
               "description": "Flipper Time Tracker is an application for flipperzero device that allows the user to track multiple tasks at the same time. Application uses csv file to store and handle task data that can be easily exported to excel or similar for further analysis. This also allows to track tasks time in the background or even if the device is switched off !",
               "author": "@MassivDash (https://spaceout.pl)",
@@ -8947,6 +9178,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/fordradiocode",
                 "github": "https://github.com/DavidB445/fz_fordradiocodes",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Gitphin",
+              "description": "Git hosting in your pocket: a Git server and web UI for your repos, used from the PC over USB",
+              "author": "Kazuki Kimura (@Adhamura)",
+              "authorUrl": "",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/gitphin",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/Adhamura/gitphin/blob/-/flipper_app",
+              "links": {
+                "official": "https://lab.flipper.net/apps/gitphin",
+                "github": "https://github.com/Adhamura/gitphin/blob/-/flipper_app",
                 "community": ""
               }
             },
@@ -9314,6 +9566,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Motion Lab",
+              "description": "Measure motion with the Video Game Module: peak g-force, rotation rate and swing tempo, plus a CSV logger",
+              "author": "Monte Walker",
+              "authorUrl": "",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/motion_lab",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/thecoolguy2001/flipper-motion-lab",
+              "links": {
+                "official": "https://lab.flipper.net/apps/motion_lab",
+                "github": "https://github.com/thecoolguy2001/flipper-motion-lab",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Multi Converter",
               "description": "A multi-unit converter written with an easy and expandable system for adding new units and conversion methods",
               "author": "@theisolinearchip",
@@ -9409,6 +9682,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/network_subnet",
                 "github": "https://github.com/aaumkar/network_subnet",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "NFC QR Presenter",
+              "description": "Digital QR and NFC NDEF business card presenter",
+              "author": "Roger F5",
+              "authorUrl": "",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/nfc_qr_presenter",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/RogerF5-Security/NFC_QR_Presenter",
+              "links": {
+                "official": "https://lab.flipper.net/apps/nfc_qr_presenter",
+                "github": "https://github.com/RogerF5-Security/NFC_QR_Presenter",
                 "community": ""
               }
             },
@@ -10350,6 +10644,27 @@
               "section": "Bluetooth",
               "subsection": "",
               "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "BLE Beacon",
+              "description": "Simulates unencrypted BLE beacons for testing scanners and smart-home apps",
+              "author": "steanlab",
+              "authorUrl": "https://github.com/steanlab",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/ble_beacon",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/steanlab/BLE-Beacon",
+              "links": {
+                "official": "https://lab.flipper.net/apps/ble_beacon",
+                "github": "https://github.com/steanlab/BLE-Beacon",
+                "community": ""
+              }
+            },
+            {
+              "section": "Bluetooth",
+              "subsection": "",
+              "sourceBadges": [
                 "community"
               ],
               "sourceIcons": "💎",
@@ -10532,6 +10847,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/kindle_click",
                 "github": "https://github.com/zuyan9/Flipper-Zero-Kindle-Click",
+                "community": ""
+              }
+            },
+            {
+              "section": "Bluetooth",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Kota",
+              "description": "Claude plan usage (session and weekly limits) over Bluetooth",
+              "author": "@cobanov",
+              "authorUrl": "https://github.com/cobanov",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/kota",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/cobanov/kota/blob/-/flipper",
+              "links": {
+                "official": "https://lab.flipper.net/apps/kota",
+                "github": "https://github.com/cobanov/kota/blob/-/flipper",
                 "community": ""
               }
             },
