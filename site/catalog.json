@@ -788,6 +788,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "CFS Tag Writer+",
+              "description": "Read, write & clone CFS filament spool NFC tags",
+              "author": "BaniMun",
+              "authorUrl": "https://github.com/BaniMun",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/cfs_tag_writer_plus",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/BaniMun/cfs-tag-writer",
+              "links": {
+                "official": "https://lab.flipper.net/apps/cfs_tag_writer_plus",
+                "github": "https://github.com/BaniMun/cfs-tag-writer",
+                "community": ""
+              }
+            },
+            {
+              "section": "NFC",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "ChaosID",
               "description": "Card forensics + risk classification + MIFARE Classic dictionary attack",
               "author": "cybersantana83 (Cristiano Santana, Cafe com Solda)",
@@ -1240,6 +1261,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/nfc_eink",
                 "github": "https://github.com/RebornedBrain/nfc_eink",
+                "community": ""
+              }
+            },
+            {
+              "section": "NFC",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "OpenPrintTag",
+              "description": "Read, update and create OpenPrintTag NFC tags for 3D printing filament",
+              "author": "Houzvicka",
+              "authorUrl": "https://github.com/Houzvicka",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/openprinttag",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/Houzvicka/FlipperPrintTag",
+              "links": {
+                "official": "https://lab.flipper.net/apps/openprinttag",
+                "github": "https://github.com/Houzvicka/FlipperPrintTag",
                 "community": ""
               }
             },
@@ -1775,6 +1817,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/ir_scope",
                 "github": "https://github.com/xMasterX/all-the-plugins/blob/-/base_pack/ir_scope",
+                "community": ""
+              }
+            },
+            {
+              "section": "Infrared",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Lasko 2519 Timer",
+              "description": "Automates Lasko 2519 fans with a configurable ON/OFF timer cycle.",
+              "author": "LN4CY",
+              "authorUrl": "https://github.com/LN4CY",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/lasko_automator",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/LN4CY/lasko-2519-timer",
+              "links": {
+                "official": "https://lab.flipper.net/apps/lasko_automator",
+                "github": "https://github.com/LN4CY/lasko-2519-timer",
                 "community": ""
               }
             },
@@ -4109,6 +4172,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Servo Tester+",
+              "description": "Servo tester with wiring help and managed GPIO 5 V",
+              "author": "Enlighten Tech",
+              "authorUrl": "",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/gbhobbytech_servo_tester",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/gbhobbytech/flipper-servo-tester",
+              "links": {
+                "official": "https://lab.flipper.net/apps/gbhobbytech_servo_tester",
+                "github": "https://github.com/gbhobbytech/flipper-servo-tester",
+                "community": ""
+              }
+            },
+            {
+              "section": "GPIO",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "ServoTester",
               "description": "PWM generator for testing RC servos. Available modes: Manual, Center, Auto.",
               "author": "Alexander Semion and ThunderFly s.r.o.",
@@ -4552,7 +4636,7 @@
               ],
               "sourceIcons": "🏛️",
               "name": "WiFi Internet Watch",
-              "description": "Select a WiFi network and monitor internet availability through ESP-AT",
+              "description": "Select a WiFi network and monitor internet availability through an ESP-AT, GhostESP, Marauder, Bruce or Black Magic devboard",
               "author": "Pavel Druzhinin",
               "authorUrl": "",
               "rating": "",
@@ -4877,6 +4961,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/flip_tdi",
                 "github": "https://github.com/flipperdevices/flipperzero-good-faps/blob/-/flip_tdi",
+                "community": ""
+              }
+            },
+            {
+              "section": "USB",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "HAM",
+              "description": "Human Activity Mimic: coordinated typing, movement and pauses",
+              "author": "lumen-rot",
+              "authorUrl": "https://github.com/lumen-rot",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/ham",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/lumen-rot/flipper-ham/blob/-/ham",
+              "links": {
+                "official": "https://lab.flipper.net/apps/ham",
+                "github": "https://github.com/lumen-rot/flipper-ham/blob/-/ham",
                 "community": ""
               }
             },
@@ -6351,7 +6456,7 @@
               ],
               "sourceIcons": "🏛️",
               "name": "IRONWYRM",
-              "description": "A turn-based modular mech fighting game for the Flipper Zero",
+              "description": "A turn-based modular mech fighting game",
               "author": "Henry Gurney",
               "authorUrl": "",
               "rating": "",
@@ -7624,6 +7729,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "AI Composer",
+              "description": "A tiny neural network that writes new melodies on the Flipper",
+              "author": "TheProductAgency",
+              "authorUrl": "https://github.com/TheProductAgency",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/ai_composer",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/TheProductAgency/flipper-ai-composer",
+              "links": {
+                "official": "https://lab.flipper.net/apps/ai_composer",
+                "github": "https://github.com/TheProductAgency/flipper-ai-composer",
+                "community": ""
+              }
+            },
+            {
+              "section": "Media",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "ATM player",
               "description": "ATM player",
               "author": "@apfxtech",
@@ -8579,6 +8705,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Coach Watch",
+              "description": "Coach stopwatch: start/stop/reset, splits, and session log on SD",
+              "author": "iz1poz",
+              "authorUrl": "https://github.com/iz1poz",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/coach_watch",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/alaviation/flipper-coach-watch",
+              "links": {
+                "official": "https://lab.flipper.net/apps/coach_watch",
+                "github": "https://github.com/alaviation/flipper-coach-watch",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Combo Cracker",
               "description": "Crack combo locks in 8 attempts or less",
               "author": "@CharlesTheGreat77",
@@ -9083,6 +9230,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Flipper WiFi Radio",
+              "description": "Stream MP3s from the SD card as a live WiFi radio station anyone nearby can tune into with a browser",
+              "author": "thecoolguy2001",
+              "authorUrl": "https://github.com/thecoolguy2001",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/flipper_wifi_radio",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/thecoolguy2001/flipper-wifi-radio",
+              "links": {
+                "official": "https://lab.flipper.net/apps/flipper_wifi_radio",
+                "github": "https://github.com/thecoolguy2001/flipper-wifi-radio",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Flipper95",
               "description": "Stress test your Flipper by crunching prime numbers",
               "author": "Silent",
@@ -9178,6 +9346,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/fordradiocode",
                 "github": "https://github.com/DavidB445/fz_fordradiocodes",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Ghost Tracker",
+              "description": "Paranormal investigation instrument - EMF meter, Spirit Box and REM Pod",
+              "author": "Zinetick",
+              "authorUrl": "https://github.com/Zinetick",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/ghost_tracker",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/Zinetick/ghost_tracker",
+              "links": {
+                "official": "https://lab.flipper.net/apps/ghost_tracker",
+                "github": "https://github.com/Zinetick/ghost_tracker",
                 "community": ""
               }
             },
@@ -10270,6 +10459,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/timeclock",
                 "github": "https://github.com/vladpereverzyev/flipper-staff-time-clock",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Subscriber Counter",
+              "description": "Live YouTube subscriber count via Internet Bridge or Wi-Fi board",
+              "author": "TheProductAgency",
+              "authorUrl": "https://github.com/TheProductAgency",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/sub_counter",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/TheProductAgency/flipper-subscriber-counter",
+              "links": {
+                "official": "https://lab.flipper.net/apps/sub_counter",
+                "github": "https://github.com/TheProductAgency/flipper-subscriber-counter",
                 "community": ""
               }
             },
