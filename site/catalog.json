@@ -4214,6 +4214,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "SH1106 Test",
+              "description": "Diagnostic tool for SH1106 128x64 I2C OLED displays",
+              "author": "gbhobbytech",
+              "authorUrl": "https://github.com/gbhobbytech",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/gbhobbytech_sh1106_test",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/gbhobbytech/ssd1306_test",
+              "links": {
+                "official": "https://lab.flipper.net/apps/gbhobbytech_sh1106_test",
+                "github": "https://github.com/gbhobbytech/ssd1306_test",
+                "community": ""
+              }
+            },
+            {
+              "section": "GPIO",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Signal Generator",
               "description": "Control GPIO pins to generate digital signals",
               "author": "@nminaylov",
@@ -4330,6 +4351,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/ssd1306_test",
                 "github": "https://github.com/martinbogo/ssd1306_test",
+                "community": ""
+              }
+            },
+            {
+              "section": "GPIO",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "SSH Runner",
+              "description": "Run SSH commands and SD-card scripts through an ESP32-S3 + W5500 (LAN/WiFi) add-on board.",
+              "author": "SeanChangX",
+              "authorUrl": "https://github.com/SeanChangX",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/ssh_runner",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/SeanChangX/flipper-ssh-runner/blob/-/flipper-app",
+              "links": {
+                "official": "https://lab.flipper.net/apps/ssh_runner",
+                "github": "https://github.com/SeanChangX/flipper-ssh-runner/blob/-/flipper-app",
                 "community": ""
               }
             },
@@ -5119,6 +5161,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "USB CD-ROM",
+              "description": "Emulates a USB CD/DVD-ROM drive from .iso images on the SD card",
+              "author": "piersroberts",
+              "authorUrl": "https://github.com/piersroberts",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/usb_cdrom",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/piersroberts/flippercd",
+              "links": {
+                "official": "https://lab.flipper.net/apps/usb_cdrom",
+                "github": "https://github.com/piersroberts/flippercd",
+                "community": ""
+              }
+            },
+            {
+              "section": "USB",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "USB Consumer Control",
               "description": "USB Consumer Control",
               "author": "piraija",
@@ -5130,6 +5193,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/usb_ccb",
                 "github": "https://github.com/WithSecureLabs/usb-consumer-control",
+                "community": ""
+              }
+            },
+            {
+              "section": "USB",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "USB Floppy",
+              "description": "Emulates a USB floppy drive (UFI) from a 720K or 1.44M disk image",
+              "author": "piersroberts",
+              "authorUrl": "https://github.com/piersroberts",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/usb_floppy",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/piersroberts/flipperfloppy",
+              "links": {
+                "official": "https://lab.flipper.net/apps/usb_floppy",
+                "github": "https://github.com/piersroberts/flipperfloppy",
                 "community": ""
               }
             },
@@ -6329,6 +6413,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Grimoire",
+              "description": "A pendulum, a sigil, a talisman and a wand for the Flipper Zero",
+              "author": "rseufert",
+              "authorUrl": "https://github.com/rseufert",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/grimoire",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/rseufert/grimoire",
+              "links": {
+                "official": "https://lab.flipper.net/apps/grimoire",
+                "github": "https://github.com/rseufert/grimoire",
+                "community": ""
+              }
+            },
+            {
+              "section": "Games",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Gurpil",
               "description": "Endless side-scroller: pick your wheel shape, the terrain decides your speed.",
               "author": "Endika",
@@ -6382,6 +6487,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/game_hanoi_towers",
                 "github": "https://github.com/AlexTaran/flipperzero/blob/-/games/hanoi_towers",
+                "community": ""
+              }
+            },
+            {
+              "section": "Games",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Hazke",
+              "description": "Wireframe 3D space trading and combat across 16 star systems",
+              "author": "REZOR",
+              "authorUrl": "https://github.com/REZOR",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/hazke",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/therezor/hazke-flipper",
+              "links": {
+                "official": "https://lab.flipper.net/apps/hazke",
+                "github": "https://github.com/therezor/hazke-flipper",
                 "community": ""
               }
             },
@@ -6529,6 +6655,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/laser_tag",
                 "github": "https://github.com/RocketGod-git/Flipper-Zero-Laser-Tag",
+                "community": ""
+              }
+            },
+            {
+              "section": "Games",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Lettercade",
+              "description": "ASCII Arcade: Letters Rain, Snake Letters and Tennis Letters.",
+              "author": "andreimagic",
+              "authorUrl": "https://github.com/andreimagic",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/lettercade",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/andreimagic/flipper-lettercade",
+              "links": {
+                "official": "https://lab.flipper.net/apps/lettercade",
+                "github": "https://github.com/andreimagic/flipper-lettercade",
                 "community": ""
               }
             },
@@ -6834,6 +6981,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Portal Putt",
+              "description": "Fantasy and sci-fi minigolf: nine holes of portals, gravity wells, lava and dragons",
+              "author": "rseufert",
+              "authorUrl": "https://github.com/rseufert",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/portal_putt",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/rseufert/portal_putt",
+              "links": {
+                "official": "https://lab.flipper.net/apps/portal_putt",
+                "github": "https://github.com/rseufert/portal_putt",
+                "community": ""
+              }
+            },
+            {
+              "section": "Games",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Prince Of Arabia",
               "description": "Escape the dungeons and free the princess!",
               "author": "@apfxtech",
@@ -6950,6 +7118,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/reaction",
                 "github": "https://github.com/xMasterX/all-the-plugins/blob/-/apps_source_code/fz-reaction-game",
+                "community": ""
+              }
+            },
+            {
+              "section": "Games",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Reaction Time",
+              "description": "App to test user response time",
+              "author": "luvrltop",
+              "authorUrl": "https://github.com/luvrltop",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/reaction_time",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/luvrltop/ReactionTime",
+              "links": {
+                "official": "https://lab.flipper.net/apps/reaction_time",
+                "github": "https://github.com/luvrltop/ReactionTime",
                 "community": ""
               }
             },
@@ -7245,6 +7434,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/spaceimpactii985e",
                 "github": "https://github.com/Erbonator3000/Flipper-Zero-Space-Impact-II",
+                "community": ""
+              }
+            },
+            {
+              "section": "Games",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Spectre",
+              "description": "Ghost hunting kit: EMF meter, spirit box, spirit voice and radar",
+              "author": "rseufert",
+              "authorUrl": "https://github.com/rseufert",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/spectre",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/rseufert/spectre",
+              "links": {
+                "official": "https://lab.flipper.net/apps/spectre",
+                "github": "https://github.com/rseufert/spectre",
                 "community": ""
               }
             },
@@ -8789,6 +8999,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Cube Timer",
+              "description": "3x3 scrambler and speedcubing timer with WCA inspection",
+              "author": "navarr393",
+              "authorUrl": "https://github.com/navarr393",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/cube_timer",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/navarr393/CubeTimer",
+              "links": {
+                "official": "https://lab.flipper.net/apps/cube_timer",
+                "github": "https://github.com/navarr393/CubeTimer",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "DCF77 Clock Spoof",
               "description": "Spoof a DCF77 time signal with a selectable time on the RFID antenna and the A4 GPIO pin",
               "author": "Molodos",
@@ -9052,6 +9283,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/flip_crypt",
                 "github": "https://github.com/Tyl3rA/FlipCrypt",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "FlipFlash",
+              "description": "A Flipper Zero flashcard app",
+              "author": "@Mushi0",
+              "authorUrl": "https://github.com/Mushi0",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/flipflash",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/Mushi0/FlippFlash",
+              "links": {
+                "official": "https://lab.flipper.net/apps/flipflash",
+                "github": "https://github.com/Mushi0/FlippFlash",
                 "community": ""
               }
             },
@@ -9441,7 +9693,7 @@
               ],
               "sourceIcons": "🏛️",
               "name": "Hanzi Cards",
-              "description": "Mandarin flashcards: HSK 1-4, simplified or traditional, pinyin, tone sounds and a tone quiz",
+              "description": "Mandarin flashcards: HSK 1-6, simplified or traditional, pinyin, tone sounds and a tone quiz",
               "author": "rseufert",
               "authorUrl": "https://github.com/rseufert",
               "rating": "",
@@ -9598,6 +9850,48 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/key_copier",
                 "github": "https://github.com/zinongli/KeyCopier",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Key Copier Italia",
+              "description": "Experimental CISA-style key profiles with finer depth display",
+              "author": "Maranello89",
+              "authorUrl": "https://github.com/Maranello89",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/key_copier_italia",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/Maranello89/KeyCopier-Italia",
+              "links": {
+                "official": "https://lab.flipper.net/apps/key_copier_italia",
+                "github": "https://github.com/Maranello89/KeyCopier-Italia",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Key Wizard",
+              "description": "Universal Key Wizard: Auto-detect & save RFID, NFC, and iButton keys with instant sorted storage",
+              "author": "Vazgen Grigoryan",
+              "authorUrl": "",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/key_wizard",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/vazgen3201/flipper-key-wizard",
+              "links": {
+                "official": "https://lab.flipper.net/apps/key_wizard",
+                "github": "https://github.com/vazgen3201/flipper-key-wizard",
                 "community": ""
               }
             },
@@ -10018,6 +10312,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/persian_calendar",
                 "github": "https://github.com/AmirNcode/flipper-persian-calendar",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Pet Thermometer",
+              "description": "Reads temperature patches (NTAG 5 link + TMP117) and FDX-B animal chips with temperature",
+              "author": "Manawyrm",
+              "authorUrl": "https://github.com/Manawyrm",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/ntag5_thermometer",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/Manawyrm/ntag5_thermometer",
+              "links": {
+                "official": "https://lab.flipper.net/apps/ntag5_thermometer",
+                "github": "https://github.com/Manawyrm/ntag5_thermometer",
                 "community": ""
               }
             },
