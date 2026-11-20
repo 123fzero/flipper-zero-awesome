@@ -390,6 +390,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Sub-GHz Editor",
+              "description": "Sub-GHz Editor: Edit frequency presets, custom frequencies, and key codes in saved Sub-GHz files",
+              "author": "Vazgen Grigoryan",
+              "authorUrl": "",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/subghz_editor",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/vazgen3201/flipper-subghz-editor",
+              "links": {
+                "official": "https://lab.flipper.net/apps/subghz_editor",
+                "github": "https://github.com/vazgen3201/flipper-subghz-editor",
+                "community": ""
+              }
+            },
+            {
+              "section": "Sub-GHz",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Sub-GHz RAW Edit",
               "description": "A tiny on-device waveform editor for Flipper Zero that trims RAW .sub captures down to just the part you care about.",
               "author": "Lechnio",
@@ -893,6 +914,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "FliBuddy",
+              "description": "Reads Bambu Lab spool NFC tags; logs spools and weights to Bambuddy via the FliBuddy iPhone app",
+              "author": "Gennady Sokolachko",
+              "authorUrl": "",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/flibuddy",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/sokogen/flipperzero-flibuddy/blob/-/flipper",
+              "links": {
+                "official": "https://lab.flipper.net/apps/flibuddy",
+                "github": "https://github.com/sokogen/flipperzero-flibuddy/blob/-/flipper",
+                "community": ""
+              }
+            },
+            {
+              "section": "NFC",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "flipnCGM",
               "description": "Read Abbott FreeStyle Libre CGM serial numbers via NFC",
               "author": "Daren Darrow",
@@ -925,6 +967,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/flipper_share_nfc",
                 "github": "https://github.com/lomalkin/flipper-zero-apps/blob/-/flipper_share_nfc",
+                "community": ""
+              }
+            },
+            {
+              "section": "NFC",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "IDentity",
+              "description": "Read eIDs and ePassports and verify that they are genuine",
+              "author": "Dani",
+              "authorUrl": "https://github.com/Dani",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/dnie_reader",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/daniqed/flipper-identity/blob/-/dnie_reader",
+              "links": {
+                "official": "https://lab.flipper.net/apps/dnie_reader",
+                "github": "https://github.com/daniqed/flipper-identity/blob/-/dnie_reader",
                 "community": ""
               }
             },
@@ -1806,6 +1869,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "IR RAW Edit",
+              "description": "A tiny on-device waveform editor for Flipper Zero that trims, decodes and merges infrared .ir signals.",
+              "author": "Lechnio",
+              "authorUrl": "https://github.com/Lechnio",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/ir_raw_edit",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/Lechnio/IR-RAW-Edit",
+              "links": {
+                "official": "https://lab.flipper.net/apps/ir_raw_edit",
+                "github": "https://github.com/Lechnio/IR-RAW-Edit",
+                "community": ""
+              }
+            },
+            {
+              "section": "Infrared",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "IR Scope",
               "description": "App allows to see incoming IR signals.",
               "author": "@kallanreed",
@@ -2270,6 +2354,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/camera_suite",
                 "github": "https://github.com/CodyTolene/Flipper-Zero-Camera-Suite/blob/-/fap",
+                "community": ""
+              }
+            },
+            {
+              "section": "GPIO",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "[ESP32] CatDriver",
+              "description": "Full WiFi + BLE Wardriving with GPS for Flipper Zero",
+              "author": "@Sil333033 & @Emilio",
+              "authorUrl": "",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/catdriver",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/EVL87/catwardrive/blob/-/fap",
+              "links": {
+                "official": "https://lab.flipper.net/apps/catdriver",
+                "github": "https://github.com/EVL87/catwardrive/blob/-/fap",
                 "community": ""
               }
             },
@@ -2932,6 +3037,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "DrMosfetCan",
+              "description": "USB-CAN bridge using GVRET and an MCP2515 module",
+              "author": "Dr Mosfet",
+              "authorUrl": "",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/drmosfet_can",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/kamylwnb/DrMosfetCan",
+              "links": {
+                "official": "https://lab.flipper.net/apps/drmosfet_can",
+                "github": "https://github.com/kamylwnb/DrMosfetCan",
+                "community": ""
+              }
+            },
+            {
+              "section": "GPIO",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "ESP Flasher",
               "description": "Flipper Zero app to flash ESP chips from the device (no computer connection needed!)",
               "author": "0xchocolate",
@@ -3458,7 +3584,7 @@
               ],
               "sourceIcons": "🏛️",
               "name": "FN Tester",
-              "description": "Application for testing the fiscal drive (Only for the Russian market)",
+              "description": "Tester for fiscal drives (FN/FN-M) of Russian cash registers",
               "author": "Igor Danilov",
               "authorUrl": "",
               "rating": "",
@@ -5267,6 +5393,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "USB PurpleCheck",
+              "description": "Standalone USB keyboard and isolated storage checks; reports on SD",
+              "author": "RogerF5",
+              "authorUrl": "https://github.com/RogerF5",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/usb_purplecheck",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/RogerF5-Security/USB-PurpleCheck",
+              "links": {
+                "official": "https://lab.flipper.net/apps/usb_purplecheck",
+                "github": "https://github.com/RogerF5-Security/USB-PurpleCheck",
+                "community": ""
+              }
+            },
+            {
+              "section": "USB",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "USB Remote",
               "description": "Use Flipper as a HID remote control over USB",
               "author": "Momentum Team",
@@ -6002,6 +6149,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/digital_kaleidoscope",
                 "github": "https://github.com/JamesR555/digital_kaleidoscope",
+                "community": ""
+              }
+            },
+            {
+              "section": "Games",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Dolphin Dash",
+              "description": "Chase bubbles and dodge the reef in three lanes.",
+              "author": "Rasul Kireev",
+              "authorUrl": "",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/dolphin_dash",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/rasulkireev/dolphin-dash",
+              "links": {
+                "official": "https://lab.flipper.net/apps/dolphin_dash",
+                "github": "https://github.com/rasulkireev/dolphin-dash",
                 "community": ""
               }
             },
@@ -9692,6 +9860,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Ham Cram",
+              "description": "Offline study for the US ham radio license exams",
+              "author": "NicPWNs",
+              "authorUrl": "https://github.com/NicPWNs",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/hamcram",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/NicPWNs/HamCram",
+              "links": {
+                "official": "https://lab.flipper.net/apps/hamcram",
+                "github": "https://github.com/NicPWNs/HamCram",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Hanzi Cards",
               "description": "Mandarin flashcards: HSK 1-6, simplified or traditional, pinyin, tone sounds and a tone quiz",
               "author": "rseufert",
@@ -10973,6 +11162,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "VaultFlipper",
+              "description": "Offline Bitwarden/Vaultwarden vault that types logins over USB",
+              "author": "@its-sven",
+              "authorUrl": "https://github.com/its-sven",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/vaultflipper",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/its-sven/vaultflipper/blob/-/flipper/vaultflipper",
+              "links": {
+                "official": "https://lab.flipper.net/apps/vaultflipper",
+                "github": "https://github.com/its-sven/vaultflipper/blob/-/flipper/vaultflipper",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Video Game Module Tool",
               "description": "This app is a standalone firmware updater/installer for the Video Game Module",
               "author": "@gsurkov",
@@ -11190,6 +11400,27 @@
               "section": "Bluetooth",
               "subsection": "",
               "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "BLE Clipboard",
+              "description": "Clipboard and macros from Mac or Windows to USB over Bluetooth",
+              "author": "otcan",
+              "authorUrl": "https://github.com/otcan",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/ble_clipboard",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/otcan/ble-clipboard/blob/-/BluetoothClipboard",
+              "links": {
+                "official": "https://lab.flipper.net/apps/ble_clipboard",
+                "github": "https://github.com/otcan/ble-clipboard/blob/-/BluetoothClipboard",
+                "community": ""
+              }
+            },
+            {
+              "section": "Bluetooth",
+              "subsection": "",
+              "sourceBadges": [
                 "community"
               ],
               "sourceIcons": "💎",
@@ -11288,6 +11519,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/claude_buddy",
                 "github": "https://github.com/jxw1102/flipper-claude-buddy/blob/-/flipper-app",
+                "community": ""
+              }
+            },
+            {
+              "section": "Bluetooth",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Claude Remote",
+              "description": "Drives Claude Code from the device's buttons over Bluetooth or USB",
+              "author": "Petr Korobeinikov",
+              "authorUrl": "",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/f0_claude_remote",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/petr-korobeinikov/f0-claude-remote",
+              "links": {
+                "official": "https://lab.flipper.net/apps/f0_claude_remote",
+                "github": "https://github.com/petr-korobeinikov/f0-claude-remote",
                 "community": ""
               }
             },
