@@ -9776,6 +9776,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "FZReader",
+              "description": "Book reader for EPUB files",
+              "author": "@leptopt1los",
+              "authorUrl": "https://github.com/leptopt1los",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/fzreader",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/Leptopt1los/fzreader",
+              "links": {
+                "official": "https://lab.flipper.net/apps/fzreader",
+                "github": "https://github.com/Leptopt1los/fzreader",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Ghost Tracker",
               "description": "Paranormal investigation instrument - EMF meter, Spirit Box and REM Pod",
               "author": "Zinetick",
