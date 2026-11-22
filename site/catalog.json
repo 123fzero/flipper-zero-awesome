@@ -4887,6 +4887,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Z5Flip",
+              "description": "Z5Flip: IronLogic Z-5R key base editor",
+              "author": "Tobirg",
+              "authorUrl": "https://github.com/Tobirg",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/z5flip",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/Tobirg/z5flip",
+              "links": {
+                "official": "https://lab.flipper.net/apps/z5flip",
+                "github": "https://github.com/Tobirg/z5flip",
+                "community": ""
+              }
+            },
+            {
+              "section": "GPIO",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Zeitraffer",
               "description": "Simple intervalometer/timelapse app",
               "author": "theageoflove",
