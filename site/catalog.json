@@ -1125,7 +1125,7 @@
               ],
               "sourceIcons": "🏛️",
               "name": "MTools",
-              "description": "Magic tag tools for MIFARE Classic and ISO15693",
+              "description": "Magic tag tools for MIFARE Classic, Ultralight, and ISO15693",
               "author": "MTools Tec",
               "authorUrl": "",
               "rating": "",
@@ -2890,6 +2890,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "AVR UPDI",
+              "description": "Program AVR microcontrollers over UPDI",
+              "author": "gztproject",
+              "authorUrl": "https://github.com/gztproject",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/avr_updi",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/gztproject/avr-updi",
+              "links": {
+                "official": "https://lab.flipper.net/apps/avr_updi",
+                "github": "https://github.com/gztproject/avr-updi",
+                "community": ""
+              }
+            },
+            {
+              "section": "GPIO",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "BME680",
               "description": "BME680 sensor via I2C",
               "author": "@Dr.Mosfet",
@@ -4319,6 +4340,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "ServoMotor",
+              "description": "Servo tester: angle control, hardware PWM, animated servo",
+              "author": "alcdaniel",
+              "authorUrl": "https://github.com/alcdaniel",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/servo_motor",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/alcdaniel/flipper-servo-tester-hw",
+              "links": {
+                "official": "https://lab.flipper.net/apps/servo_motor",
+                "github": "https://github.com/alcdaniel/flipper-servo-tester-hw",
+                "community": ""
+              }
+            },
+            {
+              "section": "GPIO",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "ServoTester",
               "description": "PWM generator for testing RC servos. Available modes: Manual, Center, Auto.",
               "author": "Alexander Semion and ThunderFly s.r.o.",
@@ -4604,6 +4646,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/ublox",
                 "github": "https://github.com/liamhays/ublox",
+                "community": ""
+              }
+            },
+            {
+              "section": "GPIO",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "UART Logger",
+              "description": "Log UART (USART/LPUART) data to SD card in text or hex",
+              "author": "2p4g0",
+              "authorUrl": "https://github.com/2p4g0",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/uart_logger",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/2p4g0/flipper-uart-logger",
+              "links": {
+                "official": "https://lab.flipper.net/apps/uart_logger",
+                "github": "https://github.com/2p4g0/flipper-uart-logger",
                 "community": ""
               }
             },
@@ -6623,6 +6686,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Guess The Number",
+              "description": "Guess the computer's number, or let the computer guess yours.",
+              "author": "Prevo128",
+              "authorUrl": "https://github.com/Prevo128",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/guess_the_number",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/Prevo128/flipper-guess-the-number",
+              "links": {
+                "official": "https://lab.flipper.net/apps/guess_the_number",
+                "github": "https://github.com/Prevo128/flipper-guess-the-number",
+                "community": ""
+              }
+            },
+            {
+              "section": "Games",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Gurpil",
               "description": "Endless side-scroller: pick your wheel shape, the terrain decides your speed.",
               "author": "Endika",
@@ -6833,6 +6917,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Lanternfall",
+              "description": "Lantern-lit action RPG: procedural island, villages, day and night, storms.",
+              "author": "Dusk Engineering",
+              "authorUrl": "",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/lanternfall",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/DuskEngServices/lanternfall-flipper",
+              "links": {
+                "official": "https://lab.flipper.net/apps/lanternfall",
+                "github": "https://github.com/DuskEngServices/lanternfall-flipper",
+                "community": ""
+              }
+            },
+            {
+              "section": "Games",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Laser Tag",
               "description": "Laser Tag game for Flipper Zero",
               "author": "@RocketGod-git & @jamisonderek",
@@ -7002,6 +7107,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Moon Lander",
+              "description": "Moon landing game, with tilt controls for the Video Game Module",
+              "author": "FToThe3rdPower",
+              "authorUrl": "https://github.com/FToThe3rdPower",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/moon_lander",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/FToThe3rdPower/flipperMoonLander",
+              "links": {
+                "official": "https://lab.flipper.net/apps/moon_lander",
+                "github": "https://github.com/FToThe3rdPower/flipperMoonLander",
+                "community": ""
+              }
+            },
+            {
+              "section": "Games",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Morse Trainer",
               "description": "Learn Morse code from zero through progressive levels",
               "author": "Baris Mert",
@@ -7076,6 +7202,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/nw_crawl",
                 "github": "https://github.com/rseufert/nw_crawl",
+                "community": ""
+              }
+            },
+            {
+              "section": "Games",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Optimal Blackjack",
+              "description": "Blackjack basic-strategy and card-counting trainer. Your score is how often you match basic strategy, not money.",
+              "author": "Optimal Blackjack",
+              "authorUrl": "",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/optimal_blackjack",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/blackjackprostudio/optimal-blackjack-flipper/blob/-/.",
+              "links": {
+                "official": "https://lab.flipper.net/apps/optimal_blackjack",
+                "github": "https://github.com/blackjackprostudio/optimal-blackjack-flipper/blob/-/.",
                 "community": ""
               }
             },
@@ -9587,6 +9734,27 @@
                 "official"
               ],
               "sourceIcons": "🏛️",
+              "name": "Flipper Dhikr",
+              "description": "Digital tasbih counter with multiple dhikr profiles, targets, persistent progress and vibration/sound feedback.",
+              "author": "NirochiCode",
+              "authorUrl": "https://github.com/NirochiCode",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/flipper_dhikr",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/NirochiCode/flipper-dhikr",
+              "links": {
+                "official": "https://lab.flipper.net/apps/flipper_dhikr",
+                "github": "https://github.com/NirochiCode/flipper-dhikr",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
               "name": "Flipper Elements",
               "description": "Periodic Table of Elements for Flipper Zero",
               "author": "Siarhei Besarab (@steanlab)",
@@ -11173,6 +11341,27 @@
               "links": {
                 "official": "https://lab.flipper.net/apps/tree_ident",
                 "github": "https://github.com/fgreil/mitzi-tree-ident",
+                "community": ""
+              }
+            },
+            {
+              "section": "Tools",
+              "subsection": "",
+              "sourceBadges": [
+                "official"
+              ],
+              "sourceIcons": "🏛️",
+              "name": "Tricorder",
+              "description": "Handheld scanner: Sub-GHz, infrared, NFC, RFID, iButton, GPIO voltage and power",
+              "author": "rseufert",
+              "authorUrl": "https://github.com/rseufert",
+              "rating": "",
+              "officialUrl": "https://lab.flipper.net/apps/tricorder",
+              "communityUrl": "",
+              "repoUrl": "https://github.com/rseufert/tricorder",
+              "links": {
+                "official": "https://lab.flipper.net/apps/tricorder",
+                "github": "https://github.com/rseufert/tricorder",
                 "community": ""
               }
             },
